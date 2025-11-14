@@ -1,7 +1,7 @@
 name: Evening Learning Cycle
 on:
   schedule:
-    - cron: '20 11 * * 1-5'  # 4 PM EST (21:00 UTC)
+    - cron: '0 11 * * 1-5'  # 4 PM EST (21:00 UTC)
   workflow_dispatch:
 
 permissions:
