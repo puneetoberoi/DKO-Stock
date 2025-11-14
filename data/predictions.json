@@ -1318,5 +1318,170 @@
     "price_at_prediction": 26.93000030517578,
     "outcome": null,
     "was_correct": null
+  },
+  "1d694d56": {
+    "id": "1d694d56",
+    "timestamp": "2025-11-14T22:44:09.218438",
+    "ticker": "AAPL",
+    "action": "HOLD",
+    "confidence": 100,
+    "reasoning": "groq: The combination of a relatively high RSI, low volume, and mixed candlestick patterns suggests a neutral outlook, warranting a cautious hold stance amidst the overall negative macro context.",
+    "candle_pattern": "spinning_top",
+    "indicators": {
+      "rsi": 65.0849123054822
+    },
+    "price_at_prediction": 272.4100036621094,
+    "outcome": null,
+    "was_correct": null
+  },
+  "cc5f98e4": {
+    "id": "cc5f98e4",
+    "timestamp": "2025-11-14T22:44:09.653844",
+    "ticker": "MSFT",
+    "action": "BUY",
+    "confidence": 70,
+    "reasoning": "Rule-based: Medium conviction - consider half position",
+    "candle_pattern": "piercing_line",
+    "indicators": {
+      "rsi": 47.44017299778675
+    },
+    "price_at_prediction": 510.17999267578125,
+    "outcome": null,
+    "was_correct": null
+  },
+  "3be3d575": {
+    "id": "3be3d575",
+    "timestamp": "2025-11-14T22:44:10.131043",
+    "ticker": "NVDA",
+    "action": "BUY",
+    "confidence": 70,
+    "reasoning": "Rule-based: Medium conviction - consider half position",
+    "candle_pattern": "piercing_line",
+    "indicators": {
+      "rsi": 49.42186695745936
+    },
+    "price_at_prediction": 190.1699981689453,
+    "outcome": null,
+    "was_correct": null
+  },
+  "3a89a021": {
+    "id": "3a89a021",
+    "timestamp": "2025-11-14T22:44:10.504583",
+    "ticker": "TSLA",
+    "action": "HOLD",
+    "confidence": 65,
+    "reasoning": "Rule-based: Medium conviction - consider half position",
+    "candle_pattern": "swing_highs_lows",
+    "indicators": {
+      "rsi": 41.068226894002144
+    },
+    "price_at_prediction": 404.3500061035156,
+    "outcome": null,
+    "was_correct": null
+  },
+  "83b552d0": {
+    "id": "83b552d0",
+    "timestamp": "2025-11-14T22:44:11.143561",
+    "ticker": "GOOGL",
+    "action": "HOLD",
+    "confidence": 75,
+    "reasoning": "Rule-based: High conviction - consider full position",
+    "candle_pattern": "double_top",
+    "indicators": {
+      "rsi": 55.86635139830615
+    },
+    "price_at_prediction": 276.4100036621094,
+    "outcome": null,
+    "was_correct": null
+  },
+  "bd0ba3db": {
+    "id": "bd0ba3db",
+    "timestamp": "2025-11-14T22:44:11.529512",
+    "ticker": "TSM",
+    "action": "HOLD",
+    "confidence": 65,
+    "reasoning": "Rule-based: Medium conviction - consider half position",
+    "candle_pattern": "swing_highs_lows",
+    "indicators": {
+      "rsi": 45.42050608849321
+    },
+    "price_at_prediction": 284.82000732421875,
+    "outcome": null,
+    "was_correct": null
+  },
+  "a7b0b528": {
+    "id": "a7b0b528",
+    "timestamp": "2025-11-14T22:44:11.898566",
+    "ticker": "AMD",
+    "action": "HOLD",
+    "confidence": 50,
+    "reasoning": "Rule-based: Low conviction - wait for better setup",
+    "candle_pattern": "swing_highs_lows",
+    "indicators": {
+      "rsi": 55.11046224977515
+    },
+    "price_at_prediction": 246.80999755859375,
+    "outcome": null,
+    "was_correct": null
+  },
+  "689e9f43": {
+    "id": "689e9f43",
+    "timestamp": "2025-11-14T22:44:12.370606",
+    "ticker": "TD.TO",
+    "action": "HOLD",
+    "confidence": 65,
+    "reasoning": "Rule-based: Medium conviction - consider half position",
+    "candle_pattern": "darvas_box",
+    "indicators": {
+      "rsi": 55.66156605707175
+    },
+    "price_at_prediction": 114.05000305175781,
+    "outcome": null,
+    "was_correct": null
+  },
+  "590469fe": {
+    "id": "590469fe",
+    "timestamp": "2025-11-14T22:44:12.764376",
+    "ticker": "AMZN",
+    "action": "HOLD",
+    "confidence": 75,
+    "reasoning": "Rule-based: High conviction - consider full position",
+    "candle_pattern": "three_black_crows",
+    "indicators": {
+      "rsi": 49.822806733727155
+    },
+    "price_at_prediction": 234.69000244140625,
+    "outcome": null,
+    "was_correct": null
+  },
+  "0abaf278": {
+    "id": "0abaf278",
+    "timestamp": "2025-11-14T22:44:13.148702",
+    "ticker": "CGL-C.TO",
+    "action": "BUY",
+    "confidence": 75,
+    "reasoning": "Rule-based: High conviction - consider full position",
+    "candle_pattern": "double_bottom",
+    "indicators": {
+      "rsi": 54.7924278434321
+    },
+    "price_at_prediction": 48.060001373291016,
+    "outcome": null,
+    "was_correct": null
+  },
+  "9c680a2b": {
+    "id": "9c680a2b",
+    "timestamp": "2025-11-14T22:44:13.682384",
+    "ticker": "SVR-C.TO",
+    "action": "HOLD",
+    "confidence": 75,
+    "reasoning": "Rule-based: High conviction - consider full position",
+    "candle_pattern": "spinning_top",
+    "indicators": {
+      "rsi": 56.520219750602784
+    },
+    "price_at_prediction": 26.93000030517578,
+    "outcome": null,
+    "was_correct": null
   }
 }
