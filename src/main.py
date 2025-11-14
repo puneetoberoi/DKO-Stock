@@ -2387,7 +2387,7 @@ class IntelligentPredictionEngine:
             return None
     
         # The correct URL format for gemini-1.5-flash-latest
-        url = f"https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash-latest-latest:generateContent?key={api_key}"
+        url = f"https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash-latest:generateContent?key={api_key}"
         
         headers = {'Content-Type': 'application/json'}
         
