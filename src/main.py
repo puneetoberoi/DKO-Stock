@@ -2167,9 +2167,9 @@ class IntelligentPredictionEngine:
         self._setup_llm_clients()
 
     async def __aexit__(self, exc_type, exc_val, exc_tb):
-    """Cleanup when exiting context"""
-    if hasattr(self, 'http_session') and self.http_session:
-        await self.http_session.close()
+        """Cleanup when exiting context"""
+        if hasattr(self, 'http_session') and self.http_session:
+            await self.http_session.close()
 
     async def close(self):
         """Close the HTTP session properly"""
