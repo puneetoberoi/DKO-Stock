@@ -2165,6 +2165,11 @@ class IntelligentPredictionEngine:
         self.confidence_scorer = ConfidenceScorer()
         self.llm_clients = {}
         self._setup_llm_clients()
+
+    async def close(self):
+        """Close the HTTP session properly"""
+        if hasattr(self, 'http_session'):
+            await self.http_session.close()
     
     def _setup_llm_clients(self):
         """Setup all available LLM clients with explicit logging"""
@@ -2370,6 +2375,10 @@ class IntelligentPredictionEngine:
     import time
     async def _query_gemini(self, prompt, ticker):
         """Queries the Gemini API using a direct HTTP request to avoid library issues."""
+        # CREATE SESSION IF IT DOESN'T EXIST
+        if not hasattr(self, 'http_session'):
+            import aiohttp
+            self.http_session = aiohttp.ClientSession()
         api_key = os.getenv('GEMINI_API_KEY')
         if not api_key:
             logging.warning("GEMINI_API_KEY not found.")
