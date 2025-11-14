@@ -61,7 +61,6 @@ jobs:
         ENABLE_V2_FEATURES: true
       run: |
         python src/main.py --output email
-        python src/modules/check_accuracy.py
         
     - name: Commit predictions and learning data
       run: |
