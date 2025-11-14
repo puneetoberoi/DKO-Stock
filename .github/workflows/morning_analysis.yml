@@ -1,0 +1,103 @@
+name: Morning Market Analysis with Learning
+
+on:
+  schedule:
+    - cron: '0 11 * * 1-5'  # 6 AM EST
+  workflow_dispatch:
+  push:
+    branches: Stable-till-LLMs-agree-but-not-intelligent-till-this-point
+
+permissions:
+  contents: write  # ✅ ADD THIS LINE
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        fetch-depth: 0
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+    
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        # ✅ FIXED: All packages in one block, including groq and cohere
+        pip install ddgs scipy
+        pip install pandas ta yfinance requests numpy aiohttp beautifulsoup4 lxml matplotlib seaborn pytrends requests-html nest_asyncio spacy textblob transformers wikipedia-api markdown vaderSentiment asyncio-throttle python-dateutil PyYAML google-generativeai groq cohere ddgs
+
+    - name: Ensure database exists
+      run: |
+        # Database is at src/modules/data/learning.db
+        if [ ! -f "src/modules/data/learning.db" ]; then
+          echo "Creating learning.db..."
+          mkdir -p src/modules/data
+          sqlite3 src/modules/data/learning.db < src/modules/schemas.sql
+        else
+          echo "✅ Database already exists at src/modules/data/learning.db"
+        fi
+    
+    - name: Run market analysis with predictions
+      env:
+        # ✅ ALL THREE LLM KEYS MUST BE HERE
+        DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+        GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+        GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        COHERE_API_KEY: ${{ secrets.COHERE_API_KEY }}
+        HUGGINGFACE_API_KEY: ${{ secrets.HUGGINGFACE_API_KEY }}  # ADD THIS LINE
+        
+        # Your other existing keys
+        FINNHUB_KEY: ${{ secrets.FINNHUB_KEY }}
+        NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
+        SMTP_USER: ${{ secrets.SMTP_USER }}
+        SMTP_PASS: ${{ secrets.SMTP_PASS }}
+        
+        ENABLE_V2_FEATURES: true
+      run: |
+        python src/main.py --output email
+        python src/modules/check_accuracy.py
+        
+    - name: Commit predictions and learning data
+      run: |
+        git config --global user.email "action@github.com"
+        git config --global user.name "GitHub Action"
+
+        # Stash any unstaged changes
+        git stash || true
+          
+        # Pull latest changes first
+        git pull origin ${{ github.ref_name }} --rebase || true
+
+        # Pop stashed changes
+        git stash pop || true
+        
+        git add src/modules/data/learning.db
+        git add data/*.json logs/*.json || true
+        git add market_memory.json || true
+        
+        git diff --quiet && git diff --staged --quiet || git commit -m "📊 Daily predictions and analysis [skip ci]"
+        
+        # Push changes
+        git push origin ${{ github.ref_name }} || git push --force-with-lease origin ${{ github.ref_name }}
+      continue-on-error: true
+
+    - name: Run Evening Learning Check
+      if: always()  # Run even if previous steps fail
+      run: |
+        # Wait 8 hours then run learning (or run immediately for testing)
+        echo "Running learning cycle check..."
+        python src/modules/autonomous_learner.py || echo "Learning cycle completed"
+      continue-on-error: true
+    
+    - name: Commit Learning Updates
+      if: always()
+      run: |
+        git add src/modules/learning_insights.json src/modules/data/learning.db || true
+        git diff --staged --quiet || (git commit -m "🧠 AI Learning: Updated insights from predictions" && git push)
+      continue-on-error: true
