@@ -59,6 +59,17 @@ class AutonomousLearner:
         unchecked = cursor.fetchall()
         logging.info(f"\n🔍 Found {len(unchecked)} unchecked predictions to grade...")
         
+        # Debug info if nothing found
+        if len(unchecked) == 0:
+            cursor.execute("SELECT COUNT(*) FROM predictions WHERE entry_price > 0")
+            total_with_price = cursor.fetchone()[0]
+            
+            cursor.execute("SELECT COUNT(*) FROM predictions WHERE entry_price = 0")
+            total_without_price = cursor.fetchone()[0]
+            
+            logging.info(f"📊 Debug: {total_with_price} predictions have valid prices")
+            logging.info(f"📊 Debug: {total_without_price} predictions missing prices")
+        
         checked_count = 0
         for pred_id, stock, action, entry_price, llm_model in unchecked:
             try:
