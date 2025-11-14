@@ -44,7 +44,7 @@ class AutonomousLearner:
         conn = sqlite3.connect(self.db_path)
         cursor = conn.cursor()
         
-        # Get datetime 24 hours ago
+        # Get predictions older than 24 hours
         one_day_ago = (datetime.now() - timedelta(days=1)).strftime('%Y-%m-%d %H:%M:%S')
         
         cursor.execute("""
