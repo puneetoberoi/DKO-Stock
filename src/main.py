@@ -71,11 +71,26 @@ def save_prediction_to_db(ticker, action, confidence, reasoning, indicators, pat
     """Save prediction to SQLite database"""
     try:
         import os
+        import yfinance as yf
+        
         # Use the actual database location
         db_path = 'src/modules/data/learning.db'
         
         # Ensure directory exists
         os.makedirs(os.path.dirname(db_path), exist_ok=True)
+        
+        # Get entry price - try from indicators first, then fetch if needed
+        entry_price = indicators.get('current_price', 0) if indicators else 0
+        
+        if entry_price == 0 or entry_price is None:
+            try:
+                # Fetch current price as fallback
+                ticker_data = yf.Ticker(ticker)
+                hist = ticker_data.history(period='1d')
+                entry_price = float(hist['Close'].iloc[-1]) if not hist.empty else 0.0
+            except Exception as e:
+                logging.warning(f"Could not fetch price for {ticker}: {e}")
+                entry_price = 0.0
         
         conn = sqlite3.connect(db_path)
         cursor = conn.cursor()
@@ -92,18 +107,18 @@ def save_prediction_to_db(ticker, action, confidence, reasoning, indicators, pat
             action,
             confidence,
             datetime.now().date() + timedelta(days=7),  # Target date to check prediction
-            indicators.get('current_price', 0),
+            entry_price,  # Now guaranteed to have a value
             llm_model,
             reasoning,
-            indicators.get('rsi', 0),
-            indicators.get('macd', 0),
-            indicators.get('volume_ratio', 1.0),
+            indicators.get('rsi', 0) if indicators else 0,
+            indicators.get('macd', 0) if indicators else 0,
+            indicators.get('volume_ratio', 1.0) if indicators else 1.0,
             str(patterns) if patterns else ''
         ))
         
         conn.commit()
         conn.close()
-        print(f"✅ Saved {ticker} prediction to DB")
+        print(f"✅ Saved {ticker} prediction to DB (Entry: ${entry_price:.2f})")
     except Exception as e:
         print(f"❌ Failed to save to DB: {e}")
 
