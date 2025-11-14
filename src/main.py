@@ -2342,11 +2342,8 @@ class IntelligentPredictionEngine:
             tasks.append(self._query_gemini(context, ticker))
             llm_names.append('gemini')
         if 'cohere' in self.llm_clients:
-            if len(self.llm_clients) > 1:
-                logging.info("Skipping Cohere due to rate limits (multiple LLMs active).")
-            else:
-                tasks.append(self._query_cohere(context, ticker))
-                llm_names.append('cohere')
+            tasks.append(self._query_cohere(context, ticker))
+            llm_names.append('cohere')
         
         predictions = {}
         if tasks:
