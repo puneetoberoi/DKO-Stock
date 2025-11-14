@@ -804,14 +804,14 @@ async def generate_ai_oracle_analysis(market_data, portfolio_data, pattern_data)
             "max_output_tokens": 1024,
         }
         
-        # Use gemini-pro - the only model that works now
+        # Use gemini-1.5-flash - the only model that works now
         model = None
         try:
             model = genai.GenerativeModel(
-                'gemini-pro',  # ← FIXED: Use gemini-pro
+                'gemini-1.5-flash',  # ← FIXED: Use gemini-1.5-flash
                 generation_config=generation_config
             )
-            logging.info(f"✅ Successfully loaded Gemini model for Oracle: gemini-pro")
+            logging.info(f"✅ Successfully loaded Gemini model for Oracle: gemini-1.5-flash")
         except Exception as e:
             logging.warning(f"Failed to load Gemini model: {e}")
         
@@ -2166,6 +2166,11 @@ class IntelligentPredictionEngine:
         self.llm_clients = {}
         self._setup_llm_clients()
 
+    async def __aexit__(self, exc_type, exc_val, exc_tb):
+    """Cleanup when exiting context"""
+    if hasattr(self, 'http_session') and self.http_session:
+        await self.http_session.close()
+
     async def close(self):
         """Close the HTTP session properly"""
         if hasattr(self, 'http_session'):
@@ -2187,7 +2192,7 @@ class IntelligentPredictionEngine:
             try:
                 import google.generativeai as genai
                 genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
-                self.llm_clients['gemini'] = genai.GenerativeModel('gemini-pro') 
+                self.llm_clients['gemini'] = genai.GenerativeModel('gemini-1.5-flash') 
                 logging.info("✅ SUCCESS: Gemini LLM client initialized.")
             except Exception as e:
                 logging.error(f"❌ FAILED: Gemini initialization error: {e}")
@@ -2381,8 +2386,8 @@ class IntelligentPredictionEngine:
             logging.warning("GEMINI_API_KEY not found.")
             return None
     
-        # The correct URL format for gemini-pro
-        url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key={api_key}"
+        # The correct URL format for gemini-1.5-flash
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent"?key={api_key}"
         
         headers = {'Content-Type': 'application/json'}
         
