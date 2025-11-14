@@ -493,5 +493,170 @@
     "price_at_prediction": 26.850000381469727,
     "outcome": null,
     "was_correct": null
+  },
+  "c5381420": {
+    "id": "c5381420",
+    "timestamp": "2025-11-14T19:31:43.662248",
+    "ticker": "AAPL",
+    "action": "BUY",
+    "confidence": 100,
+    "reasoning": "groq: The presence of a bullish reversal piercing_line pattern with 100% success, combined with an uptrend indication from swing_highs_lows, outweighs the neutral to slightly bearish market context and RSI level, suggesting a potential upside move for AAPL.",
+    "candle_pattern": "piercing_line",
+    "indicators": {
+      "rsi": 67.6547140586921
+    },
+    "price_at_prediction": 273.9949951171875,
+    "outcome": null,
+    "was_correct": null
+  },
+  "b5d2cdb1": {
+    "id": "b5d2cdb1",
+    "timestamp": "2025-11-14T19:31:44.336031",
+    "ticker": "MSFT",
+    "action": "BUY",
+    "confidence": 100,
+    "reasoning": "groq: The presence of a bullish reversal piercing_line pattern with 100% success, combined with a relatively low RSI of 47.46, suggests a high likelihood of a price increase, warranting a buy call.",
+    "candle_pattern": "piercing_line",
+    "indicators": {
+      "rsi": 47.46278430551165
+    },
+    "price_at_prediction": 510.25,
+    "outcome": null,
+    "was_correct": null
+  },
+  "4ff38995": {
+    "id": "4ff38995",
+    "timestamp": "2025-11-14T19:31:44.955922",
+    "ticker": "NVDA",
+    "action": "BUY",
+    "confidence": 100,
+    "reasoning": "groq: The presence of a bullish reversal piercing_line pattern with 100% success rate, combined with a relatively neutral RSI of 49.24, suggests a potential upside, especially considering past mistakes of being overly bearish with similar RSI levels.",
+    "candle_pattern": "piercing_line",
+    "indicators": {
+      "rsi": 49.24108336322528
+    },
+    "price_at_prediction": 189.94500732421875,
+    "outcome": null,
+    "was_correct": null
+  },
+  "f6eb0b96": {
+    "id": "f6eb0b96",
+    "timestamp": "2025-11-14T19:31:45.395756",
+    "ticker": "TSLA",
+    "action": "SELL",
+    "confidence": 100,
+    "reasoning": "groq: The combination of a downtrend swing_highs_lows pattern, low RSI of 42.37, and a negative overall macro score suggests a bearish outlook for TSLA.",
+    "candle_pattern": "swing_highs_lows",
+    "indicators": {
+      "rsi": 42.366116878780744
+    },
+    "price_at_prediction": 408.0799865722656,
+    "outcome": null,
+    "was_correct": null
+  },
+  "567fe217": {
+    "id": "567fe217",
+    "timestamp": "2025-11-14T19:31:45.841999",
+    "ticker": "GOOGL",
+    "action": "SELL",
+    "confidence": 100,
+    "reasoning": "groq: The presence of a double_top bearish reversal pattern, combined with a relatively high RSI and low volume, suggests a potential downturn for GOOGL, warranting a sell call.",
+    "candle_pattern": "double_top",
+    "indicators": {
+      "rsi": 57.095488159150506
+    },
+    "price_at_prediction": 277.7099914550781,
+    "outcome": null,
+    "was_correct": null
+  },
+  "51957652": {
+    "id": "51957652",
+    "timestamp": "2025-11-14T19:31:46.405468",
+    "ticker": "TSM",
+    "action": "SELL",
+    "confidence": 95,
+    "reasoning": "groq: The downtrend swing highs and lows pattern, combined with a relatively low RSI of 45.04 and a negative overall macro score, suggest a potential decline in TSM's stock price.",
+    "candle_pattern": "swing_highs_lows",
+    "indicators": {
+      "rsi": 45.04439888122384
+    },
+    "price_at_prediction": 284.3299865722656,
+    "outcome": null,
+    "was_correct": null
+  },
+  "2ae66b73": {
+    "id": "2ae66b73",
+    "timestamp": "2025-11-14T19:31:46.890851",
+    "ticker": "AMD",
+    "action": "HOLD",
+    "confidence": 80,
+    "reasoning": "groq: The RSI of 56.07 is similar to a past incorrect SELL call on AMD, suggesting caution and a hold position due to potential for upward movement despite neutral technical indicators.",
+    "candle_pattern": "swing_highs_lows",
+    "indicators": {
+      "rsi": 56.07471196871665
+    },
+    "price_at_prediction": 248.875,
+    "outcome": null,
+    "was_correct": null
+  },
+  "db69c66a": {
+    "id": "db69c66a",
+    "timestamp": "2025-11-14T19:31:47.532891",
+    "ticker": "TD.TO",
+    "action": "HOLD",
+    "confidence": 85,
+    "reasoning": "groq: The neutral RSI of 54.27 and presence of indecision candlestick patterns, such as spinning_top, suggest a cautious approach, but the low volume and lack of Bollinger Squeeze do not strongly support a bearish or bullish stance.",
+    "candle_pattern": "spinning_top",
+    "indicators": {
+      "rsi": 54.27157024915177
+    },
+    "price_at_prediction": 113.77999877929688,
+    "outcome": null,
+    "was_correct": null
+  },
+  "abaa1319": {
+    "id": "abaa1319",
+    "timestamp": "2025-11-14T19:31:48.030630",
+    "ticker": "AMZN",
+    "action": "SELL",
+    "confidence": 100,
+    "reasoning": "groq: The presence of a double_top bearish reversal pattern with 100% success rate, combined with a neutral RSI and low volume, suggests a high likelihood of a downward move, warranting a sell call.",
+    "candle_pattern": "spinning_top",
+    "indicators": {
+      "rsi": 50.979062798797266
+    },
+    "price_at_prediction": 235.9499969482422,
+    "outcome": null,
+    "was_correct": null
+  },
+  "7fb45499": {
+    "id": "7fb45499",
+    "timestamp": "2025-11-14T19:31:48.722719",
+    "ticker": "CGL-C.TO",
+    "action": "BUY",
+    "confidence": 100,
+    "reasoning": "groq: The presence of a double_bottom bullish reversal pattern and swing_highs_lows uptrend pattern, combined with a relatively neutral RSI of 55.31, suggests a potential buying opportunity, especially considering past mistakes of being too cautious with similar setups.",
+    "candle_pattern": "double_bottom",
+    "indicators": {
+      "rsi": 55.313127501971294
+    },
+    "price_at_prediction": 48.13999938964844,
+    "outcome": null,
+    "was_correct": null
+  },
+  "a17c8ad7": {
+    "id": "a17c8ad7",
+    "timestamp": "2025-11-14T19:31:49.261683",
+    "ticker": "SVR-C.TO",
+    "action": "BUY",
+    "confidence": 100,
+    "reasoning": "groq: The presence of a double_bottom bullish reversal pattern and an uptrend indicated by swing_highs_lows, combined with a relatively neutral RSI, suggests a potential buying opportunity, especially considering past mistakes of being too bearish with similar RSI levels.",
+    "candle_pattern": "doji",
+    "indicators": {
+      "rsi": 55.95927527951715
+    },
+    "price_at_prediction": 26.850000381469727,
+    "outcome": null,
+    "was_correct": null
   }
 }
