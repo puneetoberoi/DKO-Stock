@@ -1649,6 +1649,7 @@
     "outcome": null,
     "was_correct": null
   },
+<<<<<<< Updated upstream
   "39ef67e2": {
     "id": "39ef67e2",
     "timestamp": "2025-11-14T23:00:07.575297",
@@ -1659,14 +1660,32 @@
     "candle_pattern": "spinning_top",
     "indicators": {
       "rsi": 65.0849123054822
+=======
+  "9a8a3644": {
+    "id": "9a8a3644",
+    "timestamp": "2025-11-14T23:00:21.111071",
+    "ticker": "AAPL",
+    "action": "HOLD",
+    "confidence": 70,
+    "reasoning": "Rule-based: Medium conviction - consider half position",
+    "candle_pattern": "spinning_top",
+    "indicators": {
+      "rsi": 65.08491212917053
+>>>>>>> Stashed changes
     },
     "price_at_prediction": 272.4100036621094,
     "outcome": null,
     "was_correct": null
   },
+<<<<<<< Updated upstream
   "e8b4c1c9": {
     "id": "e8b4c1c9",
     "timestamp": "2025-11-14T23:00:07.885323",
+=======
+  "577f366d": {
+    "id": "577f366d",
+    "timestamp": "2025-11-14T23:00:21.360780",
+>>>>>>> Stashed changes
     "ticker": "MSFT",
     "action": "BUY",
     "confidence": 70,
@@ -1679,24 +1698,40 @@
     "outcome": null,
     "was_correct": null
   },
+<<<<<<< Updated upstream
   "60796d62": {
     "id": "60796d62",
     "timestamp": "2025-11-14T23:00:08.153038",
+=======
+  "f62a3343": {
+    "id": "f62a3343",
+    "timestamp": "2025-11-14T23:00:21.657409",
+>>>>>>> Stashed changes
     "ticker": "NVDA",
     "action": "BUY",
     "confidence": 70,
     "reasoning": "Rule-based: Medium conviction - consider half position",
     "candle_pattern": "piercing_line",
     "indicators": {
+<<<<<<< Updated upstream
       "rsi": 49.42186695756233
+=======
+      "rsi": 49.42186695745936
+>>>>>>> Stashed changes
     },
     "price_at_prediction": 190.1699981689453,
     "outcome": null,
     "was_correct": null
   },
+<<<<<<< Updated upstream
   "3ad2d26f": {
     "id": "3ad2d26f",
     "timestamp": "2025-11-14T23:00:08.351859",
+=======
+  "7308f53e": {
+    "id": "7308f53e",
+    "timestamp": "2025-11-14T23:00:21.873052",
+>>>>>>> Stashed changes
     "ticker": "TSLA",
     "action": "HOLD",
     "confidence": 65,
@@ -1709,39 +1744,65 @@
     "outcome": null,
     "was_correct": null
   },
+<<<<<<< Updated upstream
   "d81cf52d": {
     "id": "d81cf52d",
     "timestamp": "2025-11-14T23:00:08.549938",
+=======
+  "3873cafd": {
+    "id": "3873cafd",
+    "timestamp": "2025-11-14T23:00:22.020038",
+>>>>>>> Stashed changes
     "ticker": "GOOGL",
     "action": "HOLD",
     "confidence": 75,
     "reasoning": "Rule-based: High conviction - consider full position",
     "candle_pattern": "double_top",
     "indicators": {
+<<<<<<< Updated upstream
       "rsi": 55.86635139831321
+=======
+      "rsi": 55.86635139831306
+>>>>>>> Stashed changes
     },
     "price_at_prediction": 276.4100036621094,
     "outcome": null,
     "was_correct": null
   },
+<<<<<<< Updated upstream
   "7866be4b": {
     "id": "7866be4b",
     "timestamp": "2025-11-14T23:00:08.777626",
+=======
+  "39244c15": {
+    "id": "39244c15",
+    "timestamp": "2025-11-14T23:00:22.213625",
+>>>>>>> Stashed changes
     "ticker": "TSM",
     "action": "HOLD",
     "confidence": 65,
     "reasoning": "Rule-based: Medium conviction - consider half position",
     "candle_pattern": "swing_highs_lows",
     "indicators": {
+<<<<<<< Updated upstream
       "rsi": 45.42050608794879
+=======
+      "rsi": 45.42050608849321
+>>>>>>> Stashed changes
     },
     "price_at_prediction": 284.82000732421875,
     "outcome": null,
     "was_correct": null
   },
+<<<<<<< Updated upstream
   "b68ce7ac": {
     "id": "b68ce7ac",
     "timestamp": "2025-11-14T23:00:08.992891",
+=======
+  "d3789798": {
+    "id": "d3789798",
+    "timestamp": "2025-11-14T23:00:22.391255",
+>>>>>>> Stashed changes
     "ticker": "AMD",
     "action": "HOLD",
     "confidence": 50,
@@ -1754,24 +1815,40 @@
     "outcome": null,
     "was_correct": null
   },
+<<<<<<< Updated upstream
   "eee9ad44": {
     "id": "eee9ad44",
     "timestamp": "2025-11-14T23:00:09.223758",
+=======
+  "77b85e1a": {
+    "id": "77b85e1a",
+    "timestamp": "2025-11-14T23:00:22.633420",
+>>>>>>> Stashed changes
     "ticker": "TD.TO",
     "action": "HOLD",
     "confidence": 65,
     "reasoning": "Rule-based: Medium conviction - consider half position",
     "candle_pattern": "darvas_box",
     "indicators": {
+<<<<<<< Updated upstream
       "rsi": 55.66156605911731
+=======
+      "rsi": 55.66156605706901
+>>>>>>> Stashed changes
     },
     "price_at_prediction": 114.05000305175781,
     "outcome": null,
     "was_correct": null
   },
+<<<<<<< Updated upstream
   "9cc4fbb8": {
     "id": "9cc4fbb8",
     "timestamp": "2025-11-14T23:00:09.453465",
+=======
+  "9159d41e": {
+    "id": "9159d41e",
+    "timestamp": "2025-11-14T23:00:22.865532",
+>>>>>>> Stashed changes
     "ticker": "AMZN",
     "action": "HOLD",
     "confidence": 75,
@@ -1784,9 +1861,15 @@
     "outcome": null,
     "was_correct": null
   },
+<<<<<<< Updated upstream
   "a8b673ef": {
     "id": "a8b673ef",
     "timestamp": "2025-11-14T23:00:09.644509",
+=======
+  "620b0393": {
+    "id": "620b0393",
+    "timestamp": "2025-11-14T23:00:23.049181",
+>>>>>>> Stashed changes
     "ticker": "CGL-C.TO",
     "action": "BUY",
     "confidence": 75,
@@ -1799,9 +1882,15 @@
     "outcome": null,
     "was_correct": null
   },
+<<<<<<< Updated upstream
   "a95dbf6e": {
     "id": "a95dbf6e",
     "timestamp": "2025-11-14T23:00:09.824965",
+=======
+  "296e82cf": {
+    "id": "296e82cf",
+    "timestamp": "2025-11-14T23:00:23.290783",
+>>>>>>> Stashed changes
     "ticker": "SVR-C.TO",
     "action": "HOLD",
     "confidence": 75,
