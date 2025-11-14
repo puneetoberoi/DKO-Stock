@@ -44,12 +44,13 @@ class AutonomousLearner:
         conn = sqlite3.connect(self.db_path)
         cursor = conn.cursor()
         
-        one_day_ago = (datetime.now() + timedelta(days=1)).strftime('%Y-%m-%d')
+        # Get datetime 24 hours ago
+        one_day_ago = (datetime.now() - timedelta(days=1)).strftime('%Y-%m-%d %H:%M:%S')
         
         cursor.execute("""
             SELECT id, stock, prediction, entry_price, llm_model
             FROM predictions
-            WHERE date(timestamp) <= ?
+            WHERE timestamp <= ?
             AND id NOT IN (SELECT prediction_id FROM outcomes WHERE prediction_id IS NOT NULL)
             AND entry_price > 0
             LIMIT 100
