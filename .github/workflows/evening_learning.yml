@@ -31,6 +31,7 @@ jobs:
       run: |
         echo "🧠 Starting evening learning cycle..."
         python src/modules/autonomous_learner.py
+        python src/modules/check_accuracy.py
     
     - name: Commit Learning Updates
       run: |
