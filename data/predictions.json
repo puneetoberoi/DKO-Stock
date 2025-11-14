@@ -1,418 +1,52 @@
 {
-  "16b08ab1": {
-    "id": "16b08ab1",
-    "timestamp": "2025-11-14T20:00:30.378039",
-    "ticker": "AAPL",
-    "action": "BUY",
-    "confidence": 100,
-    "reasoning": "groq: The presence of a bullish reversal piercing_line pattern with 100% success rate, combined with an uptrend indication from swing_highs_lows, outweighs the neutral to slightly bearish technical and market context indicators.",
-    "candle_pattern": "piercing_line",
-    "indicators": {
-      "rsi": 67.66613038695513
-    },
-    "price_at_prediction": 274.0299987792969,
-    "outcome": null,
-    "was_correct": null
-  },
-  "104c5cfe": {
-    "id": "104c5cfe",
-    "timestamp": "2025-11-14T20:00:30.682830",
-    "ticker": "MSFT",
-    "action": "BUY",
-    "confidence": 75,
-    "reasoning": "Rule-based: High conviction - consider full position",
-    "candle_pattern": "bullish_engulfing",
-    "indicators": {
-      "rsi": 48.10652204213101
-    },
-    "price_at_prediction": 511.0799865722656,
-    "outcome": null,
-    "was_correct": null
-  },
-  "440ee3af": {
-    "id": "440ee3af",
-    "timestamp": "2025-11-14T20:00:30.933387",
-    "ticker": "NVDA",
-    "action": "BUY",
-    "confidence": 70,
-    "reasoning": "Rule-based: Medium conviction - consider half position",
-    "candle_pattern": "piercing_line",
-    "indicators": {
-      "rsi": 49.8471815323123
-    },
-    "price_at_prediction": 190.66990661621094,
-    "outcome": null,
-    "was_correct": null
-  },
-  "8571a7c3": {
-    "id": "8571a7c3",
-    "timestamp": "2025-11-14T20:00:31.153804",
-    "ticker": "TSLA",
-    "action": "HOLD",
-    "confidence": 65,
-    "reasoning": "Rule-based: Medium conviction - consider half position",
-    "candle_pattern": "swing_highs_lows",
-    "indicators": {
-      "rsi": 42.83242787456152
-    },
-    "price_at_prediction": 409.7980041503906,
-    "outcome": null,
-    "was_correct": null
-  },
-  "f194c7b8": {
-    "id": "f194c7b8",
-    "timestamp": "2025-11-14T20:00:31.427969",
-    "ticker": "GOOGL",
-    "action": "HOLD",
-    "confidence": 75,
-    "reasoning": "Rule-based: High conviction - consider full position",
-    "candle_pattern": "double_top",
-    "indicators": {
-      "rsi": 56.96582356701596
-    },
-    "price_at_prediction": 277.5799865722656,
-    "outcome": null,
-    "was_correct": null
-  },
-  "af6e2f0c": {
-    "id": "af6e2f0c",
-    "timestamp": "2025-11-14T20:00:31.719160",
-    "ticker": "TSM",
-    "action": "HOLD",
-    "confidence": 65,
-    "reasoning": "Rule-based: Medium conviction - consider half position",
-    "candle_pattern": "swing_highs_lows",
-    "indicators": {
-      "rsi": 45.233098190830646
-    },
-    "price_at_prediction": 284.6499938964844,
-    "outcome": null,
-    "was_correct": null
-  },
-  "bad2d6af": {
-    "id": "bad2d6af",
-    "timestamp": "2025-11-14T20:00:31.947137",
-    "ticker": "AMD",
-    "action": "HOLD",
-    "confidence": 50,
-    "reasoning": "Rule-based: Low conviction - wait for better setup",
-    "candle_pattern": "swing_highs_lows",
-    "indicators": {
-      "rsi": 56.300441364783
-    },
-    "price_at_prediction": 249.69000244140625,
-    "outcome": null,
-    "was_correct": null
-  },
-  "f2e1c6ac": {
-    "id": "f2e1c6ac",
-    "timestamp": "2025-11-14T20:00:32.160476",
-    "ticker": "TD.TO",
-    "action": "HOLD",
-    "confidence": 55,
-    "reasoning": "Rule-based: Low conviction - wait for better setup",
-    "candle_pattern": "darvas_box",
-    "indicators": {
-      "rsi": 55.992489509139105
-    },
-    "price_at_prediction": 114.11000061035156,
-    "outcome": null,
-    "was_correct": null
-  },
-  "f359fcda": {
-    "id": "f359fcda",
-    "timestamp": "2025-11-14T20:00:32.377968",
-    "ticker": "AMZN",
-    "action": "HOLD",
-    "confidence": 75,
-    "reasoning": "Rule-based: High conviction - consider full position",
-    "candle_pattern": "doji",
-    "indicators": {
-      "rsi": 50.648746444786056
-    },
-    "price_at_prediction": 235.6699981689453,
-    "outcome": null,
-    "was_correct": null
-  },
-  "948a0430": {
-    "id": "948a0430",
-    "timestamp": "2025-11-14T20:00:32.541126",
-    "ticker": "CGL-C.TO",
-    "action": "BUY",
-    "confidence": 75,
-    "reasoning": "Rule-based: High conviction - consider full position",
-    "candle_pattern": "double_bottom",
-    "indicators": {
-      "rsi": 55.313127501971294
-    },
-    "price_at_prediction": 48.13999938964844,
-    "outcome": null,
-    "was_correct": null
-  },
-  "bee20427": {
-    "id": "bee20427",
-    "timestamp": "2025-11-14T20:00:32.745503",
-    "ticker": "SVR-C.TO",
-    "action": "HOLD",
-    "confidence": 75,
-    "reasoning": "Rule-based: High conviction - consider full position",
-    "candle_pattern": "spinning_top",
-    "indicators": {
-      "rsi": 56.37892859674908
-    },
-    "price_at_prediction": 26.90999984741211,
-    "outcome": null,
-    "was_correct": null
-  },
-  "f849602c": {
-    "id": "f849602c",
-    "timestamp": "2025-11-14T21:09:52.214607",
+  "4f496400": {
+    "id": "4f496400",
+    "timestamp": "2025-11-14T21:31:48.546377",
     "ticker": "AAPL",
     "action": "HOLD",
     "confidence": 100,
-    "reasoning": "groq: The presence of a spinning top pattern and a darvas box, combined with a relatively high RSI and low volume, suggests indecision and consolidation, making a hold call more appropriate given the mixed signals.",
+    "reasoning": "groq: The high RSI and presence of a spinning top pattern suggest indecision, while the darvas box pattern indicates consolidation, leading to a cautious hold stance amidst a negative macro context.",
     "candle_pattern": "spinning_top",
     "indicators": {
-      "rsi": 65.08491212957388
+      "rsi": 65.08491212955269
     },
     "price_at_prediction": 272.4100036621094,
     "outcome": null,
     "was_correct": null
   },
-  "7d62b8d8": {
-    "id": "7d62b8d8",
-    "timestamp": "2025-11-14T21:09:52.720502",
+  "04b6f640": {
+    "id": "04b6f640",
+    "timestamp": "2025-11-14T21:31:49.517692",
     "ticker": "MSFT",
     "action": "BUY",
     "confidence": 100,
-    "reasoning": "groq: The presence of a piercing_line bullish reversal pattern with 100% success rate, combined with a relatively low RSI of 47.44, suggests a high likelihood of a price increase, warranting a buy call.",
+    "reasoning": "groq: The presence of a piercing_line bullish reversal pattern with 100% success rate, combined with a relatively low RSI of 47.44, suggests a high likelihood of a short-term price increase for MSFT.",
     "candle_pattern": "piercing_line",
     "indicators": {
-      "rsi": 47.440172997742216
+      "rsi": 47.440172997785034
     },
     "price_at_prediction": 510.17999267578125,
     "outcome": null,
     "was_correct": null
   },
-  "8d14faa4": {
-    "id": "8d14faa4",
-    "timestamp": "2025-11-14T21:09:53.259725",
-    "ticker": "NVDA",
-    "action": "BUY",
-    "confidence": 100,
-    "reasoning": "groq: The presence of a bullish reversal piercing_line pattern with 100% success, combined with a relatively low RSI of 49.42, suggests a high likelihood of a short-term price increase, outweighing the negative macro score and downtrend indication.",
-    "candle_pattern": "piercing_line",
-    "indicators": {
-      "rsi": 49.4218669575623
-    },
-    "price_at_prediction": 190.1699981689453,
-    "outcome": null,
-    "was_correct": null
-  },
-  "37217621": {
-    "id": "37217621",
-    "timestamp": "2025-11-14T21:09:53.782515",
-    "ticker": "TSLA",
-    "action": "BUY",
-    "confidence": 100,
-    "reasoning": "groq: The relatively low RSI of 41.07 and the presence of a downtrend pattern with limited success rate suggest a potential reversal, prompting a cautious buy call.",
-    "candle_pattern": "swing_highs_lows",
-    "indicators": {
-      "rsi": 41.068226894002144
-    },
-    "price_at_prediction": 404.3500061035156,
-    "outcome": null,
-    "was_correct": null
-  },
-  "b541684c": {
-    "id": "b541684c",
-    "timestamp": "2025-11-14T21:09:54.383812",
-    "ticker": "GOOGL",
-    "action": "SELL",
-    "confidence": 100,
-    "reasoning": "groq: The presence of a bearish double_top pattern with 100% success rate, combined with a relatively neutral RSI and low volume, suggests a potential reversal, warranting a sell call despite the lessons from past mistakes where similar RSI levels led to incorrect sell calls.",
-    "candle_pattern": "double_top",
-    "indicators": {
-      "rsi": 55.86635139830633
-    },
-    "price_at_prediction": 276.4100036621094,
-    "outcome": null,
-    "was_correct": null
-  },
-  "72eac028": {
-    "id": "72eac028",
-    "timestamp": "2025-11-14T21:09:54.882347",
-    "ticker": "TSM",
-    "action": "SELL",
-    "confidence": 95,
-    "reasoning": "groq: The combination of a downtrend swing_highs_lows pattern, low RSI of 45.46, and a negative overall macro score suggests a bearish outlook for TSM.",
-    "candle_pattern": "swing_highs_lows",
-    "indicators": {
-      "rsi": 45.4610655054928
-    },
-    "price_at_prediction": 284.8699951171875,
-    "outcome": null,
-    "was_correct": null
-  },
-  "78a62e32": {
-    "id": "78a62e32",
-    "timestamp": "2025-11-14T21:09:55.385033",
-    "ticker": "AMD",
-    "action": "HOLD",
-    "confidence": 80,
-    "reasoning": "groq: The RSI of 55.11, similar to past incorrect SELL calls, and the presence of a consolidation pattern with moderate success rate, suggest a cautious approach, avoiding a decisive SELL call based on the critical learnings from past mistakes.",
-    "candle_pattern": "swing_highs_lows",
-    "indicators": {
-      "rsi": 55.11046224977515
-    },
-    "price_at_prediction": 246.80999755859375,
-    "outcome": null,
-    "was_correct": null
-  },
-  "d105db22": {
-    "id": "d105db22",
-    "timestamp": "2025-11-14T21:09:55.638039",
-    "ticker": "TD.TO",
-    "action": "HOLD",
-    "confidence": 65,
-    "reasoning": "Rule-based: Medium conviction - consider half position",
-    "candle_pattern": "darvas_box",
-    "indicators": {
-      "rsi": 55.661566059084144
-    },
-    "price_at_prediction": 114.05000305175781,
-    "outcome": null,
-    "was_correct": null
-  },
-  "b44b45ed": {
-    "id": "b44b45ed",
-    "timestamp": "2025-11-14T21:09:55.847388",
-    "ticker": "AMZN",
-    "action": "HOLD",
-    "confidence": 75,
-    "reasoning": "Rule-based: High conviction - consider full position",
-    "candle_pattern": "three_black_crows",
-    "indicators": {
-      "rsi": 49.822806733727155
-    },
-    "price_at_prediction": 234.69000244140625,
-    "outcome": null,
-    "was_correct": null
-  },
-  "ee758165": {
-    "id": "ee758165",
-    "timestamp": "2025-11-14T21:09:56.084092",
-    "ticker": "CGL-C.TO",
-    "action": "BUY",
-    "confidence": 75,
-    "reasoning": "Rule-based: High conviction - consider full position",
-    "candle_pattern": "double_bottom",
-    "indicators": {
-      "rsi": 54.7924278434321
-    },
-    "price_at_prediction": 48.060001373291016,
-    "outcome": null,
-    "was_correct": null
-  },
-  "64ad3a9b": {
-    "id": "64ad3a9b",
-    "timestamp": "2025-11-14T21:09:56.294270",
-    "ticker": "SVR-C.TO",
-    "action": "HOLD",
-    "confidence": 75,
-    "reasoning": "Rule-based: High conviction - consider full position",
-    "candle_pattern": "spinning_top",
-    "indicators": {
-      "rsi": 56.520219750602784
-    },
-    "price_at_prediction": 26.93000030517578,
-    "outcome": null,
-    "was_correct": null
-  },
-<<<<<<< Updated upstream
-  "20fb30ee": {
-    "id": "20fb30ee",
-    "timestamp": "2025-11-14T21:11:54.208747",
-=======
-  "da2e35d7": {
-    "id": "da2e35d7",
-    "timestamp": "2025-11-14T21:12:09.274541",
->>>>>>> Stashed changes
-    "ticker": "AAPL",
-    "action": "HOLD",
-    "confidence": 70,
-    "reasoning": "Rule-based: Medium conviction - consider half position",
-    "candle_pattern": "spinning_top",
-    "indicators": {
-<<<<<<< Updated upstream
-      "rsi": 65.08491212916772
-=======
-      "rsi": 65.08491212953025
->>>>>>> Stashed changes
-    },
-    "price_at_prediction": 272.4100036621094,
-    "outcome": null,
-    "was_correct": null
-  },
-<<<<<<< Updated upstream
-  "6607fad7": {
-    "id": "6607fad7",
-    "timestamp": "2025-11-14T21:11:54.630964",
-=======
-  "ac2b771d": {
-    "id": "ac2b771d",
-    "timestamp": "2025-11-14T21:12:09.774214",
->>>>>>> Stashed changes
-    "ticker": "MSFT",
-    "action": "BUY",
-    "confidence": 70,
-    "reasoning": "Rule-based: Medium conviction - consider half position",
-    "candle_pattern": "piercing_line",
-    "indicators": {
-<<<<<<< Updated upstream
-      "rsi": 47.44017299774548
-=======
-      "rsi": 47.440172997742216
->>>>>>> Stashed changes
-    },
-    "price_at_prediction": 510.17999267578125,
-    "outcome": null,
-    "was_correct": null
-  },
-<<<<<<< Updated upstream
-  "3b63a0d9": {
-    "id": "3b63a0d9",
-    "timestamp": "2025-11-14T21:11:54.982768",
-=======
-  "ae8500af": {
-    "id": "ae8500af",
-    "timestamp": "2025-11-14T21:12:10.255832",
->>>>>>> Stashed changes
+  "86e0d2ea": {
+    "id": "86e0d2ea",
+    "timestamp": "2025-11-14T21:31:49.903721",
     "ticker": "NVDA",
     "action": "BUY",
     "confidence": 70,
     "reasoning": "Rule-based: Medium conviction - consider half position",
     "candle_pattern": "piercing_line",
     "indicators": {
-<<<<<<< Updated upstream
       "rsi": 49.42186695756022
-=======
-      "rsi": 49.421866957560496
->>>>>>> Stashed changes
     },
     "price_at_prediction": 190.1699981689453,
     "outcome": null,
     "was_correct": null
   },
-<<<<<<< Updated upstream
-  "92dcc83c": {
-    "id": "92dcc83c",
-    "timestamp": "2025-11-14T21:11:55.366686",
-=======
-  "03cbc044": {
-    "id": "03cbc044",
-    "timestamp": "2025-11-14T21:12:10.724953",
->>>>>>> Stashed changes
+  "4418f954": {
+    "id": "4418f954",
+    "timestamp": "2025-11-14T21:31:50.287473",
     "ticker": "TSLA",
     "action": "HOLD",
     "confidence": 65,
@@ -425,65 +59,39 @@
     "outcome": null,
     "was_correct": null
   },
-<<<<<<< Updated upstream
-  "f6af3799": {
-    "id": "f6af3799",
-    "timestamp": "2025-11-14T21:11:55.739522",
-=======
-  "f612a5a7": {
-    "id": "f612a5a7",
-    "timestamp": "2025-11-14T21:12:11.182788",
->>>>>>> Stashed changes
+  "b7c122ad": {
+    "id": "b7c122ad",
+    "timestamp": "2025-11-14T21:31:50.620607",
     "ticker": "GOOGL",
     "action": "HOLD",
     "confidence": 75,
     "reasoning": "Rule-based: High conviction - consider full position",
     "candle_pattern": "double_top",
     "indicators": {
-<<<<<<< Updated upstream
-      "rsi": 55.866351398270965
-=======
-      "rsi": 55.86635139830611
->>>>>>> Stashed changes
+      "rsi": 55.86635139827098
     },
     "price_at_prediction": 276.4100036621094,
     "outcome": null,
     "was_correct": null
   },
-<<<<<<< Updated upstream
-  "5bb9cb9b": {
-    "id": "5bb9cb9b",
-    "timestamp": "2025-11-14T21:11:56.139410",
-=======
-  "70a9fa78": {
-    "id": "70a9fa78",
-    "timestamp": "2025-11-14T21:12:11.626917",
->>>>>>> Stashed changes
+  "41aef2cf": {
+    "id": "41aef2cf",
+    "timestamp": "2025-11-14T21:31:51.040473",
     "ticker": "TSM",
     "action": "HOLD",
     "confidence": 65,
     "reasoning": "Rule-based: Medium conviction - consider half position",
     "candle_pattern": "swing_highs_lows",
     "indicators": {
-<<<<<<< Updated upstream
-      "rsi": 45.46106550603008
-=======
-      "rsi": 45.46106550603025
->>>>>>> Stashed changes
+      "rsi": 45.42050608794879
     },
-    "price_at_prediction": 284.8699951171875,
+    "price_at_prediction": 284.82000732421875,
     "outcome": null,
     "was_correct": null
   },
-<<<<<<< Updated upstream
-  "1921184d": {
-    "id": "1921184d",
-    "timestamp": "2025-11-14T21:11:56.509011",
-=======
-  "dbe3de3a": {
-    "id": "dbe3de3a",
-    "timestamp": "2025-11-14T21:12:12.139592",
->>>>>>> Stashed changes
+  "b0a53c34": {
+    "id": "b0a53c34",
+    "timestamp": "2025-11-14T21:31:51.428302",
     "ticker": "AMD",
     "action": "HOLD",
     "confidence": 50,
@@ -496,40 +104,24 @@
     "outcome": null,
     "was_correct": null
   },
-<<<<<<< Updated upstream
-  "2a720866": {
-    "id": "2a720866",
-    "timestamp": "2025-11-14T21:11:56.872026",
-=======
-  "d177f92c": {
-    "id": "d177f92c",
-    "timestamp": "2025-11-14T21:12:12.622381",
->>>>>>> Stashed changes
+  "7f4ac7d3": {
+    "id": "7f4ac7d3",
+    "timestamp": "2025-11-14T21:31:51.842503",
     "ticker": "TD.TO",
     "action": "HOLD",
     "confidence": 65,
     "reasoning": "Rule-based: Medium conviction - consider half position",
     "candle_pattern": "darvas_box",
     "indicators": {
-<<<<<<< Updated upstream
-      "rsi": 55.661566058998694
-=======
-      "rsi": 55.66156605711884
->>>>>>> Stashed changes
+      "rsi": 55.66156605911731
     },
     "price_at_prediction": 114.05000305175781,
     "outcome": null,
     "was_correct": null
   },
-<<<<<<< Updated upstream
-  "873208ea": {
-    "id": "873208ea",
-    "timestamp": "2025-11-14T21:11:57.265148",
-=======
-  "87d71eae": {
-    "id": "87d71eae",
-    "timestamp": "2025-11-14T21:12:13.056951",
->>>>>>> Stashed changes
+  "dc6dd55b": {
+    "id": "dc6dd55b",
+    "timestamp": "2025-11-14T21:31:52.276991",
     "ticker": "AMZN",
     "action": "HOLD",
     "confidence": 75,
@@ -542,15 +134,9 @@
     "outcome": null,
     "was_correct": null
   },
-<<<<<<< Updated upstream
-  "86eb0356": {
-    "id": "86eb0356",
-    "timestamp": "2025-11-14T21:11:57.620440",
-=======
-  "e1c0116f": {
-    "id": "e1c0116f",
-    "timestamp": "2025-11-14T21:12:13.481739",
->>>>>>> Stashed changes
+  "3b9932b2": {
+    "id": "3b9932b2",
+    "timestamp": "2025-11-14T21:31:52.658901",
     "ticker": "CGL-C.TO",
     "action": "BUY",
     "confidence": 75,
@@ -563,15 +149,9 @@
     "outcome": null,
     "was_correct": null
   },
-<<<<<<< Updated upstream
-  "b4ff124c": {
-    "id": "b4ff124c",
-    "timestamp": "2025-11-14T21:11:57.923426",
-=======
-  "26486a03": {
-    "id": "26486a03",
-    "timestamp": "2025-11-14T21:12:13.955462",
->>>>>>> Stashed changes
+  "c9bc167a": {
+    "id": "c9bc167a",
+    "timestamp": "2025-11-14T21:31:53.012277",
     "ticker": "SVR-C.TO",
     "action": "HOLD",
     "confidence": 75,
