@@ -45,8 +45,8 @@ class AutonomousLearner:
         cursor = conn.cursor()
         
         # Get predictions older than 24 hours
-        one_day_ago = datetime.now() - timedelta(hours=0)
-        #one_day_ago = (datetime.now() - timedelta(days=1)).strftime('%Y-%m-%d %H:%M:%S')
+        #one_day_ago = datetime.now() - timedelta(hours=0)
+        one_day_ago = (datetime.now() - timedelta(days=1)).strftime('%Y-%m-%d %H:%M:%S')
         
         cursor.execute("""
             SELECT id, stock, prediction, entry_price, llm_model
