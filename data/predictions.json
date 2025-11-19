@@ -658,5 +658,170 @@
     "price_at_prediction": 26.760000228881836,
     "outcome": null,
     "was_correct": null
+  },
+  "ef32ef4d": {
+    "id": "ef32ef4d",
+    "timestamp": "2025-11-19T11:02:31.126838",
+    "ticker": "AAPL",
+    "action": "SELL",
+    "confidence": 100,
+    "reasoning": "groq: The double_top bearish reversal pattern, which has a 100% success rate, takes precedence despite the neutral RSI, given the past learning to be more decisive with such patterns.",
+    "candle_pattern": "vcp",
+    "indicators": {
+      "rsi": 54.57770470691954
+    },
+    "price_at_prediction": 267.44000244140625,
+    "outcome": null,
+    "was_correct": null
+  },
+  "63176141": {
+    "id": "63176141",
+    "timestamp": "2025-11-19T11:02:31.813937",
+    "ticker": "MSFT",
+    "action": "SELL",
+    "confidence": 100,
+    "reasoning": "groq: The presence of a three_inside_down bearish reversal pattern, combined with a low RSI of 37.37, suggests a potential downward move, warranting a cautious sell call.",
+    "candle_pattern": "doji",
+    "indicators": {
+      "rsi": 37.368735830786136
+    },
+    "price_at_prediction": 493.7900085449219,
+    "outcome": null,
+    "was_correct": null
+  },
+  "d3d70abf": {
+    "id": "d3d70abf",
+    "timestamp": "2025-11-19T11:02:32.266605",
+    "ticker": "NVDA",
+    "action": "HOLD",
+    "confidence": 90,
+    "reasoning": "groq: The low RSI and presence of a consolidation pattern suggest a potential buy signal, but the low success rate of the swing_highs_lows pattern and the negative macro score warrant caution.",
+    "candle_pattern": "swing_highs_lows",
+    "indicators": {
+      "rsi": 42.3030766529591
+    },
+    "price_at_prediction": 181.36000061035156,
+    "outcome": null,
+    "was_correct": null
+  },
+  "781c4a90": {
+    "id": "781c4a90",
+    "timestamp": "2025-11-19T11:02:32.701280",
+    "ticker": "TSLA",
+    "action": "HOLD",
+    "confidence": 100,
+    "reasoning": "groq: The low RSI and presence of a spinning_top pattern suggest indecision, making a decisive call challenging, but the overall macro score and lack of strong bullish or bearish signals lead to a cautious hold stance.",
+    "candle_pattern": "swing_highs_lows",
+    "indicators": {
+      "rsi": 40.679489584714695
+    },
+    "price_at_prediction": 401.25,
+    "outcome": null,
+    "was_correct": null
+  },
+  "d748eb17": {
+    "id": "d748eb17",
+    "timestamp": "2025-11-19T11:02:33.252132",
+    "ticker": "GOOGL",
+    "action": "HOLD",
+    "confidence": 90,
+    "reasoning": "groq: The presence of a swing_highs_lows pattern indicating consolidation, combined with a moderately high RSI and lack of Bollinger Squeeze, suggests a neutral stance is appropriate.",
+    "candle_pattern": "swing_highs_lows",
+    "indicators": {
+      "rsi": 60.97273600688771
+    },
+    "price_at_prediction": 284.2799987792969,
+    "outcome": null,
+    "was_correct": null
+  },
+  "7b18255c": {
+    "id": "7b18255c",
+    "timestamp": "2025-11-19T11:02:33.698969",
+    "ticker": "TSM",
+    "action": "HOLD",
+    "confidence": 100,
+    "reasoning": "groq: The presence of indecision candlestick patterns like doji and long_legged_doji, combined with a relatively low RSI of 40.71, suggests a neutral outlook, warranting a cautious approach.",
+    "candle_pattern": "doji",
+    "indicators": {
+      "rsi": 40.7080501374856
+    },
+    "price_at_prediction": 277.9100036621094,
+    "outcome": null,
+    "was_correct": null
+  },
+  "f3aad64b": {
+    "id": "f3aad64b",
+    "timestamp": "2025-11-19T11:02:34.193461",
+    "ticker": "AMD",
+    "action": "SELL",
+    "confidence": 100,
+    "reasoning": "groq: The double_top pattern, despite a relatively neutral RSI, is considered a strong bearish reversal signal based on past learnings, especially given its 100% success rate in this context.",
+    "candle_pattern": "three_inside_down",
+    "indicators": {
+      "rsi": 47.273686163606634
+    },
+    "price_at_prediction": 230.2899932861328,
+    "outcome": null,
+    "was_correct": null
+  },
+  "c7c7221a": {
+    "id": "c7c7221a",
+    "timestamp": "2025-11-19T11:02:34.750350",
+    "ticker": "TD.TO",
+    "action": "BUY",
+    "confidence": 100,
+    "reasoning": "groq: The presence of a strong bullish continuation pattern, three_white_soldiers, with an 83% success rate, outweighs the neutral RSI and low volume, leading to a buy call.",
+    "candle_pattern": "three_white_soldiers",
+    "indicators": {
+      "rsi": 59.58905551359172
+    },
+    "price_at_prediction": 114.93000030517578,
+    "outcome": null,
+    "was_correct": null
+  },
+  "b7e98324": {
+    "id": "b7e98324",
+    "timestamp": "2025-11-19T11:02:35.337340",
+    "ticker": "AMZN",
+    "action": "SELL",
+    "confidence": 100,
+    "reasoning": "groq: The double_top pattern, which has a 100% success rate as a bearish_reversal indicator, combined with a relatively low RSI of 40.49, suggests a high likelihood of a downward move.",
+    "candle_pattern": "three_black_crows",
+    "indicators": {
+      "rsi": 40.4866634803059
+    },
+    "price_at_prediction": 222.5500030517578,
+    "outcome": null,
+    "was_correct": null
+  },
+  "093c14f2": {
+    "id": "093c14f2",
+    "timestamp": "2025-11-19T11:02:35.769316",
+    "ticker": "CGL-C.TO",
+    "action": "HOLD",
+    "confidence": 100,
+    "reasoning": "groq: The presence of indecision patterns like spinning_top, combined with a neutral RSI of 52.39 and low volume, suggests a cautious approach, avoiding decisive calls like those that led to past mistakes.",
+    "candle_pattern": "swing_highs_lows",
+    "indicators": {
+      "rsi": 52.386972485454216
+    },
+    "price_at_prediction": 47.70000076293945,
+    "outcome": null,
+    "was_correct": null
+  },
+  "6345b31e": {
+    "id": "6345b31e",
+    "timestamp": "2025-11-19T11:02:36.261344",
+    "ticker": "SVR-C.TO",
+    "action": "BUY",
+    "confidence": 100,
+    "reasoning": "groq: The presence of a piercing_line candlestick pattern, indicative of a bullish reversal, combined with above-average volume, outweighs the neutral RSI and moderate macro score, suggesting a potential uptrend.",
+    "candle_pattern": "piercing_line",
+    "indicators": {
+      "rsi": 56.24722139337986
+    },
+    "price_at_prediction": 26.920000076293945,
+    "outcome": null,
+    "was_correct": null
   }
 }
