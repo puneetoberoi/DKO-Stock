@@ -988,5 +988,170 @@
     "price_at_prediction": 27.290000915527344,
     "outcome": null,
     "was_correct": null
+  },
+  "5261f23f": {
+    "id": "5261f23f",
+    "timestamp": "2025-11-21T11:02:15.199678",
+    "ticker": "AAPL",
+    "action": "SELL",
+    "confidence": 100,
+    "reasoning": "groq: The presence of a double_top pattern with 100% success rate as a bearish_reversal signal, combined with a neutral RSI and negative overall macro score, suggests a high likelihood of a downward move. | cohere: Bearish reversal patterns (double_top, dark_cloud_cover) with neutral RSI (51.76) and weak macro context (-12/30) align with past learnings to avoid false signals and act decisively on strong bearish indicators.",
+    "candle_pattern": "vcp",
+    "indicators": {
+      "rsi": 51.76279875305002
+    },
+    "price_at_prediction": 266.25,
+    "outcome": null,
+    "was_correct": null
+  },
+  "23c52fe5": {
+    "id": "23c52fe5",
+    "timestamp": "2025-11-21T11:02:16.378145",
+    "ticker": "MSFT",
+    "action": "SELL",
+    "confidence": 90,
+    "reasoning": "groq: The bearish three_black_crows pattern, combined with a low RSI of 30.82 and a negative overall macro score, suggests a high likelihood of a downward move, outweighing the less reliable swing_highs_lows pattern. | cohere: Bearish three_black_crows pattern with low RSI (30.82) and negative macro context (-12/30) suggests further downside risk, avoiding past indecision with false signals.",
+    "candle_pattern": "three_black_crows",
+    "indicators": {
+      "rsi": 30.81636257667408
+    },
+    "price_at_prediction": 478.42999267578125,
+    "outcome": null,
+    "was_correct": null
+  },
+  "eb8fea4e": {
+    "id": "eb8fea4e",
+    "timestamp": "2025-11-21T11:02:17.744325",
+    "ticker": "NVDA",
+    "action": "SELL",
+    "confidence": 100,
+    "reasoning": "groq: The presence of multiple bearish reversal candlestick patterns, combined with a low RSI and negative macro score, suggests a high likelihood of a downward move, outweighing the need for caution with bearish signals when RSI is around this level based on past learnings. | cohere: Bearish candlestick patterns (bearish_engulfing, dark_cloud_cover) with moderate RSI (42.75) and high volume suggest a downward move, aligning with past learnings to avoid false signals and act decisively on bearish reversals.",
+    "candle_pattern": "bearish_engulfing",
+    "indicators": {
+      "rsi": 42.750838156762875
+    },
+    "price_at_prediction": 180.63999938964844,
+    "outcome": null,
+    "was_correct": null
+  },
+  "6f42bcb6": {
+    "id": "6f42bcb6",
+    "timestamp": "2025-11-21T11:02:20.193015",
+    "ticker": "TSLA",
+    "action": "SELL",
+    "confidence": 90,
+    "reasoning": "groq: The detected swing_highs_lows pattern in a downtrend, combined with a low RSI of 39.36 and a negative overall macro score, suggests a potential downward move, especially considering past mistakes where swing_highs_lows was a false signal at higher RSI levels. | cohere: RSI at 39.36 suggests oversold conditions, but swing_highs_lows pattern with low success rate (25%) and bearish macro context (-12/30) warrant caution, avoiding a decisive move.",
+    "candle_pattern": "swing_highs_lows",
+    "indicators": {
+      "rsi": 39.35659888574072
+    },
+    "price_at_prediction": 395.2300109863281,
+    "outcome": null,
+    "was_correct": null
+  },
+  "0110252e": {
+    "id": "0110252e",
+    "timestamp": "2025-11-21T11:02:21.355875",
+    "ticker": "GOOGL",
+    "action": "SELL",
+    "confidence": 100,
+    "reasoning": "groq: The presence of a dark_cloud_cover bearish reversal pattern, combined with a relatively high RSI and negative overall macro score, suggests a potential downward move, outweighing the less reliable double_bottom pattern. | cohere: Bearish dark_cloud_cover pattern with high volume (1.7x average) and RSI at 62.60 suggests a potential reversal, aligning with past learnings to act decisively on bearish signals even with neutral RSI.",
+    "candle_pattern": "dark_cloud_cover",
+    "indicators": {
+      "rsi": 62.60478347293411
+    },
+    "price_at_prediction": 289.45001220703125,
+    "outcome": null,
+    "was_correct": null
+  },
+  "355b077a": {
+    "id": "355b077a",
+    "timestamp": "2025-11-21T11:02:22.690699",
+    "ticker": "TSM",
+    "action": "SELL",
+    "confidence": 100,
+    "reasoning": "groq: The presence of bearish reversal patterns like dark_cloud_cover, combined with a downtrend signal from swing_highs_lows and a low RSI, suggests a potential downward move, especially considering the overall negative macro score. | cohere: Bearish dark_cloud_cover pattern with RSI at 41.44 (below 50) and swing_highs_lows indicating a downtrend, supported by weak macro context (-12/30).",
+    "candle_pattern": "dark_cloud_cover",
+    "indicators": {
+      "rsi": 41.43840198211538
+    },
+    "price_at_prediction": 277.5,
+    "outcome": null,
+    "was_correct": null
+  },
+  "a3d00a27": {
+    "id": "a3d00a27",
+    "timestamp": "2025-11-21T11:02:24.051280",
+    "ticker": "AMD",
+    "action": "SELL",
+    "confidence": 100,
+    "reasoning": "groq: The presence of a double_top pattern with 100% success rate as a bearish_reversal signal, combined with a low RSI of 38, outweighs the neutral swing_highs_lows signal, suggesting a potential downward move. | cohere: Bearish patterns like double_top (100% success) and three_black_crows (67% success) dominate, supported by low RSI (38) and negative macro context (-12/30), outweighing the uncertain swing_highs_lows pattern.",
+    "candle_pattern": "three_black_crows",
+    "indicators": {
+      "rsi": 37.99765135844492
+    },
+    "price_at_prediction": 206.02000427246094,
+    "outcome": null,
+    "was_correct": null
+  },
+  "2986f44d": {
+    "id": "2986f44d",
+    "timestamp": "2025-11-21T11:02:25.181790",
+    "ticker": "TD.TO",
+    "action": "HOLD",
+    "confidence": 90,
+    "reasoning": "groq: The presence of a swing_highs_lows pattern, albeit with moderate success rate, combined with a neutral RSI of 57.83, suggests caution and a hold position, especially considering past mistakes with similar patterns and RSI values. | cohere: Neutral RSI (57.83) and mixed candlestick patterns (swing_highs_lows with low success, darvas_box indicating consolidation) suggest caution, avoiding decisive action until clearer signals emerge.",
+    "candle_pattern": "swing_highs_lows",
+    "indicators": {
+      "rsi": 57.83312710335638
+    },
+    "price_at_prediction": 114.66000366210938,
+    "outcome": null,
+    "was_correct": null
+  },
+  "ca8d7c80": {
+    "id": "ca8d7c80",
+    "timestamp": "2025-11-21T11:02:26.274112",
+    "ticker": "AMZN",
+    "action": "SELL",
+    "confidence": 100,
+    "reasoning": "groq: The double_top bearish reversal pattern, combined with a low RSI of 36.93 and a negative overall macro score, suggests a high likelihood of a downward move, outweighing the less reliable swing_highs_lows consolidation signal. | cohere: Bearish double_top pattern with 100% historical success, low RSI (36.93) indicating potential further downside, and weak macro context (-12/30) support a decisive sell call.",
+    "candle_pattern": "double_top",
+    "indicators": {
+      "rsi": 36.9265421582131
+    },
+    "price_at_prediction": 217.13999938964844,
+    "outcome": null,
+    "was_correct": null
+  },
+  "7af0a758": {
+    "id": "7af0a758",
+    "timestamp": "2025-11-21T11:02:27.220670",
+    "ticker": "CGL-C.TO",
+    "action": "HOLD",
+    "confidence": 85,
+    "reasoning": "groq: The neutral RSI of 55.40 and low volume, combined with the detected candlestick patterns having relatively low success rates, suggest a cautious approach, avoiding decisive action based on potentially false signals. | cohere: Neutral RSI (55.40) and low volume (0.4x average) suggest indecision, while the darvas_box pattern indicates consolidation, aligning with past learnings to avoid false signals in similar conditions.",
+    "candle_pattern": "darvas_box",
+    "indicators": {
+      "rsi": 55.39509061226395
+    },
+    "price_at_prediction": 48.18000030517578,
+    "outcome": null,
+    "was_correct": null
+  },
+  "27699481": {
+    "id": "27699481",
+    "timestamp": "2025-11-21T11:02:27.715062",
+    "ticker": "SVR-C.TO",
+    "action": "HOLD",
+    "confidence": 95,
+    "reasoning": "groq: The presence of a cup_and_handle pattern suggests potential bullish continuation, but the low volume, neutral RSI, and mixed candlestick patterns indicate a need for caution, warranting a hold call.",
+    "candle_pattern": "cup_and_handle",
+    "indicators": {
+      "rsi": 56.5562149199866
+    },
+    "price_at_prediction": 27.059999465942383,
+    "outcome": null,
+    "was_correct": null
   }
 }
