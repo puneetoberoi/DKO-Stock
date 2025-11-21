@@ -1153,5 +1153,170 @@
     "price_at_prediction": 27.059999465942383,
     "outcome": null,
     "was_correct": null
+  },
+  "e19f98c6": {
+    "id": "e19f98c6",
+    "timestamp": "2025-11-21T19:40:02.657230",
+    "ticker": "AAPL",
+    "action": "BUY",
+    "confidence": 100,
+    "reasoning": "groq: The presence of a piercing_line pattern with 100% success rate as a bullish_reversal signal, combined with a relatively neutral RSI, outweighs the bearish macro context, suggesting a potential upside move for AAPL.",
+    "candle_pattern": "bullish_engulfing",
+    "indicators": {
+      "rsi": 61.91230379851401
+    },
+    "price_at_prediction": 273.19500732421875,
+    "outcome": null,
+    "was_correct": null
+  },
+  "30ba94b4": {
+    "id": "30ba94b4",
+    "timestamp": "2025-11-21T19:40:03.468131",
+    "ticker": "MSFT",
+    "action": "BUY",
+    "confidence": 100,
+    "reasoning": "groq: The low RSI of 30.06 and presence of a hammer candlestick pattern, a bullish reversal indicator, outweigh the bearish signals, suggesting a potential upside movement for MSFT.",
+    "candle_pattern": "hammer",
+    "indicators": {
+      "rsi": 30.064135642798362
+    },
+    "price_at_prediction": 476.760009765625,
+    "outcome": null,
+    "was_correct": null
+  },
+  "ab3777eb": {
+    "id": "ab3777eb",
+    "timestamp": "2025-11-21T19:40:04.193670",
+    "ticker": "NVDA",
+    "action": "SELL",
+    "confidence": 100,
+    "reasoning": "groq: The presence of a double_top pattern with 100% success rate as a bearish_reversal signal, combined with a neutral RSI and the learnings from past mistakes, suggests a high likelihood of a downward move.",
+    "candle_pattern": "hammer",
+    "indicators": {
+      "rsi": 45.00013954412423
+    },
+    "price_at_prediction": 183.11300659179688,
+    "outcome": null,
+    "was_correct": null
+  },
+  "bcaa0b3c": {
+    "id": "bcaa0b3c",
+    "timestamp": "2025-11-21T19:40:04.771964",
+    "ticker": "TSLA",
+    "action": "HOLD",
+    "confidence": 90,
+    "reasoning": "groq: The presence of a hammer pattern and low RSI (41.32) suggests potential for a bullish reversal, but the low success rate of the swing_highs_lows pattern and the overall negative macro score warrant caution.",
+    "candle_pattern": "hammer",
+    "indicators": {
+      "rsi": 41.322123234507764
+    },
+    "price_at_prediction": 400.239990234375,
+    "outcome": null,
+    "was_correct": null
+  },
+  "52ce4847": {
+    "id": "52ce4847",
+    "timestamp": "2025-11-21T19:40:05.459931",
+    "ticker": "GOOGL",
+    "action": "SELL",
+    "confidence": 100,
+    "reasoning": "groq: The high RSI of 69.40, combined with the low success rate of the double_bottom pattern and the presence of a double_top pattern in the past, which was a false signal when RSI was 56, suggests a potential downward move.",
+    "candle_pattern": "double_bottom",
+    "indicators": {
+      "rsi": 69.40318328837044
+    },
+    "price_at_prediction": 302.79998779296875,
+    "outcome": null,
+    "was_correct": null
+  },
+  "d60aca3a": {
+    "id": "d60aca3a",
+    "timestamp": "2025-11-21T19:40:06.014603",
+    "ticker": "TSM",
+    "action": "SELL",
+    "confidence": 100,
+    "reasoning": "groq: The detected double_top pattern, although historically bearish, is considered in the context of a relatively low RSI (41.53) and the lessons from past mistakes, suggesting a potential downtrend.",
+    "candle_pattern": "double_top",
+    "indicators": {
+      "rsi": 41.52590017523693
+    },
+    "price_at_prediction": 277.69500732421875,
+    "outcome": null,
+    "was_correct": null
+  },
+  "09cfb3a9": {
+    "id": "09cfb3a9",
+    "timestamp": "2025-11-21T19:40:06.770832",
+    "ticker": "AMD",
+    "action": "SELL",
+    "confidence": 100,
+    "reasoning": "groq: The double_top pattern with 100% success rate takes precedence, especially considering the low RSI of 38.60 and the overall negative macro score, outweighing the bullish hammer signal.",
+    "candle_pattern": "hammer",
+    "indicators": {
+      "rsi": 38.59762702512052
+    },
+    "price_at_prediction": 207.3000030517578,
+    "outcome": null,
+    "was_correct": null
+  },
+  "b5470c05": {
+    "id": "b5470c05",
+    "timestamp": "2025-11-21T19:40:07.501816",
+    "ticker": "TD.TO",
+    "action": "HOLD",
+    "confidence": 100,
+    "reasoning": "groq: The presence of a double_bottom pattern, despite its 0% success rate, combined with a relatively high RSI of 63.10, suggests caution and a potential for a false bullish signal, warranting a hold call.",
+    "candle_pattern": "vcp",
+    "indicators": {
+      "rsi": 63.09647068961851
+    },
+    "price_at_prediction": 115.79000091552734,
+    "outcome": null,
+    "was_correct": null
+  },
+  "8f54fae6": {
+    "id": "8f54fae6",
+    "timestamp": "2025-11-21T19:40:08.097196",
+    "ticker": "AMZN",
+    "action": "HOLD",
+    "confidence": 90,
+    "reasoning": "groq: The detected swing_highs_lows pattern, although having a relatively low success rate, combined with a neutral to slightly bearish RSI and negative macro score, suggests a cautious approach, avoiding a decisive buy or sell call.",
+    "candle_pattern": "swing_highs_lows",
+    "indicators": {
+      "rsi": 41.45766300290527
+    },
+    "price_at_prediction": 221.60000610351562,
+    "outcome": null,
+    "was_correct": null
+  },
+  "d1585c2a": {
+    "id": "d1585c2a",
+    "timestamp": "2025-11-21T19:40:08.656211",
+    "ticker": "CGL-C.TO",
+    "action": "HOLD",
+    "confidence": 95,
+    "reasoning": "groq: The presence of consolidation patterns like darvas_box and swing_highs_lows, combined with a neutral RSI of 56.30, suggests a cautious approach, given the learnings from past mistakes where similar patterns and RSI levels led to incorrect calls.",
+    "candle_pattern": "darvas_box",
+    "indicators": {
+      "rsi": 56.30414614699094
+    },
+    "price_at_prediction": 48.31999969482422,
+    "outcome": null,
+    "was_correct": null
+  },
+  "abe2461d": {
+    "id": "abe2461d",
+    "timestamp": "2025-11-21T19:40:09.200880",
+    "ticker": "SVR-C.TO",
+    "action": "HOLD",
+    "confidence": 100,
+    "reasoning": "groq: The presence of a cup_and_handle pattern with 50% success rate and a neutral RSI of 51.64 suggests a cautious approach, avoiding decisiveness based on past learnings of false signals with similar indicators.",
+    "candle_pattern": "bullish_marubozu",
+    "indicators": {
+      "rsi": 51.63591048709573
+    },
+    "price_at_prediction": 26.459999084472656,
+    "outcome": null,
+    "was_correct": null
   }
 }
