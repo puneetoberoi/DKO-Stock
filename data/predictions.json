@@ -1318,5 +1318,170 @@
     "price_at_prediction": 26.459999084472656,
     "outcome": null,
     "was_correct": null
+  },
+  "6f9049b2": {
+    "id": "6f9049b2",
+    "timestamp": "2025-11-24T18:16:44.206347",
+    "ticker": "AAPL",
+    "action": "HOLD",
+    "confidence": 100,
+    "reasoning": "groq: The presence of a three_outside_up pattern and a darvas_box suggests potential bullishness, but the low success rate of the double_bottom pattern and the high RSI value, combined with the overall negative macro score, warrant caution and a neutral stance. | cohere: Mixed signals with a high RSI (65.26) and low volume (0.5x average) suggest caution, while the three_outside_up pattern (50% success) and double_bottom (12% success) provide weak bullish indications, aligning with past learnings to avoid false signals in neutral/overbought RSI conditions.",
+    "candle_pattern": "three_outside_up",
+    "indicators": {
+      "rsi": 65.26371521842445
+    },
+    "price_at_prediction": 275.9800109863281,
+    "outcome": null,
+    "was_correct": null
+  },
+  "b39b3b45": {
+    "id": "b39b3b45",
+    "timestamp": "2025-11-24T18:16:45.772721",
+    "ticker": "MSFT",
+    "action": "BUY",
+    "confidence": 100,
+    "reasoning": "groq: The presence of a tweezer_bottom pattern, a bullish reversal indicator, combined with a low RSI of 31.57, suggests a potential upside movement for MSFT. | cohere: RSI at 31.57 indicates oversold conditions, supported by tweezer_bottom pattern (50% success) and low volume (0.7x average), suggesting potential bullish reversal despite weak macro context.",
+    "candle_pattern": "doji",
+    "indicators": {
+      "rsi": 31.574991111667273
+    },
+    "price_at_prediction": 475.57000732421875,
+    "outcome": null,
+    "was_correct": null
+  },
+  "1e8309aa": {
+    "id": "1e8309aa",
+    "timestamp": "2025-11-24T18:16:46.830191",
+    "ticker": "NVDA",
+    "action": "SELL",
+    "confidence": 100,
+    "reasoning": "groq: The detected double_top pattern, despite its high success rate, should be considered in the context of the RSI value and past learnings, but given the overall macro score and the specific pattern, a cautious sell approach is warranted. | cohere: Bearish double_top pattern with 100% historical success and neutral RSI (45.12) aligns with past learnings to avoid holding in similar setups.",
+    "candle_pattern": "double_top",
+    "indicators": {
+      "rsi": 45.11803709410535
+    },
+    "price_at_prediction": 182.50999450683594,
+    "outcome": null,
+    "was_correct": null
+  },
+  "6970b72f": {
+    "id": "6970b72f",
+    "timestamp": "2025-11-24T18:16:48.308503",
+    "ticker": "TSLA",
+    "action": "HOLD",
+    "confidence": 100,
+    "reasoning": "groq: The presence of a double_bottom pattern, although with 0% historical success, combined with a neutral RSI and lack of Bollinger Squeeze, suggests caution, while the overall macro score and past mistakes with similar patterns advise against a decisive buy or sell call. | cohere: Neutral RSI (48.71), low volume (0.6x average), and unreliable patterns (double_bottom with 0% success, swing_highs_lows with 25% success) suggest caution, avoiding decisive action until clearer signals emerge.",
+    "candle_pattern": "double_bottom",
+    "indicators": {
+      "rsi": 48.71216240863671
+    },
+    "price_at_prediction": 419.30499267578125,
+    "outcome": null,
+    "was_correct": null
+  },
+  "acb195dd": {
+    "id": "acb195dd",
+    "timestamp": "2025-11-24T18:16:49.748902",
+    "ticker": "GOOGL",
+    "action": "SELL",
+    "confidence": 100,
+    "reasoning": "groq: The high RSI (74.92) and presence of a double_bottom pattern with low historical success rate (12%) suggest a potentially false bullish signal, warranting a cautious sell approach. | cohere: RSI at 74.92 indicates overbought conditions, and the double_bottom pattern has a low 12% success rate, aligning with past learnings to avoid false bullish signals in overbought territory.",
+    "candle_pattern": "three_inside_up",
+    "indicators": {
+      "rsi": 74.91816377129763
+    },
+    "price_at_prediction": 317.1875,
+    "outcome": null,
+    "was_correct": null
+  },
+  "2caec0a1": {
+    "id": "2caec0a1",
+    "timestamp": "2025-11-24T18:16:51.355383",
+    "ticker": "TSM",
+    "action": "HOLD",
+    "confidence": 100,
+    "reasoning": "groq: The presence of a double_bottom pattern, despite its low success rate, combined with a neutral RSI and lack of Bollinger Squeeze, suggests caution and a hold position to avoid repeating past mistakes of acting on potentially false signals. | cohere: Neutral RSI (47.88), low volume (0.6x average), and unreliable bullish patterns (double_bottom with 12% success) suggest caution, avoiding decisive action based on past errors with similar setups.",
+    "candle_pattern": "bullish_marubozu",
+    "indicators": {
+      "rsi": 47.87713525449564
+    },
+    "price_at_prediction": 284.0299987792969,
+    "outcome": null,
+    "was_correct": null
+  },
+  "d53c3e65": {
+    "id": "d53c3e65",
+    "timestamp": "2025-11-24T18:16:52.745447",
+    "ticker": "AMD",
+    "action": "SELL",
+    "confidence": 100,
+    "reasoning": "groq: The detected double_top bearish reversal pattern, combined with a low RSI of 43.47 and a negative overall macro score, suggests a potential downward move, making a SELL call more likely despite the pattern's interaction with other factors. | cohere: Bearish double_top pattern with 100% historical success, low RSI (43.47), and weak market context (-6/30) align with past learnings to avoid false signals and act decisively on reversal patterns.",
+    "candle_pattern": "double_top",
+    "indicators": {
+      "rsi": 43.47058769071723
+    },
+    "price_at_prediction": 215.5500030517578,
+    "outcome": null,
+    "was_correct": null
+  },
+  "e300b607": {
+    "id": "e300b607",
+    "timestamp": "2025-11-24T18:16:54.045354",
+    "ticker": "TD.TO",
+    "action": "SELL",
+    "confidence": 90,
+    "reasoning": "groq: The high RSI (66.43) and presence of a double_bottom pattern, which has been noted as a potentially false signal when RSI is high, suggest a cautious approach, leaning towards a sell call due to the overall bearish context. | cohere: Neutral RSI (66.43) and low volume (0.2x average) suggest caution, while mixed candlestick patterns (double_bottom with 0% success, darvas_box with 50% success) and bearish macro context (-6/30) indicate uncertainty, aligning with past learnings to avoid false signals.",
+    "candle_pattern": "vcp",
+    "indicators": {
+      "rsi": 66.42832117183318
+    },
+    "price_at_prediction": 116.61000061035156,
+    "outcome": null,
+    "was_correct": null
+  },
+  "429efdf5": {
+    "id": "429efdf5",
+    "timestamp": "2025-11-24T18:16:55.245154",
+    "ticker": "AMZN",
+    "action": "SELL",
+    "confidence": 80,
+    "reasoning": "groq: The detected swing_highs_lows pattern in a downtrend, combined with a relatively neutral RSI and low volume, suggests a potential downside move, especially considering past mistakes where similar patterns led to missed moves. | cohere: Neutral RSI (45.09), low volume (0.5x average), and a weak swing_highs_lows pattern (25% success) in a bearish macro context (-6/30) suggest caution, avoiding decisive action until clearer signals emerge.",
+    "candle_pattern": "swing_highs_lows",
+    "indicators": {
+      "rsi": 45.09379273088904
+    },
+    "price_at_prediction": 225.18820190429688,
+    "outcome": null,
+    "was_correct": null
+  },
+  "a3454961": {
+    "id": "a3454961",
+    "timestamp": "2025-11-24T18:16:56.825871",
+    "ticker": "CGL-C.TO",
+    "action": "HOLD",
+    "confidence": 95,
+    "reasoning": "groq: The presence of consolidation patterns like darvas_box and swing_highs_lows, combined with a neutral RSI of 56.51, suggests a cautious approach, as past mistakes indicate that similar patterns can be misleading. | cohere: Neutral RSI (56.51) and consolidation patterns (darvas_box, swing_highs_lows) suggest indecision, aligning with past learnings to avoid false signals in similar conditions.",
+    "candle_pattern": "darvas_box",
+    "indicators": {
+      "rsi": 56.513581337380145
+    },
+    "price_at_prediction": 48.380001068115234,
+    "outcome": null,
+    "was_correct": null
+  },
+  "cdfb464c": {
+    "id": "cdfb464c",
+    "timestamp": "2025-11-24T18:16:57.285246",
+    "ticker": "SVR-C.TO",
+    "action": "HOLD",
+    "confidence": 100,
+    "reasoning": "groq: The neutral RSI and lack of Bollinger Squeeze, combined with the mixed candlestick patterns and a low overall Macro Score, suggest a cautious approach, avoiding a decisive buy or sell call.",
+    "candle_pattern": "bullish_marubozu",
+    "indicators": {
+      "rsi": 55.50533623951586
+    },
+    "price_at_prediction": 26.989999771118164,
+    "outcome": null,
+    "was_correct": null
   }
 }
