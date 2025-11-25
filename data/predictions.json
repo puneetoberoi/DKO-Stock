@@ -1483,5 +1483,170 @@
     "price_at_prediction": 26.989999771118164,
     "outcome": null,
     "was_correct": null
+  },
+  "47600406": {
+    "id": "47600406",
+    "timestamp": "2025-11-25T18:16:57.143361",
+    "ticker": "AAPL",
+    "action": "BUY",
+    "confidence": 100,
+    "reasoning": "groq: The presence of bullish continuation and reversal patterns, combined with a relatively high RSI that is not excessively overbought, suggests a potential upward move for AAPL. | cohere: RSI at 67.94 is high but not overbought, and the double_bottom pattern (12% success) aligns with past learnings to avoid bearish signals in similar RSI ranges, supported by bullish three_white_soldiers patterns.",
+    "candle_pattern": "three_white_soldiers",
+    "indicators": {
+      "rsi": 67.93889682514485
+    },
+    "price_at_prediction": 278.6199951171875,
+    "outcome": null,
+    "was_correct": null
+  },
+  "9f485cf1": {
+    "id": "9f485cf1",
+    "timestamp": "2025-11-25T18:16:58.659185",
+    "ticker": "MSFT",
+    "action": "BUY",
+    "confidence": 100,
+    "reasoning": "groq: The presence of a hammer candlestick pattern, a bullish reversal indicator with 33% success rate, combined with a low RSI of 32.56, suggests a potential upside move for MSFT. | cohere: RSI at 32.56 indicates oversold conditions, and the presence of a hammer pattern (33% success) suggests a potential bullish reversal, aligning with past learnings to be decisive on such signals.",
+    "candle_pattern": "hammer",
+    "indicators": {
+      "rsi": 32.55715784956608
+    },
+    "price_at_prediction": 476.5150146484375,
+    "outcome": null,
+    "was_correct": null
+  },
+  "098e28bf": {
+    "id": "098e28bf",
+    "timestamp": "2025-11-25T18:16:59.883776",
+    "ticker": "NVDA",
+    "action": "BUY",
+    "confidence": 100,
+    "reasoning": "groq: The presence of a hammer pattern, a bullish reversal indicator with a moderate success rate, combined with a relatively neutral RSI and the lessons from past mistakes, particularly being more decisive with hammer patterns, suggests a potential upside for NVDA. | cohere: Hammer pattern with RSI at 40.25 suggests bullish reversal potential, aligning with past learnings to avoid missing upside moves in similar conditions.",
+    "candle_pattern": "hammer",
+    "indicators": {
+      "rsi": 40.25314470181524
+    },
+    "price_at_prediction": 175.88589477539062,
+    "outcome": null,
+    "was_correct": null
+  },
+  "7be0827b": {
+    "id": "7be0827b",
+    "timestamp": "2025-11-25T18:17:02.310937",
+    "ticker": "TSLA",
+    "action": "BUY",
+    "confidence": 100,
+    "reasoning": "groq: The presence of a double_bottom bullish reversal pattern, combined with a relatively neutral RSI and the lesson from past mistakes to be more decisive with patterns like hammer, even with neutral indicators, suggests a potential upside for TSLA. | cohere: Bullish double_bottom pattern with RSI at 48.56 (below 63/69 thresholds from past errors) and low volume suggest potential upside, aligning with critical learnings to avoid premature SELL calls.",
+    "candle_pattern": "double_bottom",
+    "indicators": {
+      "rsi": 48.56146028959369
+    },
+    "price_at_prediction": 418.8500061035156,
+    "outcome": null,
+    "was_correct": null
+  },
+  "3dfda60d": {
+    "id": "3dfda60d",
+    "timestamp": "2025-11-25T18:17:04.004207",
+    "ticker": "GOOGL",
+    "action": "SELL",
+    "confidence": 100,
+    "reasoning": "groq: The high RSI of 76.50, combined with the presence of a double_bottom pattern which has been re-evaluated as potentially less reliable in similar past scenarios, suggests a potential reversal, especially considering the overall negative macro score. | cohere: RSI at 76.50 indicates overbought conditions, but past errors suggest caution with bearish signals at high RSI; spinning tops and low-success patterns lack decisive direction.",
+    "candle_pattern": "spinning_top",
+    "indicators": {
+      "rsi": 76.5028621725307
+    },
+    "price_at_prediction": 322.6700134277344,
+    "outcome": null,
+    "was_correct": null
+  },
+  "78479cf7": {
+    "id": "78479cf7",
+    "timestamp": "2025-11-25T18:17:05.504228",
+    "ticker": "TSM",
+    "action": "BUY",
+    "confidence": 100,
+    "reasoning": "groq: The presence of a hammer bullish reversal pattern, combined with a relatively neutral RSI and the lessons learned from past mistakes to be more decisive with hammer patterns, suggests a potential upside for TSM. | cohere: Hammer pattern with RSI at 45.69 aligns with past learnings to avoid missed bullish moves, supported by low volume and no Bollinger Squeeze.",
+    "candle_pattern": "hammer",
+    "indicators": {
+      "rsi": 45.69311423267209
+    },
+    "price_at_prediction": 280.9100036621094,
+    "outcome": null,
+    "was_correct": null
+  },
+  "a01ad97c": {
+    "id": "a01ad97c",
+    "timestamp": "2025-11-25T18:17:07.121420",
+    "ticker": "AMD",
+    "action": "HOLD",
+    "confidence": 100,
+    "reasoning": "groq: The presence of indecision patterns like spinning_top, combined with a low RSI of 38.06 and the lessons learned from past mistakes on AMD with similar RSI values and bearish signals, suggests a cautious approach. | cohere: RSI at 38.06 suggests oversold conditions, and past errors indicate avoiding SELL calls in similar RSI ranges, with spinning_top patterns showing indecision rather than strong bearish signals.",
+    "candle_pattern": "spinning_top",
+    "indicators": {
+      "rsi": 38.0601889732046
+    },
+    "price_at_prediction": 199.88999938964844,
+    "outcome": null,
+    "was_correct": null
+  },
+  "7619099d": {
+    "id": "7619099d",
+    "timestamp": "2025-11-25T18:17:08.595140",
+    "ticker": "TD.TO",
+    "action": "HOLD",
+    "confidence": 100,
+    "reasoning": "groq: The presence of bullish patterns like vcp and double_bottom, combined with a moderately high RSI of 63.15, suggests a cautious approach, especially given the low success rates of these patterns and the need to re-evaluate bearish signals at similar RSI levels based on past mistakes. | cohere: RSI at 63.15 is not overbought, and bullish patterns like double_bottom and vcp align with past learnings to avoid bearish calls in similar RSI ranges.",
+    "candle_pattern": "vcp",
+    "indicators": {
+      "rsi": 63.14742346410686
+    },
+    "price_at_prediction": 116.20999908447266,
+    "outcome": null,
+    "was_correct": null
+  },
+  "cf00015f": {
+    "id": "cf00015f",
+    "timestamp": "2025-11-25T18:17:10.482788",
+    "ticker": "AMZN",
+    "action": "BUY",
+    "confidence": 100,
+    "reasoning": "groq: The presence of a bullish three_white_soldiers candlestick pattern, combined with a neutral RSI and low volume, suggests a potential buying opportunity, especially considering the need to be more decisive with patterns like hammer and avoiding repeating past errors of being overly bearish with certain signals. | cohere: Bullish three_white_soldiers pattern with RSI at 48.60 (not overbought) and low volume suggesting potential upside continuation, aligning with past learnings to avoid premature SELL calls in similar RSI ranges.",
+    "candle_pattern": "three_white_soldiers",
+    "indicators": {
+      "rsi": 48.59999454526996
+    },
+    "price_at_prediction": 229.08999633789062,
+    "outcome": null,
+    "was_correct": null
+  },
+  "02b2e4e8": {
+    "id": "02b2e4e8",
+    "timestamp": "2025-11-25T18:17:12.156965",
+    "ticker": "CGL-C.TO",
+    "action": "BUY",
+    "confidence": 90,
+    "reasoning": "groq: The presence of a double_bottom pattern with a moderate RSI value and a darvas_box indicating consolidation suggests a potential bullish reversal, warranting a cautious buy call. | cohere: RSI at 59.93 suggests no extreme overbought condition, and mixed candlestick patterns (spinning_top, double_bottom, darvas_box) with low success rates indicate uncertainty, aligning with past learnings to avoid bearish calls in neutral RSI zones.",
+    "candle_pattern": "spinning_top",
+    "indicators": {
+      "rsi": 59.93254633447776
+    },
+    "price_at_prediction": 48.95000076293945,
+    "outcome": null,
+    "was_correct": null
+  },
+  "9c62836d": {
+    "id": "9c62836d",
+    "timestamp": "2025-11-25T18:17:12.591516",
+    "ticker": "SVR-C.TO",
+    "action": "BUY",
+    "confidence": 100,
+    "reasoning": "groq: The presence of a bullish three_white_soldiers pattern, combined with a moderate RSI value and low volume, suggests a potential buying opportunity, especially considering the need to be more decisive with bullish patterns as learned from past mistakes.",
+    "candle_pattern": "three_white_soldiers",
+    "indicators": {
+      "rsi": 57.546902291912886
+    },
+    "price_at_prediction": 27.299999237060547,
+    "outcome": null,
+    "was_correct": null
   }
 }
