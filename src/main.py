@@ -2339,10 +2339,7 @@ class IntelligentPredictionEngine:
     Respond with ONLY the following format:
     ACTION: [BUY/SELL/HOLD]
     CONFIDENCE: [0-100]
-    REASON: [Your concise, one-sentence reasoning.]"""Respond EXACTLY in this format:
-    ACTION: [BUY/SELL/HOLD]
-    CONFIDENCE: [0-100]
-    REASON: [One sentence explaining your reasoning]
+    REASON: [Your concise, one-sentence reasoning.]
     
     **Confidence Guidelines:**
     - 80-100: Perfect setup (all signals aligned, strong pattern, volume confirms) - RARE
