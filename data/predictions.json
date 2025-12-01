@@ -2143,5 +2143,170 @@
     "price_at_prediction": 29.510000228881836,
     "outcome": null,
     "was_correct": null
+  },
+  "09f19ea7": {
+    "id": "09f19ea7",
+    "timestamp": "2025-12-01T18:17:49.272762",
+    "ticker": "AAPL",
+    "action": "BUY",
+    "confidence": 100,
+    "reasoning": "cohere: RSI at 69.67 is high but not overbought, and the three_white_soldiers pattern, despite historical 0% success, aligns with the critical learning to avoid premature SELL calls in similar RSI ranges.",
+    "candle_pattern": "three_white_soldiers",
+    "indicators": {
+      "rsi": 69.66894538361143
+    },
+    "price_at_prediction": 279.989013671875,
+    "outcome": null,
+    "was_correct": null
+  },
+  "4986e7f1": {
+    "id": "4986e7f1",
+    "timestamp": "2025-12-01T18:17:50.796195",
+    "ticker": "MSFT",
+    "action": "HOLD",
+    "confidence": 100,
+    "reasoning": "cohere: Neutral RSI (43.42), low volume (0.4x average), and indecision patterns (spinning_top) suggest no strong trend, aligning with past learnings to avoid bearish calls in similar conditions.",
+    "candle_pattern": "spinning_top",
+    "indicators": {
+      "rsi": 43.42382862843944
+    },
+    "price_at_prediction": 488.8299865722656,
+    "outcome": null,
+    "was_correct": null
+  },
+  "453b521d": {
+    "id": "453b521d",
+    "timestamp": "2025-12-01T18:17:52.032823",
+    "ticker": "NVDA",
+    "action": "BUY",
+    "confidence": 100,
+    "reasoning": "cohere: Bullish candlestick patterns (piercing_line with 100% success and bullish_engulfing) coupled with RSI at 43.94 (below 50) suggest a potential upward reversal, aligning with past learnings to avoid premature SELL calls in similar conditions.",
+    "candle_pattern": "bullish_engulfing",
+    "indicators": {
+      "rsi": 43.937371900849534
+    },
+    "price_at_prediction": 179.31500244140625,
+    "outcome": null,
+    "was_correct": null
+  },
+  "3d8cee19": {
+    "id": "3d8cee19",
+    "timestamp": "2025-12-01T18:17:53.225854",
+    "ticker": "TSLA",
+    "action": "BUY",
+    "confidence": 100,
+    "reasoning": "cohere: RSI at 52.12 is neutral, and the double_bottom pattern (despite 0% historical success) aligns with past learnings to avoid bearish signals in similar RSI ranges, while the uptrend from swing_highs_lows supports a bullish bias.",
+    "candle_pattern": "double_bottom",
+    "indicators": {
+      "rsi": 52.116096195364925
+    },
+    "price_at_prediction": 429.2699890136719,
+    "outcome": null,
+    "was_correct": null
+  },
+  "97c9e4a9": {
+    "id": "97c9e4a9",
+    "timestamp": "2025-12-01T18:17:54.927780",
+    "ticker": "GOOGL",
+    "action": "HOLD",
+    "confidence": 100,
+    "reasoning": "cohere: RSI is elevated at 70.65, but past errors suggest caution with bearish signals like double_bottom at high RSI, and current indecision patterns (doji, long_legged_doji) lack strong directional conviction.",
+    "candle_pattern": "doji",
+    "indicators": {
+      "rsi": 70.65444910945273
+    },
+    "price_at_prediction": 317.3894958496094,
+    "outcome": null,
+    "was_correct": null
+  },
+  "1d8f0327": {
+    "id": "1d8f0327",
+    "timestamp": "2025-12-01T18:17:56.309420",
+    "ticker": "TSM",
+    "action": "HOLD",
+    "confidence": 100,
+    "reasoning": "cohere: Mixed signals with a neutral RSI (52.32), low volume, and conflicting patterns (double_bottom vs. swing_highs_lows) in a weak macro context (-9/30) warrant caution.",
+    "candle_pattern": "double_bottom",
+    "indicators": {
+      "rsi": 52.32039852391756
+    },
+    "price_at_prediction": 289.8876037597656,
+    "outcome": null,
+    "was_correct": null
+  },
+  "15a52f8c": {
+    "id": "15a52f8c",
+    "timestamp": "2025-12-01T18:17:57.319308",
+    "ticker": "AMD",
+    "action": "BUY",
+    "confidence": 100,
+    "reasoning": "cohere: Bullish three_white_soldiers pattern with RSI at 46.78 (not overbought) and past errors suggest avoiding bearish signals like swing_highs_lows in this RSI range.",
+    "candle_pattern": "three_white_soldiers",
+    "indicators": {
+      "rsi": 46.77744784616578
+    },
+    "price_at_prediction": 219.63999938964844,
+    "outcome": null,
+    "was_correct": null
+  },
+  "8d73ba69": {
+    "id": "8d73ba69",
+    "timestamp": "2025-12-01T18:17:58.397621",
+    "ticker": "TD.TO",
+    "action": "HOLD",
+    "confidence": 100,
+    "reasoning": "cohere: RSI at 63 with swing_highs_lows (uptrend) and low volume suggests caution, avoiding past errors of misinterpreting bearish signals in similar RSI ranges.",
+    "candle_pattern": "swing_highs_lows",
+    "indicators": {
+      "rsi": 63.00468908906594
+    },
+    "price_at_prediction": 117.0,
+    "outcome": null,
+    "was_correct": null
+  },
+  "bd461348": {
+    "id": "bd461348",
+    "timestamp": "2025-12-01T18:17:59.572351",
+    "ticker": "AMZN",
+    "action": "HOLD",
+    "confidence": 100,
+    "reasoning": "cohere: RSI at 53.82 is neutral, and past errors with bearish signals like swing_highs_lows at lower RSI levels (e.g., 45) suggest caution, especially with low volume (0.4x average) and a negative macro score (-9/30).",
+    "candle_pattern": "swing_highs_lows",
+    "indicators": {
+      "rsi": 53.81736574251332
+    },
+    "price_at_prediction": 234.9499969482422,
+    "outcome": null,
+    "was_correct": null
+  },
+  "4520503c": {
+    "id": "4520503c",
+    "timestamp": "2025-12-01T18:18:00.482353",
+    "ticker": "CGL-C.TO",
+    "action": "BUY",
+    "confidence": 100,
+    "reasoning": "cohere: Hammer pattern with RSI at 64.23 suggests potential bullish reversal, aligning with past learnings to avoid bearish signals in similar RSI ranges.",
+    "candle_pattern": "hammer",
+    "indicators": {
+      "rsi": 64.23238520336136
+    },
+    "price_at_prediction": 49.650001525878906,
+    "outcome": null,
+    "was_correct": null
+  },
+  "1084b7e0": {
+    "id": "1084b7e0",
+    "timestamp": "2025-12-01T18:18:01.923150",
+    "ticker": "SVR-C.TO",
+    "action": "HOLD",
+    "confidence": 100,
+    "reasoning": "cohere: RSI at 74.80 suggests overbought conditions, but past errors indicate caution with bearish signals like swing_highs_lows when RSI is high, and the 2.4x volume spike lacks clear directional confirmation.",
+    "candle_pattern": "swing_highs_lows",
+    "indicators": {
+      "rsi": 74.7993851974365
+    },
+    "price_at_prediction": 30.899999618530273,
+    "outcome": null,
+    "was_correct": null
   }
 }
