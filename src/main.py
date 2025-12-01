@@ -2318,7 +2318,7 @@ class IntelligentPredictionEngine:
         # The learning_context variable is now correctly included here
         context = f"""{learning_context}
     You are a stock analyst. Your goal is to improve prediction accuracy above 90% and improvise based on market data and public sentiment. Analyze the following data for {ticker}.
-    **📅 Date Context:**
+     **📅 Date Context:**
      - Analysis Date: {today_date}
     
     **Technical Data:**
