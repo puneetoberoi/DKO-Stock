@@ -2319,11 +2319,13 @@ class IntelligentPredictionEngine:
         
         # The learning_context variable is now correctly included here
         context = f"""{learning_context}
-    You are a stock analyst. Your goal is to improve prediction accuracy above 90%. Analyze the following data for {ticker}.
+    You are a stock analyst. Your goal is to improve prediction accuracy above 90% and improvise based on market data and public sentiment. Analyze the following data for {ticker}.
     
     **Technical Data:**
-    - RSI (14 day): {existing_analysis.get('rsi', 'N/A'):.2f}
+    - RSI (23 day): {existing_analysis.get('rsi', 'N/A'):.2f}
     - Volume: {existing_analysis.get('volume_ratio', 1.0):.1f}x average
+    - Daily Change: {existing_analysis.get('daily_change', 0):.2f}%
+    - Weekly Change: {existing_analysis.get('weekly_change', 0):.2f}%
     - Bollinger Squeeze: {'Yes' if existing_analysis.get('bollinger_squeeze') else 'No'}
     
     **Candlestick Patterns Detected:**
@@ -2331,12 +2333,24 @@ class IntelligentPredictionEngine:
     
     **Market Context:**
     - Overall Macro Score: {market_context.get('overall_macro_score', 0):.0f}/30
+    **IMPORTANT:** If any past learnings above mention {ticker} or similar setups, you MUST adjust your prediction accordingly.
     
     Based on all this information, especially the critical learnings from your past mistakes, provide a one-week forecast.
     Respond with ONLY the following format:
     ACTION: [BUY/SELL/HOLD]
     CONFIDENCE: [0-100]
-    REASON: [Your concise, one-sentence reasoning.]"""
+    REASON: [Your concise, one-sentence reasoning.]"""Respond EXACTLY in this format:
+    ACTION: [BUY/SELL/HOLD]
+    CONFIDENCE: [0-100]
+    REASON: [One sentence explaining your reasoning]
+    
+    **Confidence Guidelines:**
+    - 80-100: Perfect setup (all signals aligned, strong pattern, volume confirms) - RARE
+    - 60-79: Good setup (most signals aligned)
+    - 40-59: Mixed signals (some bullish, some bearish)
+    - 0-39: Conflicting signals or no clear direction
+    
+    Most predictions should be 50-70. Only use 80+ when everything aligns perfectly."""
         
         # 3. Call the LLMs (rest of the function is the same)
         tasks, llm_names = [], []
