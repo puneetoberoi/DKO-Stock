@@ -2291,27 +2291,24 @@ class IntelligentPredictionEngine:
                     data = json.load(f)
                     insights = data.get('insights', [])
                     if insights:
+                        # Filter for ticker-specific insights first
+                        ticker_insights = [i for i in insights if ticker in i]
+                        general_insights = [i for i in insights if ticker not in i]
+                        
+                        # Prioritize ticker-specific, then fill with general (max 5 total)
+                        selected_insights = ticker_insights[:3] + general_insights[:2]
+                        if not selected_insights:
+                            selected_insights = insights[:5]  # Fallback to original behavior
+                        
                         learning_context = "\n🚨 CRITICAL LEARNINGS FROM PAST MISTAKES:\n"
-                        for insight in insights[:5]:  # Use top 5 most recent
+                        for insight in selected_insights:
                             learning_context += f"- {insight}\n"
                         learning_context += "\nApply these learnings to avoid repeating past errors.\n"
-                        logging.info(f"🧠 [{ticker}] ✅ Loaded {len(insights)} learning insights successfully!")
+                        logging.info(f"🧠 [{ticker}] ✅ Loaded {len(selected_insights)} insights ({len(ticker_insights)} ticker-specific)")
                     else:
                         logging.info(f"📝 [{ticker}] Learning file exists but no insights yet.")
             except Exception as e:
                 logging.warning(f"⚠️ [{ticker}] Could not read learning file: {e}")
-        else:
-            # Fallback to AutonomousLearner method
-            try:
-                from modules.autonomous_learner import AutonomousLearner
-                learner = AutonomousLearner()
-                learning_context = learner.get_learning_prompt()
-                if learning_context:
-                    logging.info(f"🧠 [{ticker}] Loaded past learnings via AutonomousLearner.")
-                else:
-                    logging.info(f"📝 [{ticker}] No past learnings found yet.")
-            except Exception as e:
-                logging.info(f"📝 [{ticker}] No learning insights available yet (this is normal for first run).")
         # ========== END OF UPDATED SECTION ==========
     
         # 2. Build the prompt
