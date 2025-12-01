@@ -2313,10 +2313,13 @@ class IntelligentPredictionEngine:
     
         # 2. Build the prompt
         pattern_text = "\n".join([f"- {p['name']} ({p['type']}, {pattern_success_rates.get(p['name'], 50):.0f}% success)" for p in candle_patterns[:3]]) if candle_patterns else "No clear patterns."
+        today_date = datetime.now().strftime('%A, %B %d, %Y')
         
         # The learning_context variable is now correctly included here
         context = f"""{learning_context}
     You are a stock analyst. Your goal is to improve prediction accuracy above 90% and improvise based on market data and public sentiment. Analyze the following data for {ticker}.
+    **📅 Date Context:**
+     - Analysis Date: {today_date}
     
     **Technical Data:**
     - RSI (23 day): {existing_analysis.get('rsi', 'N/A'):.2f}
