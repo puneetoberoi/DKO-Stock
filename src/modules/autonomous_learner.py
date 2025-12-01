@@ -87,9 +87,9 @@ class AutonomousLearner:
                 price_change_pct = ((current_price - entry_price) / entry_price) * 100
                 
                 # Aggressive 1% threshold for success
-                if action == 'BUY': success = price_change_pct > 1.0
-                elif action == 'SELL': success = price_change_pct < -1.0
-                else: success = abs(price_change_pct) <= 1.0
+                if action == 'BUY': success = price_change_pct > 0.5
+                elif action == 'SELL': success = price_change_pct < -0.5
+                else: success = abs(price_change_pct) <= 0.5
                 
                 cursor.execute("""
                     INSERT INTO outcomes (prediction_id, check_date, actual_price, actual_move_pct, success)
