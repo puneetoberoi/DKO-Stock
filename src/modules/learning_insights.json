@@ -1,10 +1,11 @@
 {
   "insights": [
+    "On TSLA, a SELL call was wrong (stock went up 5.3%). Re-evaluate bearish signals like bearish_engulfing when RSI is around 50.",
+    "On TSLA, a HOLD call missed a 3.9% move. Be more decisive with patterns like double_bottom, even with neutral RSI (52).",
+    "On MSFT, a BUY call was wrong (stock went down -1.8%). bullish_engulfing might be a false signal when RSI is 45.",
+    "On AMD, a BUY call was wrong (stock went down -1.7%). three_white_soldiers might be a false signal when RSI is 47.",
+    "On CGL-C.TO, a BUY call was wrong (stock went down -1.3%). hammer might be a false signal when RSI is 65.",
     "On AMD, a BUY call was wrong (stock went down -1.8%). three_white_soldiers might be a false signal when RSI is 47.",
-    "On CGL-C.TO, a BUY call was wrong (stock went down -1.2%). hammer might be a false signal when RSI is 64.",
-    "On SVR-C.TO, a HOLD call missed a 4.8% move. Be more decisive with patterns like bullish_marubozu, even with neutral RSI (70).",
-    "On AMD, a HOLD call missed a 7.4% move. Be more decisive with patterns like spinning_top, even with neutral RSI (38).",
-    "On NVDA, a SELL call was wrong (stock went up 1.3%). Re-evaluate bearish signals like double_top when RSI is around 41.",
-    "On SVR-C.TO, a SELL call was wrong (stock went up 5.9%). Re-evaluate bearish signals like bearish_marubozu when RSI is around 63."
+    "On CGL-C.TO, a BUY call was wrong (stock went down -1.2%). hammer might be a false signal when RSI is 64."
   ]
 }
