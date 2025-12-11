@@ -1,10 +1,11 @@
 {
   "insights": [
+    "On TSM, a BUY call was wrong (stock went down -1.0%). three_white_soldiers might be a false signal when RSI is 65.",
+    "On NVDA, a BUY call was wrong (stock went down -1.6%). swing_highs_lows might be a false signal when RSI is 53.",
+    "On TSLA, a BUY call was wrong (stock went down -4.2%). inverted_hammer might be a false signal when RSI is 61.",
     "On TSLA, a SELL call was wrong (stock went up 2.4%). Re-evaluate bearish signals like evening_star when RSI is around 53.",
     "On GOOGL, a SELL call was wrong (stock went up 1.7%). Re-evaluate bearish signals like double_top when RSI is around 60.",
     "On NVDA, a SELL call was wrong (stock went up 1.2%). Re-evaluate bearish signals like dark_cloud_cover when RSI is around 47.",
-    "On GOOGL, a SELL call was wrong (stock went up 1.1%). Re-evaluate bearish signals like dark_cloud_cover when RSI is around 68.",
-    "On NVDA, a BUY call was wrong (stock went down -1.6%). swing_highs_lows might be a false signal when RSI is 53.",
-    "On TSLA, a BUY call was wrong (stock went down -4.2%). inverted_hammer might be a false signal when RSI is 61."
+    "On GOOGL, a SELL call was wrong (stock went up 1.1%). Re-evaluate bearish signals like dark_cloud_cover when RSI is around 68."
   ]
 }
