@@ -1,5 +1,7 @@
 {
   "insights": [
+    "On TSLA, a SELL call was wrong (stock went up 2.6%). Re-evaluate bearish signals like cup_and_handle when RSI is around 62.",
+    "On GOOGL, a SELL call was wrong (stock went up 1.3%). Re-evaluate bearish signals like morning_star when RSI is around 52.",
     "On AMD, a SELL call was wrong (stock went up 5.3%). Re-evaluate bearish signals like spinning_top when RSI is around 40.",
     "On NTAP, a SELL call was wrong (stock went up 2.1%). Re-evaluate bearish signals like three_black_crows when RSI is around 41.",
     "On TSM, a SELL call was wrong (stock went up 3.3%). Re-evaluate bearish signals like three_black_crows when RSI is around 39.",
@@ -7,8 +9,6 @@
     "On MSFT, a SELL call was wrong (stock went up 1.6%). Re-evaluate bearish signals like double_top when RSI is around 42.",
     "On AMZN, a SELL call was wrong (stock went up 1.2%). Re-evaluate bearish signals like double_top when RSI is around 43.",
     "On GOOGL, a SELL call was wrong (stock went up 1.1%). Re-evaluate bearish signals like bearish_engulfing when RSI is around 47.",
-    "On MSFT, a SELL call was wrong (stock went up 1.2%). Re-evaluate bearish signals like double_top when RSI is around 39.",
-    "On TSLA, a BUY call was wrong (stock went down -1.1%). cup_and_handle might be a false signal when RSI is 64.",
-    "On TSLA, a BUY call was wrong (stock went down -2.0%). three_white_soldiers might be a false signal when RSI is 66."
+    "On MSFT, a SELL call was wrong (stock went up 1.2%). Re-evaluate bearish signals like double_top when RSI is around 39."
   ]
 }
