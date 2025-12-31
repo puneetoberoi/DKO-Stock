@@ -5968,5 +5968,155 @@
     "price_at_prediction": 108.94000244140625,
     "outcome": null,
     "was_correct": null
+  },
+  "687462b0": {
+    "id": "687462b0",
+    "timestamp": "2025-12-31T18:16:27.160178",
+    "ticker": "AAPL",
+    "action": "HOLD",
+    "confidence": 100,
+    "reasoning": "groq: The presence of indecision candlestick patterns like doji and long_legged_doji, combined with a neutral RSI and low volume, suggests a lack of clear direction in AAPL's price movement.",
+    "candle_pattern": "doji",
+    "indicators": {
+      "rsi": 48.44619554924228
+    },
+    "price_at_prediction": 273.07000732421875,
+    "outcome": null,
+    "was_correct": null
+  },
+  "dcadc8d7": {
+    "id": "dcadc8d7",
+    "timestamp": "2025-12-31T18:16:27.963774",
+    "ticker": "MSFT",
+    "action": "SELL",
+    "confidence": 100,
+    "reasoning": "groq: The presence of multiple bearish reversal candlestick patterns, including a double_top with 100% success, combined with a negative Overall Macro Score, outweighs the neutral RSI and low volume, suggesting a short-term downward trend for MSFT.",
+    "candle_pattern": "bearish_engulfing",
+    "indicators": {
+      "rsi": 48.339207659080714
+    },
+    "price_at_prediction": 485.80499267578125,
+    "outcome": null,
+    "was_correct": null
+  },
+  "86e48d58": {
+    "id": "86e48d58",
+    "timestamp": "2025-12-31T18:16:28.893196",
+    "ticker": "NVDA",
+    "action": "HOLD",
+    "confidence": 100,
+    "reasoning": "groq: The mixed technical indicators, including a moderate RSI and low volume, combined with indecisive candlestick patterns and a negative overall macro score, suggest a neutral stance for NVDA in the short term.",
+    "candle_pattern": "spinning_top",
+    "indicators": {
+      "rsi": 56.27617409606276
+    },
+    "price_at_prediction": 188.85000610351562,
+    "outcome": null,
+    "was_correct": null
+  },
+  "89c08576": {
+    "id": "89c08576",
+    "timestamp": "2025-12-31T18:16:29.456365",
+    "ticker": "TSLA",
+    "action": "SELL",
+    "confidence": 95,
+    "reasoning": "groq: The overall macro score is negative, weekly change is significantly down, and the detected candlestick pattern has a relatively low success rate, suggesting a cautious bearish stance.",
+    "candle_pattern": "swing_highs_lows",
+    "indicators": {
+      "rsi": 48.65517892616247
+    },
+    "price_at_prediction": 454.66009521484375,
+    "outcome": null,
+    "was_correct": null
+  },
+  "ca938873": {
+    "id": "ca938873",
+    "timestamp": "2025-12-31T18:16:29.964397",
+    "ticker": "GOOGL",
+    "action": "HOLD",
+    "confidence": 100,
+    "reasoning": "groq: The mixed technical indicators, low volume, and indecisive candlestick patterns, combined with a weak macro score, suggest a neutral stance for the short term.",
+    "candle_pattern": "spinning_top",
+    "indicators": {
+      "rsi": 57.67137946654467
+    },
+    "price_at_prediction": 313.5799865722656,
+    "outcome": null,
+    "was_correct": null
+  },
+  "6bf25fce": {
+    "id": "6bf25fce",
+    "timestamp": "2025-12-31T18:16:30.814165",
+    "ticker": "TSM",
+    "action": "HOLD",
+    "confidence": 80,
+    "reasoning": "groq: The stock's moderate RSI and slight daily and weekly gains suggest a stable position, but the low volume and negative macro score indicate a lack of clear direction, leading to a cautious hold stance. | cohere: Mixed signals with moderate RSI, low volume, and no clear candlestick patterns, coupled with a weak macro environment, suggest a cautious approach.",
+    "candle_pattern": null,
+    "indicators": {
+      "rsi": 60.31024237536751
+    },
+    "price_at_prediction": 305.8599853515625,
+    "outcome": null,
+    "was_correct": null
+  },
+  "a41cbbee": {
+    "id": "a41cbbee",
+    "timestamp": "2025-12-31T18:16:32.269829",
+    "ticker": "AMD",
+    "action": "HOLD",
+    "confidence": 100,
+    "reasoning": "groq: The presence of mixed candlestick patterns, including a spinning top indicating indecision and a tweezer bottom suggesting a potential bullish reversal, combined with a neutral RSI and low volume, leads to a cautious outlook. | cohere: Mixed signals with RSI near neutral, low volume, and conflicting candlestick patterns (spinning top indicating indecision, tweezer bottom suggesting potential reversal, but downtrend confirmed by swing highs/lows) in a weak macro environment.",
+    "candle_pattern": "spinning_top",
+    "indicators": {
+      "rsi": 50.04749083031515
+    },
+    "price_at_prediction": 216.47999572753906,
+    "outcome": null,
+    "was_correct": null
+  },
+  "929eb88d": {
+    "id": "929eb88d",
+    "timestamp": "2025-12-31T18:16:33.162200",
+    "ticker": "TD.TO",
+    "action": "SELL",
+    "confidence": 85,
+    "reasoning": "groq: The presence of a tweezer_top bearish reversal pattern with 100% success rate, combined with a high RSI and low volume, suggests a potential downturn for TD.TO.",
+    "candle_pattern": "spinning_top",
+    "indicators": {
+      "rsi": 80.46672667727856
+    },
+    "price_at_prediction": 129.63499450683594,
+    "outcome": null,
+    "was_correct": null
+  },
+  "89863ed3": {
+    "id": "89863ed3",
+    "timestamp": "2025-12-31T18:16:33.662853",
+    "ticker": "AMZN",
+    "action": "SELL",
+    "confidence": 100,
+    "reasoning": "groq: The presence of multiple bearish reversal candlestick patterns, including a tweezer top with 100% success, and a negative overall macro score, outweigh the neutral RSI and low volume, suggesting a short-term downward trend for AMZN.",
+    "candle_pattern": "dark_cloud_cover",
+    "indicators": {
+      "rsi": 53.361580427327425
+    },
+    "price_at_prediction": 231.55499267578125,
+    "outcome": null,
+    "was_correct": null
+  },
+  "58761872": {
+    "id": "58761872",
+    "timestamp": "2025-12-31T18:16:34.184554",
+    "ticker": "NTAP",
+    "action": "SELL",
+    "confidence": 80,
+    "reasoning": "groq: The bearish continuation signal from the three_black_crows pattern, combined with a low RSI and negative overall macro score, suggests a short-term downward trend for NTAP.",
+    "candle_pattern": "three_black_crows",
+    "indicators": {
+      "rsi": 36.72928137179926
+    },
+    "price_at_prediction": 107.625,
+    "outcome": null,
+    "was_correct": null
   }
 }
