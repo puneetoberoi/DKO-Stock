@@ -1,7 +1,8 @@
 {
   "insights": [
+    "On TSM, a SELL call was wrong (stock went up 1.6%). Re-evaluate bearish signals like spinning_top when RSI is around 57.",
+    "On TSM, a SELL call was wrong (stock went up 1.4%). Re-evaluate bearish signals like swing_highs_lows when RSI is around 56.",
     "On NVDA, a BUY call was wrong (stock went down -2.2%). double_bottom might be a false signal when RSI is 59.",
-    "On TSM, a BUY call was wrong (stock went down -1.2%). three_white_soldiers might be a false signal when RSI is 59.",
-    "On TSM, a SELL call was wrong (stock went up 1.4%). Re-evaluate bearish signals like swing_highs_lows when RSI is around 56."
+    "On TSM, a BUY call was wrong (stock went down -1.2%). three_white_soldiers might be a false signal when RSI is 59."
   ]
 }
