@@ -6268,5 +6268,155 @@
     "price_at_prediction": 107.08999633789062,
     "outcome": null,
     "was_correct": null
+  },
+  "249bbcff": {
+    "id": "249bbcff",
+    "timestamp": "2026-01-02T18:16:25.450768",
+    "ticker": "AAPL",
+    "action": "SELL",
+    "confidence": 90,
+    "reasoning": "groq: The presence of a double_top bearish reversal pattern with 100% success rate, combined with a negative Overall Macro Score and low RSI, outweighs the bullish inverted_hammer signal, leading to a sell forecast.",
+    "candle_pattern": "inverted_hammer",
+    "indicators": {
+      "rsi": 41.971026436685406
+    },
+    "price_at_prediction": 270.0600891113281,
+    "outcome": null,
+    "was_correct": null
+  },
+  "4c81ea8a": {
+    "id": "4c81ea8a",
+    "timestamp": "2026-01-02T18:16:26.078467",
+    "ticker": "MSFT",
+    "action": "SELL",
+    "confidence": 100,
+    "reasoning": "groq: The presence of multiple bearish candlestick patterns, low RSI, and a negative overall macro score suggest a downward trend, aligning with historical learnings on similar setups for MSFT.",
+    "candle_pattern": "bearish_marubozu",
+    "indicators": {
+      "rsi": 36.81646043885371
+    },
+    "price_at_prediction": 472.114990234375,
+    "outcome": null,
+    "was_correct": null
+  },
+  "bbee8559": {
+    "id": "bbee8559",
+    "timestamp": "2026-01-02T18:16:27.131459",
+    "ticker": "NVDA",
+    "action": "BUY",
+    "confidence": 90,
+    "reasoning": "groq: The presence of a cup_and_handle pattern with a 50% success rate and an uptrend indication from swing_highs_lows, combined with a relatively neutral RSI, suggests a mildly bullish outlook for NVDA over the next week. | cohere: Mixed signals with a spinning top indicating indecision, but the presence of a cup and handle pattern suggests potential bullish continuation, though volume is below average and macro conditions are weak.",
+    "candle_pattern": "spinning_top",
+    "indicators": {
+      "rsi": 56.613638917629466
+    },
+    "price_at_prediction": 189.3300018310547,
+    "outcome": null,
+    "was_correct": null
+  },
+  "1e5ae32c": {
+    "id": "1e5ae32c",
+    "timestamp": "2026-01-02T18:16:27.814204",
+    "ticker": "TSLA",
+    "action": "SELL",
+    "confidence": 100,
+    "reasoning": "groq: The presence of a bearish three_black_crows candlestick pattern, combined with a low RSI and negative weekly change, outweighs the weak uptrend signal from swing_highs_lows, suggesting a short-term downward trend for TSLA.",
+    "candle_pattern": "three_black_crows",
+    "indicators": {
+      "rsi": 42.94796554587156
+    },
+    "price_at_prediction": 439.6925048828125,
+    "outcome": null,
+    "was_correct": null
+  },
+  "8f8eb712": {
+    "id": "8f8eb712",
+    "timestamp": "2026-01-02T18:16:28.359166",
+    "ticker": "GOOGL",
+    "action": "HOLD",
+    "confidence": 100,
+    "reasoning": "groq: The mixed technical indicators, including a neutral RSI and low volume, combined with indecisive candlestick patterns and a negative overall macro score, suggest a lack of clear direction for GOOGL in the short term.",
+    "candle_pattern": "spinning_top",
+    "indicators": {
+      "rsi": 57.5994854593606
+    },
+    "price_at_prediction": 313.75,
+    "outcome": null,
+    "was_correct": null
+  },
+  "51f41942": {
+    "id": "51f41942",
+    "timestamp": "2026-01-02T18:16:28.835732",
+    "ticker": "TSM",
+    "action": "HOLD",
+    "confidence": 90,
+    "reasoning": "groq: The stock shows a bullish reversal candlestick pattern, but the low volume and mixed technical indicators, combined with a negative overall macro score, suggest a cautious approach.",
+    "candle_pattern": "morning_star",
+    "indicators": {
+      "rsi": 67.74163283374187
+    },
+    "price_at_prediction": 318.8399963378906,
+    "outcome": null,
+    "was_correct": null
+  },
+  "cd6b071f": {
+    "id": "cd6b071f",
+    "timestamp": "2026-01-02T18:16:29.765606",
+    "ticker": "AMD",
+    "action": "BUY",
+    "confidence": 85,
+    "reasoning": "groq: The presence of multiple bullish reversal candlestick patterns, specifically the inverted hammer with 100% success, outweighs the bearish signals, suggesting a potential upward trend for AMD despite mixed market context. | cohere: Bullish candlestick patterns (inverted hammer with 100% success) and positive daily/weekly changes outweigh the mixed macro score and neutral RSI, supported by historical learnings favoring similar setups.",
+    "candle_pattern": "inverted_hammer",
+    "indicators": {
+      "rsi": 54.13010080670268
+    },
+    "price_at_prediction": 220.74000549316406,
+    "outcome": null,
+    "was_correct": null
+  },
+  "0d9926c2": {
+    "id": "0d9926c2",
+    "timestamp": "2026-01-02T18:16:30.346103",
+    "ticker": "TD.TO",
+    "action": "HOLD",
+    "confidence": 85,
+    "reasoning": "groq: The stock's high RSI and low volume suggest a potential pullback, but the presence of both uptrend and consolidation candlestick patterns, along with a lack of strong macro score, leads to a neutral outlook.",
+    "candle_pattern": "swing_highs_lows",
+    "indicators": {
+      "rsi": 75.79123322954753
+    },
+    "price_at_prediction": 129.05999755859375,
+    "outcome": null,
+    "was_correct": null
+  },
+  "c946c4fd": {
+    "id": "c946c4fd",
+    "timestamp": "2026-01-02T18:16:30.885466",
+    "ticker": "AMZN",
+    "action": "SELL",
+    "confidence": 100,
+    "reasoning": "groq: The presence of bearish reversal candlestick patterns, such as three_outside_down and double_top, combined with a negative overall macro score and low RSI, suggests a short-term downward trend for AMZN.",
+    "candle_pattern": "three_outside_down",
+    "indicators": {
+      "rsi": 43.99009108693944
+    },
+    "price_at_prediction": 225.97000122070312,
+    "outcome": null,
+    "was_correct": null
+  },
+  "002f7737": {
+    "id": "002f7737",
+    "timestamp": "2026-01-02T18:16:31.419096",
+    "ticker": "NTAP",
+    "action": "SELL",
+    "confidence": 100,
+    "reasoning": "groq: The presence of a bearish continuation pattern (three_black_crows) with a 67% success rate, combined with a low RSI and negative market context, suggests a short-term downward trend for NTAP.",
+    "candle_pattern": "three_black_crows",
+    "indicators": {
+      "rsi": 32.86575027764276
+    },
+    "price_at_prediction": 105.69000244140625,
+    "outcome": null,
+    "was_correct": null
   }
 }
