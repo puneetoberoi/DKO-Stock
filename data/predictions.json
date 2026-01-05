@@ -6418,5 +6418,155 @@
     "price_at_prediction": 105.69000244140625,
     "outcome": null,
     "was_correct": null
+  },
+  "6b511059": {
+    "id": "6b511059",
+    "timestamp": "2026-01-05T18:18:42.156762",
+    "ticker": "AAPL",
+    "action": "SELL",
+    "confidence": 95,
+    "reasoning": "groq: The presence of bearish continuation and reversal patterns, such as three_black_crows and double_top, combined with a low RSI and negative market context, suggests a short-term downward trend for AAPL.",
+    "candle_pattern": "three_black_crows",
+    "indicators": {
+      "rsi": 37.00271860857977
+    },
+    "price_at_prediction": 267.3800048828125,
+    "outcome": null,
+    "was_correct": null
+  },
+  "cd700044": {
+    "id": "cd700044",
+    "timestamp": "2026-01-05T18:18:43.493200",
+    "ticker": "MSFT",
+    "action": "SELL",
+    "confidence": 100,
+    "reasoning": "groq: The presence of a double_top bearish reversal pattern with 100% success, combined with a weak overall macro score and mixed candlestick patterns, suggests a short-term downward trend for MSFT. | cohere: Bearish signals from double_top pattern (100% success), low RSI (38.62), negative weekly change (-2.69%), and weak macro score (-19/30) outweigh the mixed candlestick patterns.",
+    "candle_pattern": "doji",
+    "indicators": {
+      "rsi": 38.61907033882737
+    },
+    "price_at_prediction": 473.9985046386719,
+    "outcome": null,
+    "was_correct": null
+  },
+  "a0b7e352": {
+    "id": "a0b7e352",
+    "timestamp": "2026-01-05T18:18:44.116700",
+    "ticker": "NVDA",
+    "action": "HOLD",
+    "confidence": 95,
+    "reasoning": "groq: The presence of a bullish continuation pattern (cup_and_handle) is countered by low volume and a slightly bearish overall macro score, leading to a neutral outlook.",
+    "candle_pattern": "cup_and_handle",
+    "indicators": {
+      "rsi": 53.52282759473898
+    },
+    "price_at_prediction": 187.0800018310547,
+    "outcome": null,
+    "was_correct": null
+  },
+  "89d5b8aa": {
+    "id": "89d5b8aa",
+    "timestamp": "2026-01-05T18:18:44.743575",
+    "ticker": "TSLA",
+    "action": "SELL",
+    "confidence": 85,
+    "reasoning": "groq: The combination of a downtrend swing highs and lows candlestick pattern, low volume, and a negative overall macro score outweighs the mildly positive daily change, leading to a cautious bearish outlook.",
+    "candle_pattern": "swing_highs_lows",
+    "indicators": {
+      "rsi": 49.26104913963539
+    },
+    "price_at_prediction": 454.0780029296875,
+    "outcome": null,
+    "was_correct": null
+  },
+  "2928a391": {
+    "id": "2928a391",
+    "timestamp": "2026-01-05T18:18:45.328561",
+    "ticker": "GOOGL",
+    "action": "HOLD",
+    "confidence": 95,
+    "reasoning": "groq: The mixed technical indicators, including a moderate RSI and low volume, combined with indecisive candlestick patterns and a negative macro score, suggest a neutral stance for the short term.",
+    "candle_pattern": "spinning_top",
+    "indicators": {
+      "rsi": 60.32792867789531
+    },
+    "price_at_prediction": 316.460205078125,
+    "outcome": null,
+    "was_correct": null
+  },
+  "dc621f2d": {
+    "id": "dc621f2d",
+    "timestamp": "2026-01-05T18:18:45.878655",
+    "ticker": "TSM",
+    "action": "SELL",
+    "confidence": 65,
+    "reasoning": "groq: The high RSI value of 70.37 indicates overbought conditions, combined with a lack of clear candlestick patterns and a negative overall macro score, suggesting a potential correction.",
+    "candle_pattern": null,
+    "indicators": {
+      "rsi": 70.36810169268189
+    },
+    "price_at_prediction": 324.57501220703125,
+    "outcome": null,
+    "was_correct": null
+  },
+  "82dc5b85": {
+    "id": "82dc5b85",
+    "timestamp": "2026-01-05T18:18:46.591154",
+    "ticker": "AMD",
+    "action": "SELL",
+    "confidence": 90,
+    "reasoning": "groq: The presence of bearish reversal candlestick patterns, low volume, and a negative overall macro score outweigh the slightly bullish weekly change, leading to a cautious sell forecast.",
+    "candle_pattern": "dark_cloud_cover",
+    "indicators": {
+      "rsi": 53.44401457238459
+    },
+    "price_at_prediction": 220.7100067138672,
+    "outcome": null,
+    "was_correct": null
+  },
+  "467af670": {
+    "id": "467af670",
+    "timestamp": "2026-01-05T18:18:47.199304",
+    "ticker": "TD.TO",
+    "action": "HOLD",
+    "confidence": 75,
+    "reasoning": "groq: The stock's high RSI and low volume suggest overbought conditions, but the presence of bullish reversal and uptrend candlestick patterns, along with a neutral Bollinger Squeeze, creates a mixed signal scenario.",
+    "candle_pattern": "morning_star",
+    "indicators": {
+      "rsi": 83.42755437563694
+    },
+    "price_at_prediction": 132.0800018310547,
+    "outcome": null,
+    "was_correct": null
+  },
+  "b00c4d66": {
+    "id": "b00c4d66",
+    "timestamp": "2026-01-05T18:18:48.259671",
+    "ticker": "AMZN",
+    "action": "HOLD",
+    "confidence": 100,
+    "reasoning": "groq: The mixed technical indicators, including a moderate RSI and low volume, combined with the presence of both bullish and consolidation candlestick patterns, suggest a neutral short-term outlook for AMZN. | cohere: Mixed signals with moderate RSI, low volume, and conflicting candlestick patterns (double bottom vs. consolidation) in a weak macro environment.",
+    "candle_pattern": "double_bottom",
+    "indicators": {
+      "rsi": 54.27287602246732
+    },
+    "price_at_prediction": 232.47999572753906,
+    "outcome": null,
+    "was_correct": null
+  },
+  "caddd140": {
+    "id": "caddd140",
+    "timestamp": "2026-01-05T18:18:48.902096",
+    "ticker": "NTAP",
+    "action": "SELL",
+    "confidence": 95,
+    "reasoning": "groq: The presence of a bearish continuation pattern (three_black_crows) with a 67% success rate, combined with a low RSI and negative overall macro score, suggests a short-term downward trend for NTAP.",
+    "candle_pattern": "three_black_crows",
+    "indicators": {
+      "rsi": 32.305135243193135
+    },
+    "price_at_prediction": 104.9800033569336,
+    "outcome": null,
+    "was_correct": null
   }
 }
