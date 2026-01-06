@@ -6568,5 +6568,155 @@
     "price_at_prediction": 104.9800033569336,
     "outcome": null,
     "was_correct": null
+  },
+  "289dfdaf": {
+    "id": "289dfdaf",
+    "timestamp": "2026-01-06T18:17:00.149953",
+    "ticker": "AAPL",
+    "action": "SELL",
+    "confidence": 100,
+    "reasoning": "groq: The presence of bearish continuation and reversal patterns, such as three_black_crows and double_top, combined with a low RSI and negative market context, suggests a short-term downward trend for AAPL. | cohere: Bearish candlestick patterns (three black crows, double top) combined with low RSI and negative weekly change suggest a downward trend, reinforced by weak market macro conditions.",
+    "candle_pattern": "three_black_crows",
+    "indicators": {
+      "rsi": 30.738673400215987
+    },
+    "price_at_prediction": 263.1000061035156,
+    "outcome": null,
+    "was_correct": null
+  },
+  "89a481d2": {
+    "id": "89a481d2",
+    "timestamp": "2026-01-06T18:17:01.502394",
+    "ticker": "MSFT",
+    "action": "SELL",
+    "confidence": 65,
+    "reasoning": "groq: The presence of a double_top bearish reversal pattern with 100% success rate, combined with a negative Overall Macro Score, outweighs the bullish indicators, leading to a cautious sell forecast. | cohere: Mixed signals with a bearish double top (100% success) and bullish hammer/tweezer bottom patterns, low RSI (39.94), and below-average volume, alongside a negative macro score (-14/30), create uncertainty for a clear directional move.",
+    "candle_pattern": "hammer",
+    "indicators": {
+      "rsi": 39.94040493012542
+    },
+    "price_at_prediction": 474.9486083984375,
+    "outcome": null,
+    "was_correct": null
+  },
+  "8c24285c": {
+    "id": "8c24285c",
+    "timestamp": "2026-01-06T18:17:02.643055",
+    "ticker": "NVDA",
+    "action": "SELL",
+    "confidence": 100,
+    "reasoning": "groq: The detection of a double_top bearish reversal pattern with 100% success rate, combined with a low overall macro score and mixed technical indicators, suggests a potential downturn for NVDA. | cohere: Bearish double-top pattern with 100% historical success, low volume, and negative macro score outweigh the mixed candlestick signals.",
+    "candle_pattern": "double_top",
+    "indicators": {
+      "rsi": 55.438613659536195
+    },
+    "price_at_prediction": 188.42999267578125,
+    "outcome": null,
+    "was_correct": null
+  },
+  "25895fd5": {
+    "id": "25895fd5",
+    "timestamp": "2026-01-06T18:17:03.733948",
+    "ticker": "TSLA",
+    "action": "SELL",
+    "confidence": 95,
+    "reasoning": "groq: The combination of a downtrend candlestick pattern, low RSI, and negative market context suggests a bearish outlook for TSLA in the short term. | cohere: Technical indicators show a downtrend (RSI below 50, negative daily/weekly changes, swing highs/lows pattern with low success rate) and weak market context, suggesting further decline in the short term.",
+    "candle_pattern": "swing_highs_lows",
+    "indicators": {
+      "rsi": 41.03526841612492
+    },
+    "price_at_prediction": 429.70001220703125,
+    "outcome": null,
+    "was_correct": null
+  },
+  "38b9a4dc": {
+    "id": "38b9a4dc",
+    "timestamp": "2026-01-06T18:17:05.020930",
+    "ticker": "GOOGL",
+    "action": "HOLD",
+    "confidence": 95,
+    "reasoning": "groq: The mixed technical indicators, neutral candlestick patterns, and negative overall macro score suggest a lack of clear direction, leading to a cautious hold position for GOOGL. | cohere: Mixed technical signals (RSI neutral, low volume, slight negative changes) and consolidation patterns (darvas_box, swing_highs_lows) suggest sideways movement, while bearish macro context (-14/30) limits upside potential.",
+    "candle_pattern": "vcp",
+    "indicators": {
+      "rsi": 55.84064011637037
+    },
+    "price_at_prediction": 313.3399963378906,
+    "outcome": null,
+    "was_correct": null
+  },
+  "730c1b4f": {
+    "id": "730c1b4f",
+    "timestamp": "2026-01-06T18:17:05.968516",
+    "ticker": "TSM",
+    "action": "SELL",
+    "confidence": 50,
+    "reasoning": "groq: The high RSI value of 71.52 indicates overbought conditions, combined with a lack of clear candlestick patterns and a negative overall macro score, suggesting a potential correction. | cohere: RSI indicates overbought conditions (71.52), but strong weekly gains (9.16%) and moderate volume suggest continued momentum, though macro context is bearish (-14/30), creating mixed signals.",
+    "candle_pattern": null,
+    "indicators": {
+      "rsi": 71.51571463816575
+    },
+    "price_at_prediction": 327.0299987792969,
+    "outcome": null,
+    "was_correct": null
+  },
+  "ecc6d05b": {
+    "id": "ecc6d05b",
+    "timestamp": "2026-01-06T18:17:13.452619",
+    "ticker": "AMD",
+    "action": "HOLD",
+    "confidence": 100,
+    "reasoning": "groq: The presence of a bullish continuation pattern (cup_and_handle) is offset by the low RSI, decreased volume, and negative daily and weekly changes, resulting in a neutral outlook. | cohere: Mixed signals with a slightly bearish macro environment, low volume, and consolidating patterns suggest caution, but the cup_and_handle pattern indicates potential bullish continuation if confirmed by higher volume.",
+    "candle_pattern": "cup_and_handle",
+    "indicators": {
+      "rsi": 46.69580738455497
+    },
+    "price_at_prediction": 213.1697998046875,
+    "outcome": null,
+    "was_correct": null
+  },
+  "468bc63a": {
+    "id": "468bc63a",
+    "timestamp": "2026-01-06T18:17:14.502600",
+    "ticker": "TD.TO",
+    "action": "SELL",
+    "confidence": 70,
+    "reasoning": "groq: The high RSI value of 81.56 indicates overbought conditions, combined with a low overall macro score and mixed candlestick patterns, suggesting a potential reversal. | cohere: Overbought RSI (81.56) and mixed candlestick patterns (uptrend with 25% success, consolidation with 50% success) suggest caution despite moderate weekly gains, while the negative macro score (-14/30) adds uncertainty.",
+    "candle_pattern": "swing_highs_lows",
+    "indicators": {
+      "rsi": 81.55857237913581
+    },
+    "price_at_prediction": 131.99000549316406,
+    "outcome": null,
+    "was_correct": null
+  },
+  "02e73033": {
+    "id": "02e73033",
+    "timestamp": "2026-01-06T18:17:15.447536",
+    "ticker": "AMZN",
+    "action": "BUY",
+    "confidence": 100,
+    "reasoning": "groq: The bullish double bottom reversal pattern and uptrend indication from swing highs and lows, combined with a moderate RSI value, suggest a potential upward movement, despite mixed market context and low volume. | cohere: Bullish technical indicators (RSI below overbought, positive daily/weekly changes, double bottom pattern) and moderate volume support a short-term uptrend despite weak macro conditions.",
+    "candle_pattern": "double_bottom",
+    "indicators": {
+      "rsi": 64.29253765786925
+    },
+    "price_at_prediction": 241.77499389648438,
+    "outcome": null,
+    "was_correct": null
+  },
+  "b3a3d358": {
+    "id": "b3a3d358",
+    "timestamp": "2026-01-06T18:17:16.383520",
+    "ticker": "NTAP",
+    "action": "BUY",
+    "confidence": 75,
+    "reasoning": "groq: The presence of a bullish reversal hammer pattern, combined with a relatively low RSI and low volume, suggests a potential buying opportunity, despite mixed market context and technical signals. | cohere: Mixed signals with a slightly bearish macro context, low RSI indicating potential oversold conditions, and a hammer pattern suggesting possible reversal, but volume and weekly decline temper optimism.",
+    "candle_pattern": "hammer",
+    "indicators": {
+      "rsi": 37.82134290608706
+    },
+    "price_at_prediction": 106.43000030517578,
+    "outcome": null,
+    "was_correct": null
   }
 }
