@@ -1,14 +1,14 @@
 {
   "insights": [
+    "On AAPL, a SELL call was wrong (stock went up 3.0%). Re-evaluate bearish signals like spinning_top when RSI is around 22.",
+    "On NTAP, a SELL call was wrong (stock went up 2.0%). Re-evaluate bearish signals like swing_highs_lows when RSI is around 34.",
+    "On GOOGL, a SELL call was wrong (stock went up 1.9%). Re-evaluate bearish signals like vcp when RSI is around 58.",
     "On MSFT, a SELL call was wrong (stock went up 4.0%). Re-evaluate bearish signals like double_top when RSI is around 34.",
     "On TSLA, a SELL call was wrong (stock went up 5.2%). Re-evaluate bearish signals like double_top when RSI is around 41.",
     "On MSFT, a SELL call was wrong (stock went up 2.5%). Re-evaluate bearish signals like evening_star when RSI is around 25.",
     "On NVDA, a SELL call was wrong (stock went up 2.4%). Re-evaluate bearish signals like inverted_hammer when RSI is around 44.",
     "On AAPL, a SELL call was wrong (stock went up 2.0%). Re-evaluate bearish signals like three_black_crows when RSI is around 17.",
     "On TD.TO, a SELL call was wrong (stock went up 1.0%). Re-evaluate bearish signals like piercing_line when RSI is around 60.",
-    "On AMZN, a HOLD call missed a 3.3% move. Be more decisive with patterns like swing_highs_lows, even with neutral RSI (41).",
-    "On AMZN, a HOLD call missed a -4.0% move. Be more decisive with patterns like doji, even with neutral RSI (55).",
-    "On NTAP, a HOLD call missed a -5.3% move. Be more decisive with patterns like doji, even with neutral RSI (52).",
-    "On AMD, a BUY call was wrong (stock went down -2.7%). three_white_soldiers might be a false signal when RSI is 65."
+    "On AMD, a BUY call was wrong (stock went down -2.4%). inverted_hammer might be a false signal when RSI is 75."
   ]
 }
