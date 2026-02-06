@@ -1,14 +1,14 @@
 {
   "insights": [
-    "On AMZN, a HOLD call missed a -4.6% move. Be more decisive with patterns like swing_highs_lows, even with neutral RSI (45).",
-    "On NVDA, a HOLD call missed a -7.4% move. Be more decisive with patterns like doji, even with neutral RSI (58).",
-    "On NVDA, a HOLD call missed a -6.7% move. Be more decisive with patterns like swing_highs_lows, even with neutral RSI (55).",
-    "On AAPL, a HOLD call missed a 5.8% move. Be more decisive with patterns like spinning_top, even with neutral RSI (43).",
-    "On MSFT, a HOLD call missed a -11.5% move. Be more decisive with patterns like swing_highs_lows, even with neutral RSI (54).",
-    "On TSLA, a HOLD call missed a -3.4% move. Be more decisive with patterns like tweezer_bottom, even with neutral RSI (46).",
+    "On AMD, a SELL call was wrong (stock went up 7.2%). Re-evaluate bearish signals like three_black_crows when RSI is around 33.",
+    "On NVDA, a SELL call was wrong (stock went up 5.9%). Re-evaluate bearish signals like spinning_top when RSI is around 36.",
+    "On NTAP, a SELL call was wrong (stock went up 4.4%). Re-evaluate bearish signals like bearish_harami when RSI is around 43.",
+    "On AAPL, a SELL call was wrong (stock went up 1.1%). Re-evaluate bearish signals like dark_cloud_cover when RSI is around 64.",
     "On TSM, a SELL call was wrong (stock went up 2.2%). Re-evaluate bearish signals like double_top when RSI is around 48.",
     "On MSFT, a SELL call was wrong (stock went up 1.6%). Re-evaluate bearish signals like three_black_crows when RSI is around 27.",
     "On TD.TO, a SELL call was wrong (stock went up 2.1%). Re-evaluate bearish signals like double_top when RSI is around 46.",
-    "On TSLA, a SELL call was wrong (stock went up 2.8%). Re-evaluate bearish signals like double_top when RSI is around 41."
+    "On TSLA, a SELL call was wrong (stock went up 2.8%). Re-evaluate bearish signals like double_top when RSI is around 41.",
+    "On MSFT, a SELL call was wrong (stock went up 1.7%). Re-evaluate bearish signals like evening_star when RSI is around 31.",
+    "On AMZN, a HOLD call missed a -4.6% move. Be more decisive with patterns like swing_highs_lows, even with neutral RSI (45)."
   ]
 }
