@@ -4,7 +4,6 @@
     "On NVDA, a SELL call was wrong (stock went up 2.0%). Re-evaluate bearish signals like three_black_crows when RSI is around 47.",
     "On AMZN, a SELL call was wrong (stock went up 1.2%). Re-evaluate bearish signals like three_black_crows when RSI is around 23.",
     "On NTAP, a SELL call was wrong (stock went up 4.9%). Re-evaluate bearish signals like evening_star when RSI is around 42.",
-    "On GOOGL, a BUY call was wrong (stock went down -1.7%). spinning_top might be a false signal when RSI is 38.",
-    "On AAPL, a BUY call was wrong (stock went down -6.0%). morning_star might be a false signal when RSI is 67."
+    "On GOOGL, a BUY call was wrong (stock went down -1.7%). spinning_top might be a false signal when RSI is 38."
   ]
 }
