@@ -1,9 +1,11 @@
 {
   "insights": [
+    "On GOOGL, a HOLD call missed a 3.7% move. Be more decisive with patterns like three_white_soldiers, even with neutral RSI (32).",
+    "On TSM, a SELL call was wrong (stock went up 3.7%). Re-evaluate bearish signals like spinning_top when RSI is around 60.",
+    "On AMZN, a SELL call was wrong (stock went up 2.8%). Re-evaluate bearish signals like spinning_top when RSI is around 32.",
+    "On NVDA, a SELL call was wrong (stock went up 1.5%). Re-evaluate bearish signals like double_top when RSI is around 51.",
     "On AAPL, a SELL call was wrong (stock went up 3.9%). Re-evaluate bearish signals like three_outside_down when RSI is around 40.",
     "On NVDA, a SELL call was wrong (stock went up 2.0%). Re-evaluate bearish signals like three_black_crows when RSI is around 47.",
-    "On AMZN, a SELL call was wrong (stock went up 1.2%). Re-evaluate bearish signals like three_black_crows when RSI is around 23.",
-    "On NTAP, a SELL call was wrong (stock went up 4.9%). Re-evaluate bearish signals like evening_star when RSI is around 42.",
-    "On GOOGL, a BUY call was wrong (stock went down -1.7%). spinning_top might be a false signal when RSI is 38."
+    "On AMZN, a SELL call was wrong (stock went up 1.2%). Re-evaluate bearish signals like three_black_crows when RSI is around 23."
   ]
 }
