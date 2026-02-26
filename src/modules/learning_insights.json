@@ -1,14 +1,14 @@
 {
   "insights": [
+    "On NVDA, a BUY call was wrong (stock went down -5.9%). three_white_soldiers might be a false signal when RSI is 62.",
+    "On TSM, a BUY call was wrong (stock went down -3.5%). hammer might be a false signal when RSI is 72.",
+    "On TSLA, a BUY call was wrong (stock went down -1.8%). three_outside_up might be a false signal when RSI is 47.",
     "On AMD, a BUY call was wrong (stock went down -1.6%). double_bottom might be a false signal when RSI is 50.",
     "On AMZN, a BUY call was wrong (stock went down -2.3%). three_white_soldiers might be a false signal when RSI is 38.",
     "On NTAP, a BUY call was wrong (stock went down -1.8%). inverted_hammer might be a false signal when RSI is 50.",
     "On AMD, a SELL call was wrong (stock went up 9.5%). Re-evaluate bearish signals like evening_star when RSI is around 37.",
     "On TSLA, a SELL call was wrong (stock went up 3.2%). Re-evaluate bearish signals like cup_and_handle when RSI is around 36.",
     "On AMZN, a SELL call was wrong (stock went up 2.3%). Re-evaluate bearish signals like swing_highs_lows when RSI is around 35.",
-    "On TSM, a SELL call was wrong (stock went up 3.7%). Re-evaluate bearish signals like spinning_top when RSI is around 60.",
-    "On AMZN, a SELL call was wrong (stock went up 2.8%). Re-evaluate bearish signals like spinning_top when RSI is around 32.",
-    "On NVDA, a SELL call was wrong (stock went up 1.5%). Re-evaluate bearish signals like double_top when RSI is around 51.",
     "On TSM, a HOLD call missed a 4.6% move. Be more decisive with patterns like double_bottom, even with neutral RSI (65)."
   ]
 }
