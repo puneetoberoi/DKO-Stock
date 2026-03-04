@@ -12718,5 +12718,155 @@
     "price_at_prediction": 98.66000366210938,
     "outcome": null,
     "was_correct": null
+  },
+  "aa737462": {
+    "id": "aa737462",
+    "timestamp": "2026-03-04T18:32:29.993455",
+    "ticker": "AAPL",
+    "action": "HOLD",
+    "confidence": 90,
+    "reasoning": "groq: The mixed technical indicators, including a neutral RSI and low volume, combined with indecisive candlestick patterns and a negative macro score, suggest a lack of clear direction for AAPL in the short term. | cohere: Mixed signals with indecision (spinning tops), low volume, and a negative macro score, but no clear bearish trend confirmed yet.",
+    "candle_pattern": "spinning_top",
+    "indicators": {
+      "rsi": 47.634411031619756
+    },
+    "price_at_prediction": 264.1000061035156,
+    "outcome": null,
+    "was_correct": null
+  },
+  "caf23cbc": {
+    "id": "caf23cbc",
+    "timestamp": "2026-03-04T18:32:31.787046",
+    "ticker": "MSFT",
+    "action": "BUY",
+    "confidence": 100,
+    "reasoning": "groq: The presence of bullish continuation patterns like three_white_soldiers, along with an uptrend indicated by swing_highs_lows, suggests a positive outlook for MSFT despite mixed market context and moderate technical indicators. | cohere: Bullish candlestick patterns (three_white_soldiers) and uptrend signals (swing_highs_lows) with moderate RSI and volume support a short-term upward move despite a weak macro environment.",
+    "candle_pattern": "three_white_soldiers",
+    "indicators": {
+      "rsi": 48.30099913136243
+    },
+    "price_at_prediction": 410.5201110839844,
+    "outcome": null,
+    "was_correct": null
+  },
+  "7e73b430": {
+    "id": "7e73b430",
+    "timestamp": "2026-03-04T18:32:34.223899",
+    "ticker": "NVDA",
+    "action": "HOLD",
+    "confidence": 95,
+    "reasoning": "groq: The mixed signals from technical data, including a neutral RSI and low volume, combined with conflicting candlestick patterns and a negative macro score, suggest a cautious approach with no clear direction for NVDA in the next week. | cohere: Mixed signals with a slightly bearish macro context, low volume, and conflicting candlestick patterns (bullish cup_and_handle vs. bearish swing_highs_lows) suggest caution until clearer direction emerges.",
+    "candle_pattern": "cup_and_handle",
+    "indicators": {
+      "rsi": 47.7345281293553
+    },
+    "price_at_prediction": 183.46499633789062,
+    "outcome": null,
+    "was_correct": null
+  },
+  "f1789877": {
+    "id": "f1789877",
+    "timestamp": "2026-03-04T18:32:37.382137",
+    "ticker": "TSLA",
+    "action": "HOLD",
+    "confidence": 70,
+    "reasoning": "groq: The mixed technical indicators, including a neutral RSI and low volume, combined with a mildly bearish market context and a candlestick pattern with moderate success rate, suggest a cautious approach with no clear direction. | cohere: Mixed signals with RSI indicating neutral territory, low volume, and a Bollinger Squeeze absence, while the overall macro score is bearish and candlestick patterns suggest consolidation with low success probability.",
+    "candle_pattern": "swing_highs_lows",
+    "indicators": {
+      "rsi": 44.583517313637834
+    },
+    "price_at_prediction": 404.75,
+    "outcome": null,
+    "was_correct": null
+  },
+  "f3902ea3": {
+    "id": "f3902ea3",
+    "timestamp": "2026-03-04T18:32:38.871256",
+    "ticker": "GOOGL",
+    "action": "HOLD",
+    "confidence": 70,
+    "reasoning": "groq: The low RSI and spinning top candlestick pattern suggest potential for a bounce, but the low volume and negative macro score indicate a lack of clear direction, leading to a cautious hold stance. | cohere: Mixed signals with low RSI (39.04), indecisive spinning top patterns, and below-average volume, balanced by a minor daily gain and no Bollinger Squeeze, suggesting sideways movement in the near term.",
+    "candle_pattern": "spinning_top",
+    "indicators": {
+      "rsi": 39.035395310565264
+    },
+    "price_at_prediction": 303.7950134277344,
+    "outcome": null,
+    "was_correct": null
+  },
+  "258e23de": {
+    "id": "258e23de",
+    "timestamp": "2026-03-04T18:32:40.261661",
+    "ticker": "TSM",
+    "action": "SELL",
+    "confidence": 100,
+    "reasoning": "groq: The bearish double_top reversal pattern with 100% success rate, combined with a negative overall macro score and low volume, suggests a potential downturn for TSM. | cohere: Bearish double top pattern with 100% historical success, negative weekly change, and weak macro score outweigh the neutral RSI and volume, suggesting a higher probability of downward movement.",
+    "candle_pattern": "double_top",
+    "indicators": {
+      "rsi": 51.556888504685226
+    },
+    "price_at_prediction": 359.5799865722656,
+    "outcome": null,
+    "was_correct": null
+  },
+  "ba940e68": {
+    "id": "ba940e68",
+    "timestamp": "2026-03-04T18:32:42.159736",
+    "ticker": "AMD",
+    "action": "SELL",
+    "confidence": 70,
+    "reasoning": "groq: The downtrend indicated by the swing_highs_lows candlestick pattern, combined with a negative Overall Macro Score and low RSI, suggests a bearish outlook for AMD in the short term. | cohere: Mixed signals with a slightly bearish macro context, low volume, and a downtrend pattern, but recent daily gain suggests caution rather than immediate selling.",
+    "candle_pattern": "swing_highs_lows",
+    "indicators": {
+      "rsi": 44.98773775879114
+    },
+    "price_at_prediction": 201.66000366210938,
+    "outcome": null,
+    "was_correct": null
+  },
+  "0df5fefd": {
+    "id": "0df5fefd",
+    "timestamp": "2026-03-04T18:32:43.682117",
+    "ticker": "TD.TO",
+    "action": "HOLD",
+    "confidence": 95,
+    "reasoning": "groq: The mixed technical indicators, including a neutral RSI and low volume, combined with the presence of both bullish and consolidation candlestick patterns, suggest a lack of clear direction for TD.TO in the short term. | cohere: Mixed signals with a slightly bullish RSI, low volume, and conflicting candlestick patterns (double bottom vs. consolidation) in a weak macro environment.",
+    "candle_pattern": "double_bottom",
+    "indicators": {
+      "rsi": 59.866180186131515
+    },
+    "price_at_prediction": 134.72999572753906,
+    "outcome": null,
+    "was_correct": null
+  },
+  "986ababe": {
+    "id": "986ababe",
+    "timestamp": "2026-03-04T18:32:46.175901",
+    "ticker": "AMZN",
+    "action": "BUY",
+    "confidence": 95,
+    "reasoning": "groq: The presence of a bullish continuation pattern (three_white_soldiers) and a relatively neutral RSI, combined with the stock's recent daily and weekly gains, suggest a potential upward trend, despite mixed market context and moderate confidence. | cohere: Bullish candlestick patterns (three white soldiers) and positive weekly/daily changes suggest upward momentum, despite neutral RSI and low volume.",
+    "candle_pattern": "three_white_soldiers",
+    "indicators": {
+      "rsi": 50.86059253191063
+    },
+    "price_at_prediction": 215.98500061035156,
+    "outcome": null,
+    "was_correct": null
+  },
+  "d56d2807": {
+    "id": "d56d2807",
+    "timestamp": "2026-03-04T18:32:47.317674",
+    "ticker": "NTAP",
+    "action": "SELL",
+    "confidence": 70,
+    "reasoning": "groq: The downtrend indicated by the swing_highs_lows candlestick pattern, combined with a low RSI and negative Overall Macro Score, suggests a bearish outlook for NTAP in the short term. | cohere: Mixed signals with neutral RSI, low volume, and a weak downtrend pattern, balanced by modest positive daily/weekly changes and no Bollinger Squeeze.",
+    "candle_pattern": "swing_highs_lows",
+    "indicators": {
+      "rsi": 48.560827330751806
+    },
+    "price_at_prediction": 100.56999969482422,
+    "outcome": null,
+    "was_correct": null
   }
 }
