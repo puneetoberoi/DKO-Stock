@@ -5,7 +5,6 @@
     "On NTAP, a SELL call was wrong (stock went up 1.6%). Re-evaluate bearish signals like swing_highs_lows when RSI is around 44.",
     "On TSM, a SELL call was wrong (stock went up 1.4%). Re-evaluate bearish signals like double_top when RSI is around 48.",
     "On NTAP, a SELL call was wrong (stock went up 2.5%). Re-evaluate bearish signals like doji when RSI is around 43.",
-    "On NVDA, a SELL call was wrong (stock went up 2.1%). Re-evaluate bearish signals like swing_highs_lows when RSI is around 42.",
     "On AMZN, a HOLD call missed a 4.2% move. Be more decisive with patterns like double_bottom, even with neutral RSI (41).",
     "On TSM, a HOLD call missed a -4.3% move. Be more decisive with patterns like double_bottom, even with neutral RSI (59).",
     "On NVDA, a BUY call was wrong (stock went down -1.2%). bullish_engulfing might be a false signal when RSI is 46."
