@@ -1,5 +1,7 @@
 {
   "insights": [
+    "On TSLA, a HOLD call missed a -3.8% move. Be more decisive with patterns like spinning_top, even with neutral RSI (44).",
+    "On NTAP, a HOLD call missed a 3.3% move. Be more decisive with patterns like double_bottom, even with neutral RSI (47).",
     "On MSFT, a BUY call was wrong (stock went down -1.9%). inverted_hammer might be a false signal when RSI is 42.",
     "On AAPL, a BUY call was wrong (stock went down -1.9%). three_inside_up might be a false signal when RSI is 40.",
     "On TD.TO, a BUY call was wrong (stock went down -1.8%). inverted_hammer might be a false signal when RSI is 52.",
@@ -7,8 +9,6 @@
     "On AMZN, a SELL call was wrong (stock went up 1.6%). Re-evaluate bearish signals like swing_highs_lows when RSI is around 47.",
     "On AMZN, a SELL call was wrong (stock went up 2.0%). Re-evaluate bearish signals like three_black_crows when RSI is around 41.",
     "On AMD, a SELL call was wrong (stock went up 1.7%). Re-evaluate bearish signals like three_black_crows when RSI is around 42.",
-    "On TD.TO, a SELL call was wrong (stock went up 1.6%). Re-evaluate bearish signals like inverted_hammer when RSI is around 41.",
-    "On NVDA, a SELL call was wrong (stock went up 1.6%). Re-evaluate bearish signals like evening_star when RSI is around 45.",
-    "On NTAP, a SELL call was wrong (stock went up 1.0%). Re-evaluate bearish signals like doji when RSI is around 42."
+    "On TD.TO, a SELL call was wrong (stock went up 1.6%). Re-evaluate bearish signals like inverted_hammer when RSI is around 41."
   ]
 }
