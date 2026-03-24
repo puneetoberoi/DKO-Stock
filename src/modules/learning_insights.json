@@ -1,5 +1,6 @@
 {
   "insights": [
+    "On TSM, a SELL call was wrong (stock went up 1.1%). Re-evaluate bearish signals like double_top when RSI is around 46.",
     "On TSM, a SELL call was wrong (stock went up 3.6%). Re-evaluate bearish signals like double_top when RSI is around 39.",
     "On TSLA, a SELL call was wrong (stock went up 3.3%). Re-evaluate bearish signals like three_black_crows when RSI is around 32.",
     "On AMZN, a SELL call was wrong (stock went up 2.5%). Re-evaluate bearish signals like double_top when RSI is around 41.",
@@ -8,7 +9,6 @@
     "On AAPL, a SELL call was wrong (stock went up 1.9%). Re-evaluate bearish signals like three_black_crows when RSI is around 35.",
     "On NVDA, a SELL call was wrong (stock went up 1.5%). Re-evaluate bearish signals like double_top when RSI is around 39.",
     "On GOOGL, a SELL call was wrong (stock went up 1.2%). Re-evaluate bearish signals like bearish_marubozu when RSI is around 40.",
-    "On AMZN, a SELL call was wrong (stock went up 1.6%). Re-evaluate bearish signals like swing_highs_lows when RSI is around 47.",
     "On TSLA, a HOLD call missed a -4.1% move. Be more decisive with patterns like swing_highs_lows, even with neutral RSI (37)."
   ]
 }
