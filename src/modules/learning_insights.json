@@ -1,14 +1,14 @@
 {
   "insights": [
+    "On AAPL, a BUY call was wrong (stock went down -2.2%). bullish_engulfing might be a false signal when RSI is 45.",
     "On AMD, a BUY call was wrong (stock went down -7.5%). swing_highs_lows might be a false signal when RSI is 61.",
     "On TSLA, a BUY call was wrong (stock went down -3.6%). inverted_hammer might be a false signal when RSI is 44.",
     "On NTAP, a BUY call was wrong (stock went down -1.2%). three_outside_up might be a false signal when RSI is 60.",
-    "On NTAP, a BUY call was wrong (stock went down -2.7%). bullish_engulfing might be a false signal when RSI is 56.",
-    "On AMD, a BUY call was wrong (stock went down -1.7%). three_outside_up might be a false signal when RSI is 49.",
     "On TSM, a HOLD call missed a -6.1% move. Be more decisive with patterns like three_white_soldiers, even with neutral RSI (51).",
     "On NVDA, a HOLD call missed a -4.0% move. Be more decisive with patterns like morning_star, even with neutral RSI (47).",
     "On TSLA, a HOLD call missed a -4.1% move. Be more decisive with patterns like swing_highs_lows, even with neutral RSI (37).",
     "On AMZN, a SELL call was wrong (stock went up 1.7%). Re-evaluate bearish signals like doji when RSI is around 45.",
-    "On NVDA, a SELL call was wrong (stock went up 1.5%). Re-evaluate bearish signals like swing_highs_lows when RSI is around 42."
+    "On NVDA, a SELL call was wrong (stock went up 1.5%). Re-evaluate bearish signals like swing_highs_lows when RSI is around 42.",
+    "On TSM, a SELL call was wrong (stock went up 1.1%). Re-evaluate bearish signals like double_top when RSI is around 46."
   ]
 }
