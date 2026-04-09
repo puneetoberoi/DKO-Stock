@@ -1,14 +1,14 @@
 {
   "insights": [
+    "On TSLA, a SELL call was wrong (stock went up 1.7%). Re-evaluate bearish signals like bearish_engulfing when RSI is around 33.",
+    "On AAPL, a SELL call was wrong (stock went up 2.9%). Re-evaluate bearish signals like swing_highs_lows when RSI is around 44.",
+    "On NTAP, a SELL call was wrong (stock went up 2.1%). Re-evaluate bearish signals like three_inside_down when RSI is around 42.",
+    "On GOOGL, a SELL call was wrong (stock went up 1.5%). Re-evaluate bearish signals like swing_highs_lows when RSI is around 48.",
     "On TSM, a HOLD call missed a 7.3% move. Be more decisive with patterns like doji, even with neutral RSI (49).",
     "On AMD, a HOLD call missed a 6.2% move. Be more decisive with patterns like doji, even with neutral RSI (58).",
     "On GOOGL, a HOLD call missed a 4.7% move. Be more decisive with patterns like doji, even with neutral RSI (53).",
     "On AMZN, a HOLD call missed a 4.2% move. Be more decisive with patterns like spinning_top, even with neutral RSI (52).",
     "On NVDA, a HOLD call missed a 3.6% move. Be more decisive with patterns like doji, even with neutral RSI (47).",
-    "On NTAP, a HOLD call missed a -3.7% move. Be more decisive with patterns like darvas_box, even with neutral RSI (50).",
-    "On AAPL, a SELL call was wrong (stock went up 2.9%). Re-evaluate bearish signals like swing_highs_lows when RSI is around 44.",
-    "On NTAP, a SELL call was wrong (stock went up 2.1%). Re-evaluate bearish signals like three_inside_down when RSI is around 42.",
-    "On GOOGL, a SELL call was wrong (stock went up 1.5%). Re-evaluate bearish signals like swing_highs_lows when RSI is around 48.",
-    "On NTAP, a BUY call was wrong (stock went down -2.0%). bullish_engulfing might be a false signal when RSI is 55."
+    "On NTAP, a HOLD call missed a -3.7% move. Be more decisive with patterns like darvas_box, even with neutral RSI (50)."
   ]
 }
