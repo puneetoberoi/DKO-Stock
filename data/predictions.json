@@ -17068,5 +17068,155 @@
     "price_at_prediction": 97.69499969482422,
     "outcome": null,
     "was_correct": null
+  },
+  "f70dfd54": {
+    "id": "f70dfd54",
+    "timestamp": "2026-04-14T18:56:37.866079",
+    "ticker": "AAPL",
+    "action": "BUY",
+    "confidence": 65,
+    "reasoning": "groq: The presence of a bullish reversal inverted hammer candlestick pattern with a 64% success rate, combined with a relatively neutral RSI and low volume, suggests a potential buying opportunity, despite mixed market context and other less reliable bearish signals. | cohere: Mixed signals from candlestick patterns (inverted hammer vs. shooting star) and low volume, with no Bollinger Squeeze, suggest a wait-and-see approach despite a neutral RSI.",
+    "candle_pattern": "inverted_hammer",
+    "indicators": {
+      "rsi": 51.93918568129127
+    },
+    "price_at_prediction": 258.0950012207031,
+    "outcome": null,
+    "was_correct": null
+  },
+  "78997065": {
+    "id": "78997065",
+    "timestamp": "2026-04-14T18:56:40.747512",
+    "ticker": "MSFT",
+    "action": "BUY",
+    "confidence": 100,
+    "reasoning": "groq: The presence of a double bottom bullish reversal pattern, uptrend indication from swing highs and lows, and a relatively neutral RSI value collectively suggest a positive outlook for MSFT, despite mixed market context. | cohere: Bullish double bottom pattern with 38% success rate, uptrend confirmed by swing highs/lows, and RSI at 56.51 (not overbought), supported by above-average volume and positive weekly/daily changes, despite weak macro score.",
+    "candle_pattern": "double_bottom",
+    "indicators": {
+      "rsi": 56.50586616142005
+    },
+    "price_at_prediction": 391.125,
+    "outcome": null,
+    "was_correct": null
+  },
+  "dd067137": {
+    "id": "dd067137",
+    "timestamp": "2026-04-14T18:56:43.299645",
+    "ticker": "NVDA",
+    "action": "BUY",
+    "confidence": 100,
+    "reasoning": "groq: The bullish continuation pattern indicated by three_white_soldiers and the uptrend suggested by swing_highs_lows, combined with the moderate RSI and recent price increases, support a positive one-week forecast for NVDA. | cohere: Bullish candlestick patterns (three white soldiers, swing highs/lows), positive weekly and daily price changes, and RSI below overbought territory suggest continued upward momentum despite low volume and weak macro conditions.",
+    "candle_pattern": "three_white_soldiers",
+    "indicators": {
+      "rsi": 66.81195559372932
+    },
+    "price_at_prediction": 194.7899932861328,
+    "outcome": null,
+    "was_correct": null
+  },
+  "e9b69fe8": {
+    "id": "e9b69fe8",
+    "timestamp": "2026-04-14T18:56:44.939772",
+    "ticker": "TSLA",
+    "action": "BUY",
+    "confidence": 80,
+    "reasoning": "groq: The presence of a bullish continuation pattern (three_white_soldiers) and a moderate RSI value, combined with a recent uptrend (6.06% weekly change), suggest a potential for short-term growth, despite mixed market context and technical signals. | cohere: Mixed signals with a slightly bullish RSI, moderate volume, and conflicting candlestick patterns (bullish continuation vs. downtrend) in a weak macro environment.",
+    "candle_pattern": "three_white_soldiers",
+    "indicators": {
+      "rsi": 45.801507967846796
+    },
+    "price_at_prediction": 364.0400085449219,
+    "outcome": null,
+    "was_correct": null
+  },
+  "d655d3f6": {
+    "id": "d655d3f6",
+    "timestamp": "2026-04-14T18:56:53.177708",
+    "ticker": "GOOGL",
+    "action": "BUY",
+    "confidence": 100,
+    "reasoning": "groq: The presence of bullish reversal and continuation patterns, combined with an uptrend indication, outweighs the moderate RSI and low volume, suggesting a potential short-term upside for GOOGL. | cohere: Bullish candlestick patterns (three_outside_up, cup_and_handle) combined with an uptrend (swing_highs_lows) and RSI below overbought territory (69.09) suggest continued upward momentum despite low volume.",
+    "candle_pattern": "three_outside_up",
+    "indicators": {
+      "rsi": 69.09420577266306
+    },
+    "price_at_prediction": 331.6650085449219,
+    "outcome": null,
+    "was_correct": null
+  },
+  "230053b9": {
+    "id": "230053b9",
+    "timestamp": "2026-04-14T18:56:55.112481",
+    "ticker": "TSM",
+    "action": "BUY",
+    "confidence": 100,
+    "reasoning": "groq: The presence of a cup_and_handle bullish continuation pattern, along with an uptrend indicated by swing_highs_lows, outweighs the indecision from the spinning_top pattern, suggesting a potential upward movement in TSM's price. | cohere: Bullish candlestick patterns (cup_and_handle, swing_highs_lows) and positive technical indicators (RSI 66.26, daily/weekly gains) suggest upward momentum, despite low macro score and average volume.",
+    "candle_pattern": "cup_and_handle",
+    "indicators": {
+      "rsi": 66.26470194932627
+    },
+    "price_at_prediction": 380.6000061035156,
+    "outcome": null,
+    "was_correct": null
+  },
+  "51074c6c": {
+    "id": "51074c6c",
+    "timestamp": "2026-04-14T18:56:57.531121",
+    "ticker": "AMD",
+    "action": "BUY",
+    "confidence": 55,
+    "reasoning": "groq: The bullish continuation pattern indicated by three_white_soldiers and the uptrend suggested by swing_highs_lows, combined with a relatively high RSI, support a positive one-week forecast for AMD despite mixed market context. | cohere: While the three_white_soldiers pattern and uptrend suggest bullish momentum, the high RSI (73.45) indicates overbought conditions, and low volume (0.4x average) raises concerns about sustainability, especially with a poor macro score (-26/30).",
+    "candle_pattern": "three_white_soldiers",
+    "indicators": {
+      "rsi": 73.44849708340435
+    },
+    "price_at_prediction": 254.1199951171875,
+    "outcome": null,
+    "was_correct": null
+  },
+  "17460297": {
+    "id": "17460297",
+    "timestamp": "2026-04-14T18:56:59.460612",
+    "ticker": "TD.TO",
+    "action": "BUY",
+    "confidence": 95,
+    "reasoning": "groq: The presence of a bullish continuation pattern (three_white_soldiers) with an 83% success rate, combined with a moderate weekly change, outweighs the bearish double_bottom pattern's 0% success rate, suggesting a potential upward trend for TD.TO. | cohere: Bullish candlestick patterns (three white soldiers with 83% success) and positive weekly price momentum (3.93%) outweigh the mixed macro score and neutral volume, suggesting a short-term upward trend.",
+    "candle_pattern": "three_white_soldiers",
+    "indicators": {
+      "rsi": 74.53694161760075
+    },
+    "price_at_prediction": 141.49000549316406,
+    "outcome": null,
+    "was_correct": null
+  },
+  "552e153b": {
+    "id": "552e153b",
+    "timestamp": "2026-04-14T18:57:01.978683",
+    "ticker": "AMZN",
+    "action": "BUY",
+    "confidence": 90,
+    "reasoning": "groq: The presence of a bullish continuation pattern (three_white_soldiers) and an uptrend indication (swing_highs_lows), combined with a high RSI and increased volume, suggest a positive short-term outlook for AMZN despite a somewhat negative macro score. | cohere: Bullish candlestick patterns (three_white_soldiers, swing_highs_lows), high RSI (76.29), and above-average volume (1.2x) indicate strong upward momentum despite a weak macro environment.",
+    "candle_pattern": "three_white_soldiers",
+    "indicators": {
+      "rsi": 76.29291707474184
+    },
+    "price_at_prediction": 248.83999633789062,
+    "outcome": null,
+    "was_correct": null
+  },
+  "b852dd56": {
+    "id": "b852dd56",
+    "timestamp": "2026-04-14T18:57:05.752416",
+    "ticker": "NTAP",
+    "action": "SELL",
+    "confidence": 100,
+    "reasoning": "groq: The presence of multiple bearish reversal candlestick patterns, including a double_top and tweezer_top with high success rates, combined with a weak overall macro score, suggests a downward trend for NTAP. | cohere: Bearish reversal patterns (double top and tweezer top with 100% success rates), low RSI, and negative macro score outweigh the indecision from the doji pattern.",
+    "candle_pattern": "doji",
+    "indicators": {
+      "rsi": 46.47155917809089
+    },
+    "price_at_prediction": 98.43000030517578,
+    "outcome": null,
+    "was_correct": null
   }
 }
