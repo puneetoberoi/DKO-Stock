@@ -1,14 +1,14 @@
 {
   "insights": [
+    "On TSLA, a BUY call was wrong (stock went down -3.7%). doji might be a false signal when RSI is 54.",
+    "On MSFT, a BUY call was wrong (stock went down -3.7%). cup_and_handle might be a false signal when RSI is 73.",
+    "On AAPL, a BUY call was wrong (stock went down -2.5%). double_bottom might be a false signal when RSI is 67.",
+    "On GOOGL, a BUY call was wrong (stock went down -1.9%). cup_and_handle might be a false signal when RSI is 69.",
+    "On GOOGL, a BUY call was wrong (stock went down -1.2%). cup_and_handle might be a false signal when RSI is 73.",
+    "On MSFT, a BUY call was wrong (stock went down -1.1%). inverted_hammer might be a false signal when RSI is 72.",
+    "On AMD, a SELL call was wrong (stock went up 1.0%). Re-evaluate bearish signals like swing_highs_lows when RSI is around 83.",
     "On AMD, a SELL call was wrong (stock went up 7.1%). Re-evaluate bearish signals like swing_highs_lows when RSI is around 79.",
     "On TSM, a SELL call was wrong (stock went up 5.3%). Re-evaluate bearish signals like doji when RSI is around 57.",
-    "On TSLA, a SELL call was wrong (stock went up 3.3%). Re-evaluate bearish signals like tweezer_top when RSI is around 56.",
-    "On AAPL, a SELL call was wrong (stock went up 2.3%). Re-evaluate bearish signals like double_bottom when RSI is around 58.",
-    "On TSM, a SELL call was wrong (stock went up 2.1%). Re-evaluate bearish signals like three_outside_down when RSI is around 55.",
-    "On TD.TO, a SELL call was wrong (stock went up 1.0%). Re-evaluate bearish signals like spinning_top when RSI is around 76.",
-    "On NTAP, a SELL call was wrong (stock went up 3.1%). Re-evaluate bearish signals like three_white_soldiers when RSI is around 51.",
-    "On NTAP, a SELL call was wrong (stock went up 1.9%). Re-evaluate bearish signals like doji when RSI is around 46.",
-    "On AMD, a HOLD call missed a 3.3% move. Be more decisive with patterns like swing_highs_lows, even with neutral RSI (77).",
-    "On AAPL, a BUY call was wrong (stock went down -2.5%). double_bottom might be a false signal when RSI is 67."
+    "On TSLA, a SELL call was wrong (stock went up 3.3%). Re-evaluate bearish signals like tweezer_top when RSI is around 56."
   ]
 }
