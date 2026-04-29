@@ -1,13 +1,12 @@
 {
   "insights": [
+    "On AMD, a SELL call was wrong (stock went up 3.9%). Re-evaluate bearish signals like swing_highs_lows when RSI is around 74.",
+    "On TSM, a SELL call was wrong (stock went up 5.7%). Re-evaluate bearish signals like tweezer_top when RSI is around 60.",
+    "On AMD, a SELL call was wrong (stock went up 1.0%). Re-evaluate bearish signals like swing_highs_lows when RSI is around 83.",
     "On NVDA, a BUY call was wrong (stock went down -1.1%). cup_and_handle might be a false signal when RSI is 76.",
     "On AMD, a BUY call was wrong (stock went down -3.6%). three_white_soldiers might be a false signal when RSI is 89.",
     "On TSLA, a BUY call was wrong (stock went down -3.7%). doji might be a false signal when RSI is 54.",
     "On MSFT, a BUY call was wrong (stock went down -3.7%). cup_and_handle might be a false signal when RSI is 73.",
-    "On TSM, a SELL call was wrong (stock went up 5.7%). Re-evaluate bearish signals like tweezer_top when RSI is around 60.",
-    "On AMD, a SELL call was wrong (stock went up 1.0%). Re-evaluate bearish signals like swing_highs_lows when RSI is around 83.",
-    "On AMD, a SELL call was wrong (stock went up 7.1%). Re-evaluate bearish signals like swing_highs_lows when RSI is around 79.",
-    "On TSM, a SELL call was wrong (stock went up 5.3%). Re-evaluate bearish signals like doji when RSI is around 57.",
     "On NVDA, a HOLD call missed a 4.5% move. Be more decisive with patterns like cup_and_handle, even with neutral RSI (63).",
     "On AMZN, a HOLD call missed a 3.3% move. Be more decisive with patterns like doji, even with neutral RSI (77)."
   ]
