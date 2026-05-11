@@ -1,12 +1,12 @@
 {
   "insights": [
+    "On AMD, a SELL call was wrong (stock went up 2.8%). Re-evaluate bearish signals like swing_highs_lows when RSI is around 80.",
     "On AMD, a SELL call was wrong (stock went up 12.1%). Re-evaluate bearish signals like swing_highs_lows when RSI is around 75.",
     "On GOOGL, a SELL call was wrong (stock went up 1.2%). Re-evaluate bearish signals like dark_cloud_cover when RSI is around 81.",
     "On NTAP, a SELL call was wrong (stock went up 1.5%). Re-evaluate bearish signals like swing_highs_lows when RSI is around 61.",
     "On TSLA, a SELL call was wrong (stock went up 1.9%). Re-evaluate bearish signals like dark_cloud_cover when RSI is around 56.",
     "On AMD, a SELL call was wrong (stock went up 3.5%). Re-evaluate bearish signals like tweezer_top when RSI is around 71.",
     "On NTAP, a SELL call was wrong (stock went up 2.8%). Re-evaluate bearish signals like dark_cloud_cover when RSI is around 64.",
-    "On GOOGL, a SELL call was wrong (stock went up 1.4%). Re-evaluate bearish signals like tweezer_top when RSI is around 80.",
     "On TSLA, a HOLD call missed a 5.8% move. Be more decisive with patterns like spinning_top, even with neutral RSI (62).",
     "On NTAP, a HOLD call missed a 4.2% move. Be more decisive with patterns like spinning_top, even with neutral RSI (64).",
     "On TSM, a HOLD call missed a 5.9% move. Be more decisive with patterns like swing_highs_lows, even with neutral RSI (61)."
