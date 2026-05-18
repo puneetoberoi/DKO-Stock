@@ -1,5 +1,6 @@
 {
   "insights": [
+    "On AAPL, a BUY call was wrong (stock went down -1.0%). bullish_engulfing might be a false signal when RSI is 76.",
     "On NVDA, a BUY call was wrong (stock went down -4.4%). three_white_soldiers might be a false signal when RSI is 77.",
     "On TSM, a BUY call was wrong (stock went down -3.7%). morning_star might be a false signal when RSI is 64.",
     "On AMZN, a BUY call was wrong (stock went down -1.0%). bullish_engulfing might be a false signal when RSI is 67.",
@@ -8,7 +9,6 @@
     "On TD.TO, a SELL call was wrong (stock went up 1.7%). Re-evaluate bearish signals like bearish_engulfing when RSI is around 60.",
     "On MSFT, a SELL call was wrong (stock went up 1.2%). Re-evaluate bearish signals like spinning_top when RSI is around 47.",
     "On TSLA, a SELL call was wrong (stock went up 2.9%). Re-evaluate bearish signals like tweezer_top when RSI is around 67.",
-    "On NTAP, a SELL call was wrong (stock went up 2.6%). Re-evaluate bearish signals like evening_star when RSI is around 64.",
-    "On AMZN, a SELL call was wrong (stock went up 1.9%). Re-evaluate bearish signals like spinning_top when RSI is around 63."
+    "On NTAP, a SELL call was wrong (stock went up 2.6%). Re-evaluate bearish signals like evening_star when RSI is around 64."
   ]
 }
