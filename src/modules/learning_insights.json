@@ -1,13 +1,14 @@
 {
   "insights": [
+    "On NTAP, a SELL call was wrong (stock went up 22.4%). Re-evaluate bearish signals like doji when RSI is around 84.",
     "On AMD, a SELL call was wrong (stock went up 4.4%). Re-evaluate bearish signals like swing_highs_lows when RSI is around 74.",
     "On NTAP, a SELL call was wrong (stock went up 3.2%). Re-evaluate bearish signals like doji when RSI is around 81.",
     "On AMZN, a SELL call was wrong (stock went up 2.4%). Re-evaluate bearish signals like swing_highs_lows when RSI is around 57.",
     "On TSM, a SELL call was wrong (stock went up 1.9%). Re-evaluate bearish signals like vcp when RSI is around 55.",
     "On GOOGL, a SELL call was wrong (stock went up 1.5%). Re-evaluate bearish signals like double_top when RSI is around 57.",
-    "On AMD, a SELL call was wrong (stock went up 4.9%). Re-evaluate bearish signals like hammer when RSI is around 69.",
-    "On MSFT, a HOLD call missed a 3.5% move. Be more decisive with patterns like spinning_top, even with neutral RSI (50).",
-    "On AMD, a HOLD call missed a 7.8% move. Be more decisive with patterns like spinning_top, even with neutral RSI (73).",
+    "On TSM, a BUY call was wrong (stock went down -1.5%). spinning_top might be a false signal when RSI is 64.",
+    "On NVDA, a BUY call was wrong (stock went down -1.5%). bullish_engulfing might be a false signal when RSI is 53.",
+    "On TSLA, a BUY call was wrong (stock went down -1.4%). piercing_line might be a false signal when RSI is 64.",
     "On NTAP, a BUY call was wrong (stock went down -1.4%). morning_star might be a false signal when RSI is 85."
   ]
 }
