@@ -1,14 +1,14 @@
 {
   "insights": [
-    "On AMD, a HOLD call missed a 4.0% move. Be more decisive with patterns like swing_highs_lows, even with neutral RSI (75).",
-    "On MSFT, a HOLD call missed a -3.2% move. Be more decisive with patterns like double_bottom, even with neutral RSI (60).",
-    "On TSLA, a HOLD call missed a -4.6% move. Be more decisive with patterns like swing_highs_lows, even with neutral RSI (60).",
-    "On MSFT, a HOLD call missed a 3.5% move. Be more decisive with patterns like spinning_top, even with neutral RSI (50).",
+    "On GOOGL, a SELL call was wrong (stock went up 3.7%). Re-evaluate bearish signals like three_black_crows when RSI is around 39.",
+    "On TSM, a SELL call was wrong (stock went up 1.9%). Re-evaluate bearish signals like bearish_engulfing when RSI is around 63.",
+    "On AMZN, a SELL call was wrong (stock went up 1.5%). Re-evaluate bearish signals like three_black_crows when RSI is around 39.",
     "On NTAP, a SELL call was wrong (stock went up 3.1%). Re-evaluate bearish signals like dark_cloud_cover when RSI is around 87.",
     "On AAPL, a SELL call was wrong (stock went up 2.9%). Re-evaluate bearish signals like evening_star when RSI is around 67.",
     "On TD.TO, a SELL call was wrong (stock went up 2.2%). Re-evaluate bearish signals like tweezer_top when RSI is around 60.",
     "On TSLA, a SELL call was wrong (stock went up 1.9%). Re-evaluate bearish signals like swing_highs_lows when RSI is around 50.",
     "On NVDA, a SELL call was wrong (stock went up 6.3%). Re-evaluate bearish signals like bearish_engulfing when RSI is around 49.",
-    "On TSM, a SELL call was wrong (stock went up 4.1%). Re-evaluate bearish signals like bearish_engulfing when RSI is around 60."
+    "On TSM, a SELL call was wrong (stock went up 4.1%). Re-evaluate bearish signals like bearish_engulfing when RSI is around 60.",
+    "On NTAP, a SELL call was wrong (stock went up 3.1%). Re-evaluate bearish signals like inverted_hammer when RSI is around 92."
   ]
 }
