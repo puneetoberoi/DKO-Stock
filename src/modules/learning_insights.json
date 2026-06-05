@@ -1,14 +1,14 @@
 {
   "insights": [
+    "On TSM, a BUY call was wrong (stock went down -6.9%). piercing_line might be a false signal when RSI is 66.",
+    "On NVDA, a BUY call was wrong (stock went down -6.4%). piercing_line might be a false signal when RSI is 55.",
+    "On AMD, a BUY call was wrong (stock went down -3.6%). three_white_soldiers might be a false signal when RSI is 78.",
+    "On MSFT, a BUY call was wrong (stock went down -4.2%). double_bottom might be a false signal when RSI is 73.",
+    "On NTAP, a BUY call was wrong (stock went down -2.3%). bullish_engulfing might be a false signal when RSI is 93.",
     "On GOOGL, a SELL call was wrong (stock went up 3.7%). Re-evaluate bearish signals like three_black_crows when RSI is around 39.",
     "On TSM, a SELL call was wrong (stock went up 1.9%). Re-evaluate bearish signals like bearish_engulfing when RSI is around 63.",
     "On AMZN, a SELL call was wrong (stock went up 1.5%). Re-evaluate bearish signals like three_black_crows when RSI is around 39.",
     "On NTAP, a SELL call was wrong (stock went up 3.1%). Re-evaluate bearish signals like dark_cloud_cover when RSI is around 87.",
-    "On AAPL, a SELL call was wrong (stock went up 2.9%). Re-evaluate bearish signals like evening_star when RSI is around 67.",
-    "On TD.TO, a SELL call was wrong (stock went up 2.2%). Re-evaluate bearish signals like tweezer_top when RSI is around 60.",
-    "On TSLA, a SELL call was wrong (stock went up 1.9%). Re-evaluate bearish signals like swing_highs_lows when RSI is around 50.",
-    "On NVDA, a SELL call was wrong (stock went up 6.3%). Re-evaluate bearish signals like bearish_engulfing when RSI is around 49.",
-    "On TSM, a SELL call was wrong (stock went up 4.1%). Re-evaluate bearish signals like bearish_engulfing when RSI is around 60.",
-    "On NTAP, a SELL call was wrong (stock went up 3.1%). Re-evaluate bearish signals like inverted_hammer when RSI is around 92."
+    "On AAPL, a SELL call was wrong (stock went up 2.9%). Re-evaluate bearish signals like evening_star when RSI is around 67."
   ]
 }
