@@ -1,14 +1,14 @@
 {
   "insights": [
+    "On AMD, a BUY call was wrong (stock went down -7.3%). three_white_soldiers might be a false signal when RSI is 65.",
+    "On TSM, a BUY call was wrong (stock went down -3.5%). hammer might be a false signal when RSI is 60.",
+    "On MSFT, a BUY call was wrong (stock went down -1.5%). morning_star might be a false signal when RSI is 43.",
+    "On AMZN, a BUY call was wrong (stock went down -1.2%). piercing_line might be a false signal when RSI is 37.",
+    "On GOOGL, a SELL call was wrong (stock went up 1.1%). Re-evaluate bearish signals like inverted_hammer when RSI is around 50.",
     "On AMD, a SELL call was wrong (stock went up 6.8%). Re-evaluate bearish signals like swing_highs_lows when RSI is around 61.",
     "On TSM, a SELL call was wrong (stock went up 4.5%). Re-evaluate bearish signals like spinning_top when RSI is around 54.",
     "On NVDA, a SELL call was wrong (stock went up 4.0%). Re-evaluate bearish signals like spinning_top when RSI is around 45.",
     "On AMZN, a SELL call was wrong (stock went up 3.3%). Re-evaluate bearish signals like dark_cloud_cover when RSI is around 34.",
-    "On GOOGL, a SELL call was wrong (stock went up 2.8%). Re-evaluate bearish signals like spinning_top when RSI is around 42.",
-    "On AAPL, a SELL call was wrong (stock went up 1.9%). Re-evaluate bearish signals like bearish_engulfing when RSI is around 44.",
-    "On AMD, a SELL call was wrong (stock went up 4.7%). Re-evaluate bearish signals like swing_highs_lows when RSI is around 57.",
-    "On TSLA, a SELL call was wrong (stock went up 1.8%). Re-evaluate bearish signals like cup_and_handle when RSI is around 46.",
-    "On AMD, a SELL call was wrong (stock went up 8.0%). Re-evaluate bearish signals like three_outside_down when RSI is around 50.",
-    "On TSLA, a SELL call was wrong (stock went up 4.6%). Re-evaluate bearish signals like cup_and_handle when RSI is around 39."
+    "On GOOGL, a SELL call was wrong (stock went up 2.8%). Re-evaluate bearish signals like spinning_top when RSI is around 42."
   ]
 }
