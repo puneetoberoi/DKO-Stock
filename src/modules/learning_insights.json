@@ -6,9 +6,9 @@
     "On AMD, a HOLD call missed a -5.8% move. Be more decisive with patterns like spinning_top, even with neutral RSI (63).",
     "On GOOGL, a HOLD call missed a -5.0% move. Be more decisive with patterns like hammer, even with neutral RSI (49).",
     "On TSM, a HOLD call missed a 6.7% move. Be more decisive with patterns like spinning_top, even with neutral RSI (56).",
-    "On AMZN, a HOLD call missed a -3.5% move. Be more decisive with patterns like swing_highs_lows, even with neutral RSI (43).",
     "On MSFT, a SELL call was wrong (stock went up 1.8%). Re-evaluate bearish signals like tweezer_top when RSI is around 31.",
     "On TSLA, a SELL call was wrong (stock went up 1.1%). Re-evaluate bearish signals like hammer when RSI is around 47.",
-    "On NTAP, a SELL call was wrong (stock went up 3.3%). Re-evaluate bearish signals like three_black_crows when RSI is around 55."
+    "On NTAP, a SELL call was wrong (stock went up 3.3%). Re-evaluate bearish signals like three_black_crows when RSI is around 55.",
+    "On AMZN, a SELL call was wrong (stock went up 2.9%). Re-evaluate bearish signals like evening_star when RSI is around 37."
   ]
 }
