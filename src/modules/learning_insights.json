@@ -1,14 +1,14 @@
 {
   "insights": [
+    "On TSM, a SELL call was wrong (stock went up 5.5%). Re-evaluate bearish signals like swing_highs_lows when RSI is around 51.",
+    "On AMZN, a SELL call was wrong (stock went up 5.3%). Re-evaluate bearish signals like spinning_top when RSI is around 35.",
+    "On AMD, a SELL call was wrong (stock went up 4.1%). Re-evaluate bearish signals like doji when RSI is around 55.",
+    "On GOOGL, a SELL call was wrong (stock went up 3.3%). Re-evaluate bearish signals like doji when RSI is around 36.",
+    "On NTAP, a SELL call was wrong (stock went up 2.1%). Re-evaluate bearish signals like three_black_crows when RSI is around 50.",
     "On AAPL, a SELL call was wrong (stock went up 3.0%). Re-evaluate bearish signals like three_black_crows when RSI is around 32.",
     "On AMZN, a SELL call was wrong (stock went up 2.2%). Re-evaluate bearish signals like evening_star when RSI is around 34.",
     "On TSLA, a SELL call was wrong (stock went up 1.5%). Re-evaluate bearish signals like three_black_crows when RSI is around 39.",
     "On AMD, a SELL call was wrong (stock went up 5.0%). Re-evaluate bearish signals like bearish_engulfing when RSI is around 54.",
-    "On TD.TO, a SELL call was wrong (stock went up 1.1%). Re-evaluate bearish signals like dark_cloud_cover when RSI is around 78.",
-    "On MSFT, a SELL call was wrong (stock went up 1.8%). Re-evaluate bearish signals like tweezer_top when RSI is around 31.",
-    "On TSLA, a SELL call was wrong (stock went up 1.1%). Re-evaluate bearish signals like hammer when RSI is around 47.",
-    "On AAPL, a HOLD call missed a -6.7% move. Be more decisive with patterns like doji, even with neutral RSI (48).",
-    "On AMD, a HOLD call missed a -5.8% move. Be more decisive with patterns like spinning_top, even with neutral RSI (63).",
-    "On GOOGL, a HOLD call missed a -5.0% move. Be more decisive with patterns like hammer, even with neutral RSI (49)."
+    "On TD.TO, a SELL call was wrong (stock went up 1.1%). Re-evaluate bearish signals like dark_cloud_cover when RSI is around 78."
   ]
 }
