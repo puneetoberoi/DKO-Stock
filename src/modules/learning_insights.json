@@ -1,14 +1,14 @@
 {
   "insights": [
+    "On TSLA, a HOLD call missed a -7.6% move. Be more decisive with patterns like three_white_soldiers, even with neutral RSI (58).",
+    "On MSFT, a HOLD call missed a 3.5% move. Be more decisive with patterns like doji, even with neutral RSI (40).",
     "On AMD, a BUY call was wrong (stock went down -7.2%). three_white_soldiers might be a false signal when RSI is 65.",
     "On TSM, a BUY call was wrong (stock went down -6.5%). three_white_soldiers might be a false signal when RSI is 63.",
-    "On MSFT, a BUY call was wrong (stock went down -4.2%). inverted_hammer might be a false signal when RSI is 33.",
-    "On MSFT, a HOLD call missed a 3.5% move. Be more decisive with patterns like doji, even with neutral RSI (40).",
-    "On AAPL, a HOLD call missed a -6.7% move. Be more decisive with patterns like doji, even with neutral RSI (48).",
     "On NTAP, a SELL call was wrong (stock went up 1.8%). Re-evaluate bearish signals like doji when RSI is around 52.",
     "On GOOGL, a SELL call was wrong (stock went up 1.1%). Re-evaluate bearish signals like swing_highs_lows when RSI is around 48.",
     "On TSM, a SELL call was wrong (stock went up 5.2%). Re-evaluate bearish signals like swing_highs_lows when RSI is around 58.",
     "On NVDA, a SELL call was wrong (stock went up 2.8%). Re-evaluate bearish signals like spinning_top when RSI is around 40.",
-    "On AAPL, a SELL call was wrong (stock went up 2.4%). Re-evaluate bearish signals like swing_highs_lows when RSI is around 40."
+    "On AAPL, a SELL call was wrong (stock went up 2.4%). Re-evaluate bearish signals like swing_highs_lows when RSI is around 40.",
+    "On MSFT, a SELL call was wrong (stock went up 1.6%). Re-evaluate bearish signals like swing_highs_lows when RSI is around 38."
   ]
 }
