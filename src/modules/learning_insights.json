@@ -1,14 +1,14 @@
 {
   "insights": [
+    "On TSLA, a SELL call was wrong (stock went up 6.7%). Re-evaluate bearish signals like bearish_engulfing when RSI is around 47.",
+    "On AMD, a SELL call was wrong (stock went up 6.6%). Re-evaluate bearish signals like swing_highs_lows when RSI is around 52.",
+    "On NTAP, a SELL call was wrong (stock went up 6.1%). Re-evaluate bearish signals like inverted_hammer when RSI is around 52.",
+    "On TSM, a SELL call was wrong (stock went up 4.1%). Re-evaluate bearish signals like double_top when RSI is around 50.",
+    "On GOOGL, a SELL call was wrong (stock went up 1.8%). Re-evaluate bearish signals like doji when RSI is around 50.",
     "On AMD, a SELL call was wrong (stock went up 1.7%). Re-evaluate bearish signals like swing_highs_lows when RSI is around 51.",
     "On NVDA, a SELL call was wrong (stock went up 1.1%). Re-evaluate bearish signals like tweezer_top when RSI is around 40.",
     "On NTAP, a SELL call was wrong (stock went up 1.8%). Re-evaluate bearish signals like doji when RSI is around 52.",
     "On GOOGL, a SELL call was wrong (stock went up 1.1%). Re-evaluate bearish signals like swing_highs_lows when RSI is around 48.",
-    "On TSM, a SELL call was wrong (stock went up 5.2%). Re-evaluate bearish signals like swing_highs_lows when RSI is around 58.",
-    "On NVDA, a SELL call was wrong (stock went up 2.8%). Re-evaluate bearish signals like spinning_top when RSI is around 40.",
-    "On AAPL, a SELL call was wrong (stock went up 2.4%). Re-evaluate bearish signals like swing_highs_lows when RSI is around 40.",
-    "On MSFT, a SELL call was wrong (stock went up 1.6%). Re-evaluate bearish signals like swing_highs_lows when RSI is around 38.",
-    "On GOOGL, a SELL call was wrong (stock went up 1.4%). Re-evaluate bearish signals like swing_highs_lows when RSI is around 45.",
-    "On TSM, a SELL call was wrong (stock went up 5.5%). Re-evaluate bearish signals like swing_highs_lows when RSI is around 51."
+    "On TSM, a SELL call was wrong (stock went up 5.2%). Re-evaluate bearish signals like swing_highs_lows when RSI is around 58."
   ]
 }
