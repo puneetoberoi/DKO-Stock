@@ -1,14 +1,14 @@
 {
   "insights": [
+    "On NTAP, a SELL call was wrong (stock went up 6.8%). Re-evaluate bearish signals like three_inside_down when RSI is around 57.",
+    "On NVDA, a SELL call was wrong (stock went up 3.8%). Re-evaluate bearish signals like double_bottom when RSI is around 50.",
+    "On AMD, a SELL call was wrong (stock went up 2.2%). Re-evaluate bearish signals like doji when RSI is around 53.",
+    "On TD.TO, a SELL call was wrong (stock went up 1.5%). Re-evaluate bearish signals like spinning_top when RSI is around 62.",
+    "On GOOGL, a SELL call was wrong (stock went up 1.2%). Re-evaluate bearish signals like spinning_top when RSI is around 46.",
+    "On TSLA, a SELL call was wrong (stock went up 3.8%). Re-evaluate bearish signals like three_inside_down when RSI is around 46.",
     "On TSLA, a HOLD call missed a -3.5% move. Be more decisive with patterns like spinning_top, even with neutral RSI (52).",
     "On TSM, a HOLD call missed a -3.4% move. Be more decisive with patterns like hammer, even with neutral RSI (50).",
     "On AMD, a HOLD call missed a -3.4% move. Be more decisive with patterns like three_white_soldiers, even with neutral RSI (57).",
-    "On NVDA, a HOLD call missed a 3.4% move. Be more decisive with patterns like hammer, even with neutral RSI (51).",
-    "On AMD, a HOLD call missed a 6.1% move. Be more decisive with patterns like swing_highs_lows, even with neutral RSI (51).",
-    "On NTAP, a HOLD call missed a 5.3% move. Be more decisive with patterns like doji, even with neutral RSI (60).",
-    "On NVDA, a HOLD call missed a 3.8% move. Be more decisive with patterns like morning_star, even with neutral RSI (43).",
-    "On NVDA, a BUY call was wrong (stock went down -3.2%). bullish_engulfing might be a false signal when RSI is 56.",
-    "On NTAP, a BUY call was wrong (stock went down -1.1%). swing_highs_lows might be a false signal when RSI is 67.",
-    "On TSLA, a SELL call was wrong (stock went up 3.8%). Re-evaluate bearish signals like three_inside_down when RSI is around 46."
+    "On NVDA, a HOLD call missed a 3.4% move. Be more decisive with patterns like hammer, even with neutral RSI (51)."
   ]
 }
