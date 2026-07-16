@@ -1,14 +1,14 @@
 {
   "insights": [
+    "On GOOGL, a BUY call was wrong (stock went down -4.5%). three_outside_up might be a false signal when RSI is 57.",
+    "On AMZN, a BUY call was wrong (stock went down -1.8%). three_white_soldiers might be a false signal when RSI is 60.",
+    "On AMD, a BUY call was wrong (stock went down -4.1%). double_bottom might be a false signal when RSI is 56.",
+    "On NVDA, a BUY call was wrong (stock went down -3.2%). bullish_engulfing might be a false signal when RSI is 56.",
     "On NTAP, a HOLD call missed a -6.2% move. Be more decisive with patterns like swing_highs_lows, even with neutral RSI (65).",
     "On AAPL, a HOLD call missed a 3.8% move. Be more decisive with patterns like cup_and_handle, even with neutral RSI (62).",
     "On AMZN, a HOLD call missed a 3.4% move. Be more decisive with patterns like spinning_top, even with neutral RSI (52).",
     "On TSLA, a HOLD call missed a -3.5% move. Be more decisive with patterns like spinning_top, even with neutral RSI (52).",
     "On TSM, a HOLD call missed a -3.4% move. Be more decisive with patterns like hammer, even with neutral RSI (50).",
-    "On AMD, a HOLD call missed a -3.4% move. Be more decisive with patterns like three_white_soldiers, even with neutral RSI (57).",
-    "On NVDA, a HOLD call missed a 3.4% move. Be more decisive with patterns like hammer, even with neutral RSI (51).",
-    "On AMD, a BUY call was wrong (stock went down -4.1%). double_bottom might be a false signal when RSI is 56.",
-    "On NVDA, a BUY call was wrong (stock went down -3.2%). bullish_engulfing might be a false signal when RSI is 56.",
-    "On NTAP, a BUY call was wrong (stock went down -1.1%). swing_highs_lows might be a false signal when RSI is 67."
+    "On AMD, a HOLD call missed a -3.4% move. Be more decisive with patterns like three_white_soldiers, even with neutral RSI (57)."
   ]
 }
