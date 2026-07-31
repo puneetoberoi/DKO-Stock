@@ -28768,5 +28768,155 @@
     "price_at_prediction": 173.55999755859375,
     "outcome": null,
     "was_correct": null
+  },
+  "64ffd3d2": {
+    "id": "64ffd3d2",
+    "timestamp": "2026-07-31T19:04:07.738364",
+    "ticker": "AAPL",
+    "action": "SELL",
+    "confidence": 100,
+    "reasoning": "groq: The double_top bearish reversal pattern with 100% success rate, combined with a daily change of -8.98% and a weekly change of -9.92%, suggests a strong downward trend for AAPL. | cohere: Bearish double_top pattern with 100% success rate, confirmed by high volume (1.7x average) and negative weekly/daily changes, despite RSI not yet oversold.",
+    "candle_pattern": "spinning_top",
+    "indicators": {
+      "rsi": 40.56307239405214
+    },
+    "price_at_prediction": 303.5599060058594,
+    "outcome": null,
+    "was_correct": null
+  },
+  "f4d8d8a5": {
+    "id": "f4d8d8a5",
+    "timestamp": "2026-07-31T19:04:09.322097",
+    "ticker": "MSFT",
+    "action": "BUY",
+    "confidence": 100,
+    "reasoning": "groq: The bullish double bottom candlestick pattern and uptrend indication from swing highs and lows, combined with a relatively high RSI and increased volume, suggest a positive one-week forecast for MSFT despite mixed market context. | cohere: Bullish technical indicators (RSI near overbought but not extreme, double bottom pattern, and uptrend swing highs/lows) combined with above-average volume support a short-term upward move despite a weak macro environment.",
+    "candle_pattern": "double_bottom",
+    "indicators": {
+      "rsi": 74.01698876091928
+    },
+    "price_at_prediction": 462.0400085449219,
+    "outcome": null,
+    "was_correct": null
+  },
+  "7196929d": {
+    "id": "7196929d",
+    "timestamp": "2026-07-31T19:04:10.731175",
+    "ticker": "NVDA",
+    "action": "SELL",
+    "confidence": 65,
+    "reasoning": "groq: The presence of a double_top bearish reversal pattern with 100% success rate, combined with a low overall macro score and mixed candlestick patterns, suggests a potential downturn for NVDA. | cohere: Mixed signals from candlestick patterns (bullish three_inside_up vs. bearish double_top), neutral RSI, and below-average volume, with a negative macro score, suggest caution.",
+    "candle_pattern": "doji",
+    "indicators": {
+      "rsi": 46.64387846541334
+    },
+    "price_at_prediction": 198.74000549316406,
+    "outcome": null,
+    "was_correct": null
+  },
+  "47906ec9": {
+    "id": "47906ec9",
+    "timestamp": "2026-07-31T19:04:11.824578",
+    "ticker": "TSLA",
+    "action": "HOLD",
+    "confidence": 90,
+    "reasoning": "groq: The presence of indecision candlestick patterns like doji and long_legged_doji, combined with a low RSI and lack of strong volume confirmation, suggests a neutral stance is best given the mixed signals and overall negative macro score. | cohere: Mixed signals with RSI indicating oversold conditions, low volume, and indecision candlestick patterns (doji, long-legged doji) suggest a lack of clear direction in the near term.",
+    "candle_pattern": "doji",
+    "indicators": {
+      "rsi": 31.292433910317
+    },
+    "price_at_prediction": 310.3428039550781,
+    "outcome": null,
+    "was_correct": null
+  },
+  "7096ffcf": {
+    "id": "7096ffcf",
+    "timestamp": "2026-07-31T19:04:13.351792",
+    "ticker": "GOOGL",
+    "action": "BUY",
+    "confidence": 80,
+    "reasoning": "groq: The detected swing_highs_lows consolidation pattern with a 64% success rate, combined with a relatively neutral RSI and recent daily and weekly gains, suggests a potential upward movement for GOOGL. | cohere: Positive technical indicators (RSI at 54, strong daily/weekly gains, no Bollinger Squeeze) and consolidation pattern with historical success suggest upward momentum, despite weak macro context.",
+    "candle_pattern": "swing_highs_lows",
+    "indicators": {
+      "rsi": 53.99864910597844
+    },
+    "price_at_prediction": 355.3450012207031,
+    "outcome": null,
+    "was_correct": null
+  },
+  "23e230b8": {
+    "id": "23e230b8",
+    "timestamp": "2026-07-31T19:04:14.700305",
+    "ticker": "TSM",
+    "action": "SELL",
+    "confidence": 80,
+    "reasoning": "groq: The downtrend indicated by the swing_highs_lows pattern, combined with a low RSI and negative Overall Macro Score, suggests a bearish outlook for TSM in the short term. | cohere: Mixed signals with RSI neutral, below-average volume, and a weak downtrend pattern, balanced by a slight weekly gain and no Bollinger Squeeze, suggesting indecision in the short term.",
+    "candle_pattern": "swing_highs_lows",
+    "indicators": {
+      "rsi": 46.631901336058455
+    },
+    "price_at_prediction": 405.260009765625,
+    "outcome": null,
+    "was_correct": null
+  },
+  "b1ee0692": {
+    "id": "b1ee0692",
+    "timestamp": "2026-07-31T19:04:16.990965",
+    "ticker": "AMD",
+    "action": "SELL",
+    "confidence": 100,
+    "reasoning": "groq: The presence of a double_top bearish reversal pattern with 100% success rate, combined with a downtrend indicated by swing_highs_lows and a negative overall macro score, suggests a short-term bearish outlook for AMD. | cohere: Bearish double-top pattern with 100% historical success, downtrend confirmed by swing highs/lows, and weak macro score (-18/30) outweigh the neutral RSI and low volume.",
+    "candle_pattern": "double_top",
+    "indicators": {
+      "rsi": 46.72604206488622
+    },
+    "price_at_prediction": 486.25,
+    "outcome": null,
+    "was_correct": null
+  },
+  "d2cd8dce": {
+    "id": "d2cd8dce",
+    "timestamp": "2026-07-31T19:04:18.405022",
+    "ticker": "TD.TO",
+    "action": "SELL",
+    "confidence": 65,
+    "reasoning": "groq: The presence of a double_top bearish reversal pattern with 100% success rate, combined with a downtrend indicated by swing_highs_lows and a negative Overall Macro Score, outweighs the bullish three_inside_up pattern, leading to a sell recommendation. | cohere: Mixed signals with a bearish double_top pattern (100% success) and low macro score (-18/30) offset by a bullish three_inside_up pattern (50% success) and neutral RSI (51.06).",
+    "candle_pattern": "three_inside_up",
+    "indicators": {
+      "rsi": 51.06236809509994
+    },
+    "price_at_prediction": 168.52999877929688,
+    "outcome": null,
+    "was_correct": null
+  },
+  "32d26a60": {
+    "id": "32d26a60",
+    "timestamp": "2026-07-31T19:04:21.556599",
+    "ticker": "AMZN",
+    "action": "SELL",
+    "confidence": 95,
+    "reasoning": "groq: The high RSI and significant daily and weekly changes, combined with a detected downtrend pattern and a negative overall macro score, suggest a potential correction, outweighing the lack of a Bollinger Squeeze. | cohere: Mixed signals with high RSI (67.78) suggesting overbought conditions, but strong volume (2.0x average) and positive weekly change (17.26%) indicate continued momentum, while the overall macro score (-18/30) and downtrend candlestick pattern (25% success) temper optimism.",
+    "candle_pattern": "swing_highs_lows",
+    "indicators": {
+      "rsi": 67.78077484703665
+    },
+    "price_at_prediction": 271.2950134277344,
+    "outcome": null,
+    "was_correct": null
+  },
+  "63ed3fff": {
+    "id": "63ed3fff",
+    "timestamp": "2026-07-31T19:04:54.618167",
+    "ticker": "NTAP",
+    "action": "BUY",
+    "confidence": 70,
+    "reasoning": "groq: The presence of a hammer candlestick pattern, a bullish reversal indicator, combined with an uptrend signal from swing highs and lows, suggests a potential upward movement, despite mixed market context and relatively low volume. | cohere: (1)\u00a0 @(1)\u00a0@(1)\u00a0@(1)\u00a0(1)\u00a0@(1)\u00a0@(1)\u00a0@(1)\u00a0@(1)\u00a0@(1)\u00a0@(1)\u00a0@(1)@(1)\u00a0@(1)\u00a0@(1)\u00a0@(1)@(1)@(1)\u00a0@(1)\u00a0@(1)\u00a0@(1)@(1)\u00a0@(1)\u00a0@(1)\u00a0@(1)\u00a0@(1)\u00a0@(1)\u00a0@(1)\u00a0@(1)\u00a0@(1)\u00a0@(1)\u00a0@(1)\u00a0@(1)\u00a0@(1)\u00a0@(1)\u00a0@(1)@(1)\u00a0@(1)\u00a0@(1)\u00a0@(1)\u00a0@(1)\u00a0@",
+    "candle_pattern": "hammer",
+    "indicators": {
+      "rsi": 64.25794774906291
+    },
+    "price_at_prediction": 177.54010009765625,
+    "outcome": null,
+    "was_correct": null
   }
 }
