@@ -1,14 +1,14 @@
 {
   "insights": [
+    "On AMD, a SELL call was wrong (stock went up 6.9%). Re-evaluate bearish signals like swing_highs_lows when RSI is around 47.",
+    "On AAPL, a SELL call was wrong (stock went up 1.2%). Re-evaluate bearish signals like double_top when RSI is around 42.",
     "On AMZN, a SELL call was wrong (stock went up 4.7%). Re-evaluate bearish signals like swing_highs_lows when RSI is around 68.",
     "On NVDA, a SELL call was wrong (stock went up 4.0%). Re-evaluate bearish signals like doji when RSI is around 47.",
     "On AMZN, a SELL call was wrong (stock went up 14.2%). Re-evaluate bearish signals like swing_highs_lows when RSI is around 47.",
     "On NVDA, a SELL call was wrong (stock went up 3.6%). Re-evaluate bearish signals like doji when RSI is around 42.",
     "On AMD, a SELL call was wrong (stock went up 7.8%). Re-evaluate bearish signals like three_black_crows when RSI is around 38.",
     "On TSM, a SELL call was wrong (stock went up 3.6%). Re-evaluate bearish signals like doji when RSI is around 38.",
-    "On GOOGL, a SELL call was wrong (stock went up 2.0%). Re-evaluate bearish signals like three_inside_up when RSI is around 38.",
     "On TSLA, a HOLD call missed a 3.8% move. Be more decisive with patterns like doji, even with neutral RSI (31).",
-    "On AAPL, a HOLD call missed a -7.4% move. Be more decisive with patterns like spinning_top, even with neutral RSI (62).",
-    "On GOOGL, a HOLD call missed a 6.5% move. Be more decisive with patterns like doji, even with neutral RSI (42)."
+    "On AAPL, a HOLD call missed a -7.4% move. Be more decisive with patterns like spinning_top, even with neutral RSI (62)."
   ]
 }
