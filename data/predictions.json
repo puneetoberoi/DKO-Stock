@@ -30418,5 +30418,155 @@
     "price_at_prediction": 206.4499969482422,
     "outcome": null,
     "was_correct": null
+  },
+  "71933c14": {
+    "id": "71933c14",
+    "timestamp": "2026-08-17T18:20:34.606503",
+    "ticker": "AAPL",
+    "action": "HOLD",
+    "confidence": 70,
+    "reasoning": "cohere: Mixed signals with bearish candlestick patterns (evening star) and low RSI, but no Bollinger Squeeze and weak volume suggest consolidation rather than a strong downward trend.",
+    "candle_pattern": "evening_star",
+    "indicators": {
+      "rsi": 42.89788090004766
+    },
+    "price_at_prediction": 304.7300109863281,
+    "outcome": null,
+    "was_correct": null
+  },
+  "91f47c63": {
+    "id": "91f47c63",
+    "timestamp": "2026-08-17T18:20:36.234117",
+    "ticker": "MSFT",
+    "action": "SELL",
+    "confidence": 100,
+    "reasoning": "cohere: Bearish candlestick patterns (evening star, three inside down), negative weekly and daily changes, and weak macro context suggest a downward trend.",
+    "candle_pattern": "evening_star",
+    "indicators": {
+      "rsi": 61.82586848483638
+    },
+    "price_at_prediction": 479.6300048828125,
+    "outcome": null,
+    "was_correct": null
+  },
+  "e2ddb62f": {
+    "id": "e2ddb62f",
+    "timestamp": "2026-08-17T18:20:37.587184",
+    "ticker": "NVDA",
+    "action": "HOLD",
+    "confidence": 90,
+    "reasoning": "cohere: Mixed signals with indecision (spinning tops), low volume, and a neutral RSI, balanced by a recent uptrend (swing highs/lows) but weak macro context.",
+    "candle_pattern": "spinning_top",
+    "indicators": {
+      "rsi": 63.31945823440177
+    },
+    "price_at_prediction": 225.5200958251953,
+    "outcome": null,
+    "was_correct": null
+  },
+  "a4823c95": {
+    "id": "a4823c95",
+    "timestamp": "2026-08-17T18:20:39.251426",
+    "ticker": "TSLA",
+    "action": "HOLD",
+    "confidence": 90,
+    "reasoning": "cohere: Mixed signals with indecision (spinning tops), low volume, and a neutral RSI, balanced by a slight weekly uptrend and no Bollinger Squeeze, suggesting a wait-and-see approach.",
+    "candle_pattern": "spinning_top",
+    "indicators": {
+      "rsi": 47.33743247271426
+    },
+    "price_at_prediction": 339.17999267578125,
+    "outcome": null,
+    "was_correct": null
+  },
+  "830487c3": {
+    "id": "830487c3",
+    "timestamp": "2026-08-17T18:20:40.293759",
+    "ticker": "GOOGL",
+    "action": "HOLD",
+    "confidence": 95,
+    "reasoning": "cohere: Mixed signals with a bearish downtrend indicated by swing highs/lows, low volume, and negative macro score, partially offset by a bullish cup_and_handle pattern.",
+    "candle_pattern": "cup_and_handle",
+    "indicators": {
+      "rsi": 45.9067193747802
+    },
+    "price_at_prediction": 343.8550109863281,
+    "outcome": null,
+    "was_correct": null
+  },
+  "8c35f8a1": {
+    "id": "8c35f8a1",
+    "timestamp": "2026-08-17T18:20:41.392567",
+    "ticker": "TSM",
+    "action": "HOLD",
+    "confidence": 95,
+    "reasoning": "cohere: Mixed signals with a slightly bullish tilt from the cup_and_handle pattern, but low volume and a neutral RSI temper confidence.",
+    "candle_pattern": "doji",
+    "indicators": {
+      "rsi": 56.45498792994193
+    },
+    "price_at_prediction": 430.8500061035156,
+    "outcome": null,
+    "was_correct": null
+  },
+  "5ad27a6b": {
+    "id": "5ad27a6b",
+    "timestamp": "2026-08-17T18:20:42.690755",
+    "ticker": "AMD",
+    "action": "HOLD",
+    "confidence": 85,
+    "reasoning": "cohere: Mixed signals with a slightly bearish RSI, low volume, and a downtrend pattern, but recent weekly gains and no Bollinger Squeeze suggest caution rather than immediate action.",
+    "candle_pattern": "swing_highs_lows",
+    "indicators": {
+      "rsi": 52.400882958084956
+    },
+    "price_at_prediction": 508.3999938964844,
+    "outcome": null,
+    "was_correct": null
+  },
+  "344ddb24": {
+    "id": "344ddb24",
+    "timestamp": "2026-08-17T18:20:43.877885",
+    "ticker": "TD.TO",
+    "action": "BUY",
+    "confidence": 95,
+    "reasoning": "cohere: Bullish candlestick patterns (three_outside_up) and positive weekly change (2.29%) suggest upward momentum, despite low volume and a neutral RSI.",
+    "candle_pattern": "three_outside_up",
+    "indicators": {
+      "rsi": 60.74049433012419
+    },
+    "price_at_prediction": 172.97000122070312,
+    "outcome": null,
+    "was_correct": null
+  },
+  "706aba61": {
+    "id": "706aba61",
+    "timestamp": "2026-08-17T18:20:45.134622",
+    "ticker": "AMZN",
+    "action": "SELL",
+    "confidence": 100,
+    "reasoning": "cohere: Bearish signals from three_black_crows and double_top patterns, coupled with negative weekly change and weak macro score, outweigh the cup_and_handle pattern.",
+    "candle_pattern": "three_black_crows",
+    "indicators": {
+      "rsi": 51.421324768061794
+    },
+    "price_at_prediction": 259.970703125,
+    "outcome": null,
+    "was_correct": null
+  },
+  "0dfbb771": {
+    "id": "0dfbb771",
+    "timestamp": "2026-08-17T18:20:46.570975",
+    "ticker": "NTAP",
+    "action": "SELL",
+    "confidence": 85,
+    "reasoning": "cohere: Bearish candlestick patterns (dark_cloud_cover, tweezer_top) coupled with overbought RSI (74.35) and weak macro context (-13/30) suggest a short-term downside risk.",
+    "candle_pattern": "dark_cloud_cover",
+    "indicators": {
+      "rsi": 74.35377936340505
+    },
+    "price_at_prediction": 205.67999267578125,
+    "outcome": null,
+    "was_correct": null
   }
 }
