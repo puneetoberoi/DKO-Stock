@@ -5,9 +5,6 @@
     "On AMD, a HOLD call missed a -5.3% move. Be more decisive with patterns like swing_highs_lows, even with neutral RSI (52).",
     "On TSM, a HOLD call missed a -4.1% move. Be more decisive with patterns like doji, even with neutral RSI (56).",
     "On AMD, a HOLD call missed a 3.8% move. Be more decisive with patterns like tweezer_bottom, even with neutral RSI (49).",
-    "On NVDA, a HOLD call missed a 3.4% move. Be more decisive with patterns like swing_highs_lows, even with neutral RSI (57).",
-    "On TD.TO, a BUY call was wrong (stock went down -2.2%). three_outside_up might be a false signal when RSI is 61.",
-    "On TSLA, a SELL call was wrong (stock went up 3.8%). Re-evaluate bearish signals like bearish_engulfing when RSI is around 41.",
-    "On AAPL, a SELL call was wrong (stock went up 1.1%). Re-evaluate bearish signals like swing_highs_lows when RSI is around 40."
+    "On TD.TO, a BUY call was wrong (stock went down -2.2%). three_outside_up might be a false signal when RSI is 61."
   ]
 }
