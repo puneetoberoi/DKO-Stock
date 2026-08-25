@@ -1,10 +1,8 @@
 {
   "insights": [
+    "On AMD, a SELL call was wrong (stock went up 4.5%). Re-evaluate bearish signals like double_top when RSI is around 43.",
+    "On AMD, a SELL call was wrong (stock went up 2.0%). Re-evaluate bearish signals like inverted_hammer when RSI is around 43.",
     "On TSLA, a BUY call was wrong (stock went down -3.6%). swing_highs_lows might be a false signal when RSI is 58.",
-    "On TSLA, a HOLD call missed a 6.3% move. Be more decisive with patterns like swing_highs_lows, even with neutral RSI (49).",
-    "On NTAP, a HOLD call missed a -4.3% move. Be more decisive with patterns like swing_highs_lows, even with neutral RSI (73).",
-    "On TSLA, a HOLD call missed a 3.5% move. Be more decisive with patterns like swing_highs_lows, even with neutral RSI (46).",
-    "On AMD, a HOLD call missed a -5.3% move. Be more decisive with patterns like swing_highs_lows, even with neutral RSI (52).",
-    "On AMD, a SELL call was wrong (stock went up 2.0%). Re-evaluate bearish signals like inverted_hammer when RSI is around 43."
+    "On TSLA, a HOLD call missed a 6.3% move. Be more decisive with patterns like swing_highs_lows, even with neutral RSI (49)."
   ]
 }
