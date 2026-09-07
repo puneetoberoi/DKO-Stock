@@ -6,7 +6,6 @@
     "On AMD, a HOLD call missed a 4.7% move. Be more decisive with patterns like spinning_top, even with neutral RSI (43).",
     "On TSLA, a HOLD call missed a 5.4% move. Be more decisive with patterns like swing_highs_lows, even with neutral RSI (53).",
     "On NVDA, a HOLD call missed a 3.2% move. Be more decisive with patterns like spinning_top, even with neutral RSI (52).",
-    "On TSLA, a HOLD call missed a 5.5% move. Be more decisive with patterns like dark_cloud_cover, even with neutral RSI (51).",
     "On NTAP, a SELL call was wrong (stock went up 2.6%). Re-evaluate bearish signals like three_black_crows when RSI is around 43.",
     "On AMZN, a SELL call was wrong (stock went up 1.5%). Re-evaluate bearish signals like spinning_top when RSI is around 46.",
     "On TD.TO, a SELL call was wrong (stock went up 1.2%). Re-evaluate bearish signals like three_black_crows when RSI is around 47."
