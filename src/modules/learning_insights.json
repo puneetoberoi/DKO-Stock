@@ -1,12 +1,12 @@
 {
   "insights": [
-    "On NTAP, a BUY call was wrong (stock went down -2.3%). three_white_soldiers might be a false signal when RSI is 53.",
-    "On TSLA, a BUY call was wrong (stock went down -5.9%). double_bottom might be a false signal when RSI is 61.",
-    "On AAPL, a BUY call was wrong (stock went down -2.5%). bullish_engulfing might be a false signal when RSI is 63.",
+    "On AAPL, a HOLD call missed a 3.6% move. Be more decisive with patterns like three_black_crows, even with neutral RSI (49).",
     "On AMD, a HOLD call missed a 5.9% move. Be more decisive with patterns like morning_star, even with neutral RSI (50).",
     "On TSLA, a HOLD call missed a 4.0% move. Be more decisive with patterns like double_bottom, even with neutral RSI (51).",
     "On AMD, a HOLD call missed a 4.7% move. Be more decisive with patterns like spinning_top, even with neutral RSI (43).",
-    "On TSLA, a HOLD call missed a 5.4% move. Be more decisive with patterns like swing_highs_lows, even with neutral RSI (53).",
-    "On NTAP, a SELL call was wrong (stock went up 2.6%). Re-evaluate bearish signals like three_black_crows when RSI is around 43."
+    "On AMD, a BUY call was wrong (stock went down -3.4%). three_white_soldiers might be a false signal when RSI is 60.",
+    "On NTAP, a BUY call was wrong (stock went down -2.3%). three_white_soldiers might be a false signal when RSI is 53.",
+    "On TSLA, a BUY call was wrong (stock went down -5.9%). double_bottom might be a false signal when RSI is 61.",
+    "On AAPL, a BUY call was wrong (stock went down -2.5%). bullish_engulfing might be a false signal when RSI is 63."
   ]
 }
