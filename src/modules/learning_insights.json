@@ -1,8 +1,12 @@
 {
   "insights": [
-    "On TSLA, a HOLD call missed a 4.7% move. Be more decisive with patterns like swing_highs_lows, even with neutral RSI (46).",
+    "On NTAP, a SELL call was wrong (stock went up 5.4%). Re-evaluate bearish signals like spinning_top when RSI is around 73.",
+    "On AAPL, a SELL call was wrong (stock went up 1.1%). Re-evaluate bearish signals like doji when RSI is around 54.",
     "On AAPL, a SELL call was wrong (stock went up 1.0%). Re-evaluate bearish signals like doji when RSI is around 51.",
-    "On AAPL, a SELL call was wrong (stock went up 1.1%). Re-evaluate bearish signals like evening_star when RSI is around 51.",
-    "On AMZN, a SELL call was wrong (stock went up 1.0%). Re-evaluate bearish signals like doji when RSI is around 42."
+    "On AMZN, a HOLD call missed a 3.4% move. Be more decisive with patterns like inverted_hammer, even with neutral RSI (48).",
+    "On TD.TO, a HOLD call missed a -3.3% move. Be more decisive with patterns like spinning_top, even with neutral RSI (49).",
+    "On NTAP, a HOLD call missed a 3.2% move. Be more decisive with patterns like swing_highs_lows, even with neutral RSI (75).",
+    "On TSLA, a HOLD call missed a 4.7% move. Be more decisive with patterns like swing_highs_lows, even with neutral RSI (46).",
+    "On TSM, a BUY call was wrong (stock went down -2.8%). three_white_soldiers might be a false signal when RSI is 76."
   ]
 }
