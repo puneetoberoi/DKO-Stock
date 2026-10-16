@@ -1,13 +1,13 @@
 {
   "insights": [
+    "On AMD, a HOLD call missed a -6.0% move. Be more decisive with patterns like swing_highs_lows, even with neutral RSI (45).",
+    "On NTAP, a HOLD call missed a -5.1% move. Be more decisive with patterns like doji, even with neutral RSI (51).",
     "On NTAP, a HOLD call missed a -7.1% move. Be more decisive with patterns like swing_highs_lows, even with neutral RSI (76).",
     "On NTAP, a HOLD call missed a -7.0% move. Be more decisive with patterns like swing_highs_lows, even with neutral RSI (75).",
     "On TSM, a HOLD call missed a -3.4% move. Be more decisive with patterns like swing_highs_lows, even with neutral RSI (48).",
-    "On AMZN, a HOLD call missed a 3.3% move. Be more decisive with patterns like double_bottom, even with neutral RSI (51).",
     "On AMD, a BUY call was wrong (stock went down -5.7%). bullish_engulfing might be a false signal when RSI is 56.",
     "On NVDA, a BUY call was wrong (stock went down -3.2%). piercing_line might be a false signal when RSI is 52.",
     "On GOOGL, a BUY call was wrong (stock went down -1.7%). double_bottom might be a false signal when RSI is 58.",
-    "On GOOGL, a BUY call was wrong (stock went down -1.4%). spinning_top might be a false signal when RSI is 57.",
-    "On AMZN, a BUY call was wrong (stock went down -1.1%). double_bottom might be a false signal when RSI is 59."
+    "On GOOGL, a BUY call was wrong (stock went down -1.4%). spinning_top might be a false signal when RSI is 57."
   ]
 }
