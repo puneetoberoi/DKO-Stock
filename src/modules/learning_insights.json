@@ -1,14 +1,14 @@
 {
   "insights": [
+    "On TSM, a SELL call was wrong (stock went up 1.5%). Re-evaluate bearish signals like evening_star when RSI is around 38.",
+    "On AMZN, a SELL call was wrong (stock went up 5.0%). Re-evaluate bearish signals like bearish_engulfing when RSI is around 45.",
+    "On TSLA, a SELL call was wrong (stock went up 3.8%). Re-evaluate bearish signals like bearish_engulfing when RSI is around 42.",
     "On AMD, a HOLD call missed a -8.1% move. Be more decisive with patterns like swing_highs_lows, even with neutral RSI (45).",
     "On AMZN, a HOLD call missed a -4.6% move. Be more decisive with patterns like spinning_top, even with neutral RSI (57).",
     "On TSM, a HOLD call missed a -4.5% move. Be more decisive with patterns like spinning_top, even with neutral RSI (46).",
     "On NVDA, a HOLD call missed a -4.4% move. Be more decisive with patterns like hammer, even with neutral RSI (48).",
     "On GOOGL, a HOLD call missed a -3.1% move. Be more decisive with patterns like hammer, even with neutral RSI (40).",
     "On NTAP, a HOLD call missed a 3.4% move. Be more decisive with patterns like morning_star, even with neutral RSI (48).",
-    "On TSLA, a HOLD call missed a 3.4% move. Be more decisive with patterns like spinning_top, even with neutral RSI (54).",
-    "On AMD, a HOLD call missed a 3.4% move. Be more decisive with patterns like spinning_top, even with neutral RSI (40).",
-    "On AMD, a HOLD call missed a -6.0% move. Be more decisive with patterns like swing_highs_lows, even with neutral RSI (45).",
-    "On TSLA, a BUY call was wrong (stock went down -3.1%). three_white_soldiers might be a false signal when RSI is 60."
+    "On TSLA, a HOLD call missed a 3.4% move. Be more decisive with patterns like spinning_top, even with neutral RSI (54)."
   ]
 }
