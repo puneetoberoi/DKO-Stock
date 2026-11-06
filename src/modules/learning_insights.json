@@ -1,14 +1,14 @@
 {
   "insights": [
-    "On AMD, a HOLD call missed a -17.3% move. Be more decisive with patterns like doji, even with neutral RSI (39).",
-    "On TSM, a HOLD call missed a -10.8% move. Be more decisive with patterns like inverted_hammer, even with neutral RSI (36).",
-    "On TSLA, a HOLD call missed a -10.8% move. Be more decisive with patterns like swing_highs_lows, even with neutral RSI (51).",
-    "On AMZN, a HOLD call missed a 8.3% move. Be more decisive with patterns like inverted_hammer, even with neutral RSI (44).",
-    "On AMZN, a HOLD call missed a 6.1% move. Be more decisive with patterns like three_white_soldiers, even with neutral RSI (49).",
-    "On TSLA, a HOLD call missed a -4.6% move. Be more decisive with patterns like doji, even with neutral RSI (62).",
-    "On TD.TO, a HOLD call missed a -3.6% move. Be more decisive with patterns like double_bottom, even with neutral RSI (66).",
-    "On TSLA, a HOLD call missed a -3.3% move. Be more decisive with patterns like swing_highs_lows, even with neutral RSI (59).",
-    "On GOOGL, a HOLD call missed a 3.2% move. Be more decisive with patterns like doji, even with neutral RSI (22).",
-    "On AMZN, a HOLD call missed a 4.3% move. Be more decisive with patterns like swing_highs_lows, even with neutral RSI (38)."
+    "On AMD, a SELL call was wrong (stock went up 11.0%). Re-evaluate bearish signals like evening_star when RSI is around 30.",
+    "On TSM, a SELL call was wrong (stock went up 6.3%). Re-evaluate bearish signals like three_black_crows when RSI is around 26.",
+    "On NVDA, a SELL call was wrong (stock went up 2.8%). Re-evaluate bearish signals like three_black_crows when RSI is around 25.",
+    "On MSFT, a SELL call was wrong (stock went up 9.6%). Re-evaluate bearish signals like three_black_crows when RSI is around 40.",
+    "On MSFT, a SELL call was wrong (stock went up 6.7%). Re-evaluate bearish signals like double_top when RSI is around 49.",
+    "On AAPL, a SELL call was wrong (stock went up 5.3%). Re-evaluate bearish signals like double_top when RSI is around 42.",
+    "On AMD, a SELL call was wrong (stock went up 4.7%). Re-evaluate bearish signals like evening_star when RSI is around 35.",
+    "On GOOGL, a SELL call was wrong (stock went up 3.6%). Re-evaluate bearish signals like three_black_crows when RSI is around 21.",
+    "On AAPL, a SELL call was wrong (stock went up 3.3%). Re-evaluate bearish signals like double_top when RSI is around 48.",
+    "On TD.TO, a SELL call was wrong (stock went up 2.4%). Re-evaluate bearish signals like doji when RSI is around 58."
   ]
 }
