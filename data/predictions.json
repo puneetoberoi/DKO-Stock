@@ -40603,5 +40603,155 @@
     "price_at_prediction": 172.19000244140625,
     "outcome": null,
     "was_correct": null
+  },
+  "817e07d5": {
+    "id": "817e07d5",
+    "timestamp": "2026-11-19T23:58:41.869934",
+    "ticker": "AAPL",
+    "action": "SELL",
+    "confidence": 100,
+    "reasoning": "cohere: Bearish engulfing patterns, negative weekly change, and weak macro score suggest short-term downward pressure, despite neutral RSI and volume.",
+    "candle_pattern": "bearish_engulfing",
+    "indicators": {
+      "rsi": 53.15603153436919
+    },
+    "price_at_prediction": 349.2099914550781,
+    "outcome": null,
+    "was_correct": null
+  },
+  "02ae6b88": {
+    "id": "02ae6b88",
+    "timestamp": "2026-11-19T23:58:43.475473",
+    "ticker": "MSFT",
+    "action": "SELL",
+    "confidence": 100,
+    "reasoning": "cohere: Bearish technical indicators (RSI below 40, bearish engulfing and dark cloud cover patterns), negative weekly trend (-4.88%), and weak macro score (-25/30) suggest further downside risk in the near term.",
+    "candle_pattern": "bearish_engulfing",
+    "indicators": {
+      "rsi": 39.211786464263476
+    },
+    "price_at_prediction": 498.29998779296875,
+    "outcome": null,
+    "was_correct": null
+  },
+  "d96affd4": {
+    "id": "d96affd4",
+    "timestamp": "2026-11-19T23:58:44.961246",
+    "ticker": "NVDA",
+    "action": "SELL",
+    "confidence": 95,
+    "reasoning": "cohere: Bearish technical indicators (RSI at 19.64, three_black_crows pattern, -10.36% weekly decline) and negative macro context (-25/30 score) suggest further downside risk in the near term.",
+    "candle_pattern": "three_black_crows",
+    "indicators": {
+      "rsi": 19.644761531860865
+    },
+    "price_at_prediction": 145.97999572753906,
+    "outcome": null,
+    "was_correct": null
+  },
+  "9e92dca9": {
+    "id": "9e92dca9",
+    "timestamp": "2026-11-19T23:58:46.476290",
+    "ticker": "TSLA",
+    "action": "HOLD",
+    "confidence": 95,
+    "reasoning": "cohere: Mixed signals with a bearish macro environment, neutral RSI, and low volume, offset by a potential bullish cup_and_handle pattern, but no past learnings to adjust the prediction.",
+    "candle_pattern": "cup_and_handle",
+    "indicators": {
+      "rsi": 47.22627275262365
+    },
+    "price_at_prediction": 374.4100036621094,
+    "outcome": null,
+    "was_correct": null
+  },
+  "63ac61d8": {
+    "id": "63ac61d8",
+    "timestamp": "2026-11-19T23:58:48.096015",
+    "ticker": "GOOGL",
+    "action": "SELL",
+    "confidence": 100,
+    "reasoning": "cohere: Bearish double-top pattern with 100% historical success, oversold RSI (30.58), elevated volume (1.5x average), and negative macro score (-25/30) strongly indicate further downside in the near term.",
+    "candle_pattern": "double_top",
+    "indicators": {
+      "rsi": 30.581081990548128
+    },
+    "price_at_prediction": 272.6600036621094,
+    "outcome": null,
+    "was_correct": null
+  },
+  "a1817309": {
+    "id": "a1817309",
+    "timestamp": "2026-11-19T23:58:49.474010",
+    "ticker": "TSM",
+    "action": "SELL",
+    "confidence": 100,
+    "reasoning": "cohere: Bearish double-top pattern with 100% historical success, RSI in oversold territory (34.45), and negative macro score (-25/30) suggest further downside risk.",
+    "candle_pattern": "double_top",
+    "indicators": {
+      "rsi": 34.44950591742791
+    },
+    "price_at_prediction": 352.0899963378906,
+    "outcome": null,
+    "was_correct": null
+  },
+  "788422f2": {
+    "id": "788422f2",
+    "timestamp": "2026-11-19T23:58:50.704364",
+    "ticker": "AMD",
+    "action": "SELL",
+    "confidence": 100,
+    "reasoning": "cohere: Bearish candlestick patterns (bearish engulfing, dark cloud cover), negative weekly and daily changes, and below-average RSI indicate a strong short-term downward trend.",
+    "candle_pattern": "bearish_engulfing",
+    "indicators": {
+      "rsi": 45.15592969712078
+    },
+    "price_at_prediction": 489.19000244140625,
+    "outcome": null,
+    "was_correct": null
+  },
+  "66f0827c": {
+    "id": "66f0827c",
+    "timestamp": "2026-11-19T23:58:52.123183",
+    "ticker": "TD.TO",
+    "action": "SELL",
+    "confidence": 100,
+    "reasoning": "cohere: Bearish candlestick patterns (three black crows, double top), negative weekly change (-6.32%), and low RSI (35.34) indicate a strong downward momentum with high probability of continuation.",
+    "candle_pattern": "three_black_crows",
+    "indicators": {
+      "rsi": 35.34372221031849
+    },
+    "price_at_prediction": 165.27000427246094,
+    "outcome": null,
+    "was_correct": null
+  },
+  "c8480433": {
+    "id": "c8480433",
+    "timestamp": "2026-11-19T23:58:53.501538",
+    "ticker": "AMZN",
+    "action": "SELL",
+    "confidence": 100,
+    "reasoning": "cohere: Bearish candlestick patterns (bearish engulfing, dark cloud cover), negative weekly and daily changes, and a weak macro score (-25/30) suggest downward momentum in the near term.",
+    "candle_pattern": "bearish_engulfing",
+    "indicators": {
+      "rsi": 48.96614823220658
+    },
+    "price_at_prediction": 257.3699951171875,
+    "outcome": null,
+    "was_correct": null
+  },
+  "67fbebb0": {
+    "id": "67fbebb0",
+    "timestamp": "2026-11-19T23:58:54.987568",
+    "ticker": "NTAP",
+    "action": "SELL",
+    "confidence": 90,
+    "reasoning": "cohere: Bearish technical indicators (RSI below 35, three black crows pattern, negative weekly change) and weak market context (-25/30 macro score) suggest further downside risk in the near term.",
+    "candle_pattern": "three_black_crows",
+    "indicators": {
+      "rsi": 34.84843275942046
+    },
+    "price_at_prediction": 170.17999267578125,
+    "outcome": null,
+    "was_correct": null
   }
 }
