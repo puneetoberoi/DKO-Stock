@@ -1,14 +1,14 @@
 {
   "insights": [
+    "On AMD, a HOLD call missed a -19.9% move. Be more decisive with patterns like swing_highs_lows, even with neutral RSI (50).",
+    "On TSLA, a HOLD call missed a -9.9% move. Be more decisive with patterns like spinning_top, even with neutral RSI (51).",
+    "On TSLA, a HOLD call missed a -7.6% move. Be more decisive with patterns like cup_and_handle, even with neutral RSI (47).",
+    "On MSFT, a HOLD call missed a -4.7% move. Be more decisive with patterns like swing_highs_lows, even with neutral RSI (43).",
     "On TSM, a HOLD call missed a -9.1% move. Be more decisive with patterns like dark_cloud_cover, even with neutral RSI (45).",
     "On TD.TO, a HOLD call missed a -6.0% move. Be more decisive with patterns like spinning_top, even with neutral RSI (57).",
     "On AMD, a HOLD call missed a 5.3% move. Be more decisive with patterns like hammer, even with neutral RSI (47).",
     "On AMD, a HOLD call missed a 5.1% move. Be more decisive with patterns like doji, even with neutral RSI (50).",
     "On NTAP, a HOLD call missed a -5.1% move. Be more decisive with patterns like dark_cloud_cover, even with neutral RSI (40).",
-    "On GOOGL, a HOLD call missed a -4.5% move. Be more decisive with patterns like dark_cloud_cover, even with neutral RSI (41).",
-    "On AMZN, a HOLD call missed a 3.9% move. Be more decisive with patterns like doji, even with neutral RSI (57).",
-    "On AMZN, a HOLD call missed a 3.8% move. Be more decisive with patterns like doji, even with neutral RSI (50).",
-    "On NTAP, a HOLD call missed a -3.2% move. Be more decisive with patterns like doji, even with neutral RSI (40).",
-    "On NVDA, a BUY call was wrong (stock went down -7.3%). swing_highs_lows might be a false signal when RSI is 25."
+    "On GOOGL, a HOLD call missed a -4.5% move. Be more decisive with patterns like dark_cloud_cover, even with neutral RSI (41)."
   ]
 }
