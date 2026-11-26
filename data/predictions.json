@@ -41203,5 +41203,155 @@
     "price_at_prediction": 163.0,
     "outcome": null,
     "was_correct": null
+  },
+  "4cbdb2d3": {
+    "id": "4cbdb2d3",
+    "timestamp": "2026-11-26T01:15:32.597573",
+    "ticker": "AAPL",
+    "action": "HOLD",
+    "confidence": 95,
+    "reasoning": "cohere: Mixed signals with RSI indicating neutral momentum, a doji pattern suggesting indecision, and a downtrend from swing highs/lows, while volume is slightly above average but macro context remains negative.",
+    "candle_pattern": "doji",
+    "indicators": {
+      "rsi": 56.85560782439168
+    },
+    "price_at_prediction": 355.5799865722656,
+    "outcome": null,
+    "was_correct": null
+  },
+  "05ac1891": {
+    "id": "05ac1891",
+    "timestamp": "2026-11-26T01:15:33.855393",
+    "ticker": "MSFT",
+    "action": "HOLD",
+    "confidence": 95,
+    "reasoning": "cohere: Mixed signals with RSI indicating neutral territory, low volume, and a doji pattern suggesting indecision, while the downtrend context and negative macro score temper bullish potential.",
+    "candle_pattern": "doji",
+    "indicators": {
+      "rsi": 41.260686991493074
+    },
+    "price_at_prediction": 489.92999267578125,
+    "outcome": null,
+    "was_correct": null
+  },
+  "69c96a73": {
+    "id": "69c96a73",
+    "timestamp": "2026-11-26T01:15:35.062330",
+    "ticker": "NVDA",
+    "action": "HOLD",
+    "confidence": 95,
+    "reasoning": "cohere: Mixed signals with RSI indicating oversold conditions, high volume, and indecision patterns (doji) suggesting consolidation rather than a clear trend.",
+    "candle_pattern": "doji",
+    "indicators": {
+      "rsi": 39.467685264286935
+    },
+    "price_at_prediction": 149.3000030517578,
+    "outcome": null,
+    "was_correct": null
+  },
+  "4a66e99e": {
+    "id": "4a66e99e",
+    "timestamp": "2026-11-26T01:15:36.215916",
+    "ticker": "TSLA",
+    "action": "HOLD",
+    "confidence": 95,
+    "reasoning": "cohere: Mixed signals with RSI near neutral, low volume, and indecision from doji pattern, alongside a bearish macro score and downtrend indication from swing highs/lows.",
+    "candle_pattern": "doji",
+    "indicators": {
+      "rsi": 51.836836058241445
+    },
+    "price_at_prediction": 380.1400146484375,
+    "outcome": null,
+    "was_correct": null
+  },
+  "fbffbbf2": {
+    "id": "fbffbbf2",
+    "timestamp": "2026-11-26T01:15:37.654025",
+    "ticker": "GOOGL",
+    "action": "HOLD",
+    "confidence": 95,
+    "reasoning": "cohere: Mixed signals with RSI indicating potential oversold conditions, but downtrend confirmed by swing highs/lows and macro score suggests caution.",
+    "candle_pattern": "doji",
+    "indicators": {
+      "rsi": 39.61672201420702
+    },
+    "price_at_prediction": 273.1000061035156,
+    "outcome": null,
+    "was_correct": null
+  },
+  "8a75fda9": {
+    "id": "8a75fda9",
+    "timestamp": "2026-11-26T01:15:38.849405",
+    "ticker": "TSM",
+    "action": "HOLD",
+    "confidence": 100,
+    "reasoning": "cohere: Mixed signals with RSI indicating neutral territory, high volume without clear direction, and candlestick patterns suggesting indecision and a potential downtrend, while the overall macro score is bearish.",
+    "candle_pattern": "doji",
+    "indicators": {
+      "rsi": 40.19723144605866
+    },
+    "price_at_prediction": 342.3399963378906,
+    "outcome": null,
+    "was_correct": null
+  },
+  "078845bd": {
+    "id": "078845bd",
+    "timestamp": "2026-11-26T01:15:40.080095",
+    "ticker": "AMD",
+    "action": "HOLD",
+    "confidence": 100,
+    "reasoning": "cohere: Mixed signals with RSI indicating potential oversold conditions, but volume spike and downtrend patterns suggest caution without clear bullish confirmation.",
+    "candle_pattern": "doji",
+    "indicators": {
+      "rsi": 38.68404521896588
+    },
+    "price_at_prediction": 406.0299987792969,
+    "outcome": null,
+    "was_correct": null
+  },
+  "cf6382f8": {
+    "id": "cf6382f8",
+    "timestamp": "2026-11-26T01:15:41.510654",
+    "ticker": "TD.TO",
+    "action": "HOLD",
+    "confidence": 95,
+    "reasoning": "cohere: Mixed signals with a slightly bearish tilt due to downtrend pattern, low RSI, and below-average volume, but no strong indicators for immediate action.",
+    "candle_pattern": "swing_highs_lows",
+    "indicators": {
+      "rsi": 38.71360559729005
+    },
+    "price_at_prediction": 164.7100067138672,
+    "outcome": null,
+    "was_correct": null
+  },
+  "e2c7f530": {
+    "id": "e2c7f530",
+    "timestamp": "2026-11-26T01:15:42.990042",
+    "ticker": "AMZN",
+    "action": "HOLD",
+    "confidence": 95,
+    "reasoning": "cohere: Mixed signals with RSI near neutral, above-average volume, and indecision from doji pattern, while downtrend indicated by swing highs/lows and weak macro score suggest caution.",
+    "candle_pattern": "doji",
+    "indicators": {
+      "rsi": 46.513248843942996
+    },
+    "price_at_prediction": 244.42999267578125,
+    "outcome": null,
+    "was_correct": null
+  },
+  "ac72236e": {
+    "id": "ac72236e",
+    "timestamp": "2026-11-26T01:15:44.160077",
+    "ticker": "NTAP",
+    "action": "HOLD",
+    "confidence": 95,
+    "reasoning": "cohere: Mixed signals with RSI indicating oversold conditions, low volume, and a doji pattern suggesting indecision, while the downtrend and negative macro score temper bullish potential.",
+    "candle_pattern": "doji",
+    "indicators": {
+      "rsi": 36.720880979771366
+    },
+    "price_at_prediction": 165.0,
+    "outcome": null,
+    "was_correct": null
   }
 }
